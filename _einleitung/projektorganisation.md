@@ -1,16 +1,25 @@
 # Projektorganisation
 
-**Autor:** Scrum Master
+**Autor:** Scrum Master: Mark Mödeker
 
 ## Richtlinien
 
 ### Organisation
 
 - Verwendetes Vorgehensmodell.
+  - Vereinfachtes Scrum
 - Welche Arten von Meetings finden wöchentlich statt?
-- Geplanter Ablauf der Meetings.  
+  - Wöchentliches Meeting. Dienstags ab 14:30 bis Ende
+  - Präsenz
+- Geplanter Ablauf der Meetings.
+  - Arbeitsfortschritt vorstellen
+  - Workshops (Git und andere Techniken)
 - Werkzeuge für Projektorganisation? Kanban-Board?
+  - "Globales" Kanban-Board im Github
+  - Optional: lokales Kanban-Board für jeden Microservice
 - Wie läuft ein typischer Sprint ab?
+  - Sprintlänge: 7 Tage
+  - Retrospektivisch Sprintlänge veränderbar
 - Wie sieht hier ein Codereview aus?
 - Wie und womit wird die Teamkommunikation durchgeführt?
 - Dokumentation:
@@ -54,7 +63,7 @@
 
 | Person | Rolle | Verantwortlichkeit |
 |----------|-----------|-----------|
-| Mark Mödecker | Scrum Master | Leitung, Kanban-Board, Protokollierung, Prozessqualität |
+| Mark Mödeker | Scrum Master | Leitung, Kanban-Board, Protokollierung, Prozessqualität |
 | Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice, Softwareproduktqualität |
 | Leon Stümpeley | DevOps Engineer | Github-Repos, Docker, CI/CD, Dokumentation, Support, Infrastrukturqualität | 
 | Andreas Wegner | Software Architekt | Technische Leitung/Vision, Code Reviews, Mentoring, Technikevaluation, Softwarequalität |

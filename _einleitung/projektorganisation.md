@@ -21,23 +21,36 @@
   - Sprintlänge: 7 Tage
   - Retrospektivisch Sprintlänge veränderbar
 - Wie sieht hier ein Codereview aus?
+  - Software-Architekt macht Code-Review über Github-Issues und Kommentarfunktion
 - Wie und womit wird die Teamkommunikation durchgeführt?
+  - Discord
 - Dokumentation:
-  - Entwicklerdokumentation?
-  - Kundendokumentation?
-  - Meeting-Protokoll-Dokumentation?
+  - Entwicklerdokumentation. On demand im Dokumentationsrepo.
+  - Kundendokumentation. Nicht zwingend notwendig.
+  - Meeting-Protokoll-Dokumentation. In diesem Dokumentationsrepo.
 - Was ist der Produktlieferzeitplan? (x-Mal-wöchentliche Auslieferungen / Continuous I/D/D)
+  - Jeder Commit führt zu einem Neu-Deployment
 - Wie wird der Projektfortschritt gemessen und was passiert, wenn zeitlich verschoben werden muss?
+  - Ziele im Github festlegen und Meilensteine ggfs. anpassen
 - Wer setzt Erwartungen und Ziele fest und wie werden diese dokumentiert?
+  - Zusammenspiel von Scrum-Master und Product-Owner
 - Was passiert, wenn jemand Verbesserungsmöglichkeiten identifiziert?
+  - Erstellt Issue an den Repo-Owner / Scrum-Master / Product-Owner
 - Einschränkungen, Betriebsbedingungen, Faktoren und Risiken, die die Entwicklung beeinflussen können.
+  - Krankheit
+  - Andere Lehrveranstaltungen
 
 ### Team
 
 - Werte und menschliche Umgangsformen
+  - Respekt, Ausreden lassen, Höflichkeit
 - Wie werden Meinungsverschiedenheiten gelöst?
+  - Untereinande Konflikte lösen, danach an Scrum-Master eskalieren, danach an Dozent
 - Wer legt Prioritäten und Zeitpläne fest?
+  - Gesamtes Team
 - Was passiert, wenn ein Teammitglied ein Ziel nicht einhält bzw. die Erwartungen nicht erfüllt?
+  - Frühzeitige Bekanntgabe des Teammitglieds, der das Ziel nicht einhält
+  - Direkte Ansprache an das Teammitglied, danach Eskalation
 
 ### Technik
 
@@ -46,11 +59,16 @@
   - Dokumentation
   - automatische und manuelle Tests
   - Statische Codeanalyse
+  - Security
   - ...
-- Aufteilung in Repositories gemäß Systemarchitektur? Monorepo?
+- Aufteilung in Repositories gemäß Systemarchitektur?
+  - Je ein Repo für jeden Microservices
 - Versionskontrolle? Git-Workflow?
-- Wie werden Änderungen intgriert und ausgeliefert? CI/CD? 
+  - Pro Sprint einen development-Branch
+- Wie werden Änderungen intgriert und ausgeliefert? CI/CD?
+  - github-actions o.ä.
 - Wie wird die Infrastruktur spezifiziert? Containerisierung?
+  - docker
 - Implementierung
   - Entwicklungsumgebung.
   - Betriebssysteme.

@@ -1,6 +1,6 @@
 # Krankenhaus
 
-**Autor:** Max Mustermann
+**Autor:** Max Mustermannsen
 
 
 ## Überblick

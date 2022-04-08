@@ -21,8 +21,8 @@
 | Jonas | Verkehr |
 | Malte | Gesundheitswesen |
 | Mattis | Kultur |
-| Toni | Wetter |
-| Jason | Infrastruktur |
+| Toni | Infrastruktur |
+| Jason | Finanzamt, Bürgerregister |
 | Clemens | Unternehmensregister |
 
 * erster Sprint

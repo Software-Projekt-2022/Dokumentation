@@ -21,8 +21,8 @@
 | Jonas | Verkehr |
 | Malte | Gesundheitswesen |
 | Mattis | Kultur |
-| Toni | Infrastruktur |
-| Jason | Finanzamt, Bürgerregister |
+| Toni | Wetter |
+| Jason | Infrastruktur |
 | Clemens | Unternehmensregister |
 
 * erster Sprint
@@ -39,3 +39,4 @@
   * jeder Software Engineer soll sich bis dahin Gedanken machen welche Events für ihn nützlich wären
 * Jeder Microservice soll direkt mit dem Gedanken designed werden, dass wir Single-Sign-On einsetzen wollen
   * Wie wollen wir eine gemeinsame Schnittstelle realisieren für Single-Sign-On
+* Jeder Mitwirkende muss ungefähr gleichen Aufwand am Ende des Projektes haben

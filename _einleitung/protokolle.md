@@ -30,3 +30,12 @@
   * die Softwarespezifikation fertigstellen
   * Kanban Board wird aktuell noch vorbereitet
   * Kleines Daily Scrum am Dienstag 12.04.2022 zum zwischenstand präsentieren
+* Wie sollen die Microservices kommunizieren
+* RabbitMQ
+* Welches Protokoll wollen wir zum versenden der Daten verwenden? Aktuell: JSON
+* Welche Events wären nützlich für die Microservices? 
+  * Events können mit ASYNC API Dokumentiert werden
+  * Am Dienstag besprechen wir weiter inwiefern die Services miteinander interagieren
+  * jeder Software Engineer soll sich bis dahin Gedanken machen welche Events für ihn nützlich wären
+* Jeder Microservice soll direkt mit dem Gedanken designed werden, dass wir Single-Sign-On einsetzen wollen
+  * Wie wollen wir eine gemeinsame Schnittstelle realisieren für Single-Sign-On

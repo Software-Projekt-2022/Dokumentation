@@ -29,4 +29,4 @@
   * 11 Tage statt 7
   * die Softwarespezifikation fertigstellen
   * Kanban Board wird aktuell noch vorbereitet
-  * Kleines Daily Scrum am Dienstag zum zwischenstand präsentieren
+  * Kleines Daily Scrum am Dienstag 12.04.2022 zum zwischenstand präsentieren

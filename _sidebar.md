@@ -8,4 +8,4 @@
 
 * [**Parkplatz**](parkplatz/index)
 * [**Krankenhaus**](krankenhaus/index)
-* [**Krankenhaus**](krankenhaus/index)
+* [**Kultur**](kultur/index)

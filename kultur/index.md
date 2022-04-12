@@ -8,21 +8,7 @@
 - Textuelle Beschreibung der Anwendungsdomäne
 - Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der Anwendungsdomäne)
 
-- Benachrichtigung bei Veranstaltungen
-- Lageplan von öffentlichen Gebäuden
-- Inventar von Stadtbibliothek
-- Vereine
-
-## Schnittstellen (WIP)
-
-- ```/addEvent(name, timestamp, category)```
-- ```/listEvents()```
-- ```/subscribeEvent(event)```
-- ```/listBooks()```
-- ```/searchBook(search)```
-- ```/addClubs(clubName, logo, targetGroup)```
-- ```/listClubs()```
-
+Der Mikroservice Kultur stellt eine Verbindung zwischen Veranstaltern und Interessierten dar. Die Plattform soll dafür dienen einen Überblick über aktuelle Aktivitäten in der Umgebung zu bekommen oder das Interesse für die Mitarbeit in einem örtlichen Verein zu wecken. Außerdem kann über das Portal das aktuelle Inventar der Stadtbibliothek eingesehen, sowie den Status der Bücher abgefragt werden, sodass unnötige Besuche und langes Suchen verhindert werden kann. Des Weiteren Gibt es einen Lageplan alles öffentlichen Gebäude, sowie deren angebotenen Services. Außerdem soll durch Anbindung an den Wetter Mikroservice zu anstehenden Events eine Wettervorhersage einsehbar sein. 
 
 ## Funktionale Anforderungen
 
@@ -33,26 +19,14 @@
 * Begriffe konsistent in der Spezifikation verwenden  
 * Begriffe im Glossar darstellen
 
+Nutzer - auch User; Bürger, Studenten, Vereinsmitglieder, die interesse an der örtlichen Kultur haben
+
 ## Anforderungen im Detail
 
 - User Stories mit Akzeptanzkritierien 
 - Optional: Name (oder ID) und Priorität ("Must", "Should", "Could", "Won't")
 - Strukturierung der User Stories in funktionale Gruppen
 - Sicherheit: Misuse-Stories formulieren
-
-**Schablone für User Stories**
-
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Wer | Was | Warum | Wann akzeptiert |
-
-**Beispiel 1**
-
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Benutzer | bei Fehleingabe die Lösung angezeigt bekommen | ich lernen kann | Lösung wird angezeigt |
-
-**Beispiel**
 
 | **Name**| **In meiner Rolle als**...|   ...**möchte ich**...   | ..., **so dass**... | **Erfüllt, wenn**... | **Priorität**   |
 |:-----|:----------:|:-------------------|:-------------|:---------|:----------------|
@@ -102,7 +76,7 @@
 
 ### URL
 
-http://smart.city/microservices/customer
+https://smart.city/kultur
 
 ### Commands
 
@@ -110,15 +84,15 @@ http://smart.city/microservices/customer
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| createCustomer() | int id | int id |
-| deleteOrder() | int id | int id |
+| ```addEvent()``` | string name, timestamp time, string category | - |
+| ```searchBook()``` | string searchterm | list foundBooks|
 
+<!---
 **Asynchronous**
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| createContract() | int id | int id |
-| changeContract() | int id | - |
+--->
 
 ### Events
 
@@ -129,20 +103,25 @@ http://smart.city/microservices/customer
 | Customer Authorized | int id |
 | Customer Deleted | int id |
 
+<!---
 **Contract event channel**
 
 | **Name** | **Payload** | 
 | :------ | :----- | 
 | Contract Received | int id |
 | Contract Deleted | int id |
+--->
 
 ### Queries
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| getContracts() | - | Contract [] list |
-| getContract() | int id | Contract c |
+| getEvents() | - | Event [] list |
+| getEvent() | int id | Event e|
+| getClubs() | - | Club [] list |
+| getClubs() | int id | Club c |
 
+<!---
 ### Dependencies
 
 #### RPC
@@ -158,7 +137,7 @@ http://smart.city/microservices/customer
 | :------ | :----- | 
 | Cinema channel | CancelFilmCreatedEvent |
 | Customer reply channel | CreateCustomerEvent |
-
+--->
 
 ## Technische Umsetzung
 
@@ -172,12 +151,19 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 * Server
   * Web-Schicht
   * Logik-Schicht
+    - Python
   * Persistenz-Schicht
+    - MySql Datenbank Anbindung
 
 * Client
   * View-Schicht
+    - html
+    - css
   * Logik-Schicht
+    - JavaScript
   * Kommunikation-Schicht
+    - Ajax 
+    - JQuery
 
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
@@ -209,5 +195,14 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
 - Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
 
 * Frontend
+  - HTML
+  - Bootstrap
+  - CSS
+  - JavaScript
+  - Ajax
+  - JQuery
 * Backend
+  - Python
+  - REST API
 * Datenbank
+  - MySQL

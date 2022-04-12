@@ -41,7 +41,7 @@
   * Wie wollen wir eine gemeinsame Schnittstelle realisieren für Single-Sign-On
 * Jeder Mitwirkende muss ungefähr gleichen Aufwand am Ende des Projektes haben
 
-## 12.04.2022 14:30 - 
+## 12.04.2022 14:30 - 16:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |

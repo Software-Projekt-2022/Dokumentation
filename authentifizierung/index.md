@@ -1,13 +1,14 @@
-# Krankenhaus
+# Authentifizierung
 
-**Autor:** Max Mustermannsen
+**Autor:** Jason Piper
 
 
 ## Überblick
-
+  In der Authentifizierung kann ein Nutzer sich einloggen und registrieren, die Registrierung 
 - Textuelle Beschreibung der Anwendungsdomäne
 - Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der Anwendungsdomäne)
 
+Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dann eine Authentifikation zugesendet und muss diese bestätigen. Nachdem der Nutzer bestätigt ist, kann er sich auf der Landingpage orientieren. Ggf kann er auch Daten ändern, wenn er dazu die Rechte hat.
 
 ## Funktionale Anforderungen
 
@@ -25,24 +26,12 @@
 - Strukturierung der User Stories in funktionale Gruppen
 - Sicherheit: Misuse-Stories formulieren
 
-**Schablone für User Stories**
 
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Wer | Was | Warum | Wann akzeptiert |
-
-**Beispiel 1**
-
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Benutzer | bei Fehleingabe die Lösung angezeigt bekommen | ich lernen kann | Lösung wird angezeigt |
-
-**Beispiel**
 
 | **Name**| **In meiner Rolle als**...|   ...**möchte ich**...   | ..., **so dass**... | **Erfüllt, wenn**... | **Priorität**   |
 |:-----|:----------:|:-------------------|:-------------|:---------|:----------------|
-| Lernen  |Benutzer| bei Fehleingabe die Lösung angezeigt bekommen|ich lernen kann| Lösung wird angezeigt | Muss |
-
+| Jens  |Benutzer| Mir einen Account anlegen |mir sachen über die Stadt anschauen kann| mein account aktiv ist | Muss |
+| Jürgen  |Admin| Mir einen Account anlegen |aktivitäten bearbeiten kann| mein account aktiv ist und bearbeiten funktioniert | Muss |
 ## Graphische Benutzerschnittstelle
 
 - GUI-Mockups passend zu User Stories

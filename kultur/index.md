@@ -2,6 +2,7 @@
 
 **Autor:** Mattis Fieseler
 
+![](media/dom-in-minden.jpg)
 
 ## Überblick
 
@@ -20,6 +21,8 @@ Der Mikroservice Kultur stellt eine Verbindung zwischen Veranstaltern und Intere
 * Begriffe im Glossar darstellen
 
 Nutzer - auch User; Bürger, Studenten, Vereinsmitglieder, die interesse an der örtlichen Kultur haben
+Veranstalter; Vereinsvorsitzende, Stadtbeamte
+Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest, Straßenfest, Stadtführung)
 
 ## Anforderungen im Detail
 
@@ -84,8 +87,9 @@ https://smart.city/kultur
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| ```addEvent()``` | string name, timestamp time, string category | - |
-| ```searchBook()``` | string searchterm | list foundBooks|
+| ```addEvent()``` | string name, timestamp time, string category | int id |
+| ```updateBookStatus()``` | int id, string status | - |
+| ```addBook()``` | sting title, string author, timestamp releaseDate | int id |
 
 <!---
 **Asynchronous**
@@ -100,8 +104,8 @@ https://smart.city/kultur
 
 | **Name** | **Payload** | 
 | :------ | :----- | 
-| Customer Authorized | int id |
-| Customer Deleted | int id |
+| Event starts | int id |
+| New Event | int id |
 
 <!---
 **Contract event channel**
@@ -116,10 +120,14 @@ https://smart.city/kultur
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| getEvents() | - | Event [] list |
-| getEvent() | int id | Event e|
-| getClubs() | - | Club [] list |
-| getClubs() | int id | Club c |
+| ```getEvents()``` | - | Event [] list |
+| ```getEvent()``` | int id | Event e|
+| ```getEvent()``` | string name | Event [] list |
+| ```getClubs()``` | - | Club [] list |
+| ```getClubs()``` | int id | Club c |
+| ```getClubs()``` | string name | Club [] list |
+| ```getBook()``` | - | Book [] list|
+| ```getBook()``` | string searchterm | Book [] list|
 
 <!---
 ### Dependencies

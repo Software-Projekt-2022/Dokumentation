@@ -68,7 +68,11 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 ### Chat für Events
 ![](media/EventsChat.png)
 
+### Homepage der Bibliothek Unterseite
+![](media/Bibliothek.png)
 
+### Homepage der Stadtplan Unterseite
+![](media/map.png)
 
 ## Datenmodell 
 

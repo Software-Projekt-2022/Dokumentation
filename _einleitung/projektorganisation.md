@@ -1,6 +1,6 @@
 # Projektorganisation
 
-**Autor:** Scrum Master: Mark Mödeker
+**Autor:** Mark Mödeker
 
 ## Richtlinien
 
@@ -90,8 +90,7 @@
 | Malte Kanders | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
 | Jason Piper | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
 | Clemens Maas | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Mattis Fieseler | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Eric Neppert | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
+| Mattis Fieseler | Software Engineer | Microservice [Kultur](kultur/index) |
 
 Hinweis: Ein Microservice für die Authentifizierung/Autorisierung könnte sinnvoll sein.
 

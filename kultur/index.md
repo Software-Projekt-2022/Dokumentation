@@ -107,7 +107,8 @@ Datenbankmodell
 - Aufteilen in Commands, Events, Queries
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
-[](media/UML-Diagramm.png)
+![](media/UML-Diagramm.png)
+UML Diagramm 
 
 ### URL
 

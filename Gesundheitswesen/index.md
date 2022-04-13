@@ -81,9 +81,9 @@
 
 ## Datenmodell
 
-- Begriffe im Glossar darstellen
-- Modellierung des physikalischen Datenmodells
-  - RDBMS: ER-Diagramm bzw. Dokumentenorientiert: JSON-Schema
+Vorläufige Skizze: 
+
+![ER](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/ER_Diagramm.PNG)
 
 ## Abläufe
 
@@ -102,7 +102,6 @@
 [Api Draft](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/CyberCity%20API%20Draft.pdf)
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
-**Beispiel:**
 
 ### URL
 

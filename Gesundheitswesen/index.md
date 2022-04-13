@@ -75,7 +75,7 @@
   #### Kategorie/Notfallkontakt
   ![CATEGORY/EMERGENCY](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/KategorienUndNotfallkontakte.PNG)
   
-  #### Aktivitätsdiagramm (Kompliziertes Erscheinungsbild, aber viele Kategorien befinden sich auf ähnlichen Screens, beispiel: Home Button immer oben links führt immer zum Home -> 4 Pfeile)
+  #### Aktivitätsdiagramm 
   [ACTIVITY_DIAGRAMM](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Aktivit%C3%A4tsdiagramm.png)
   
 
@@ -129,6 +129,7 @@ http://smart.city/microservices/wealthsystem/
 
 * Server
   * Web-Schicht
+    * KTor
   * Logik-Schicht
     * Kotlin/JVM
   * Persistenz-Schicht
@@ -136,11 +137,11 @@ http://smart.city/microservices/wealthsystem/
 
 * Client
   * View-Schicht
-    * Kotlin Framework
+    * React
   * Logik-Schicht
     * Kotlin/JS
   * Kommunikation-Schicht
-    * Retrofit?
+    * KTor
 
 
 ### Entwurf
@@ -166,13 +167,11 @@ http://smart.city/microservices/wealthsystem/
 
 ### Verwendete Technologien
 
-- Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
-
 * Frontend
-  * Kotlin/JVM Framework: KVision?
-  * Retrofit?
+  * Framework: React
+  * KTor 
 * Backend
   * Kotlin 
-  * Spring Boot / Ktor
+  * Ktor
 * Datenbank
   * MySql 

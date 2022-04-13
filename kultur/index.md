@@ -53,17 +53,20 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 ### Homepage der Kultur Seite
 ![](media/Homepage.png)
 
-### Homepage der Verein Seite
+### Homepage der Verein Unterseite
 ![](media/VereineHome.png)
 
-### Dropdown zur Navigation in der Vereinseite
+### Dropdown zur Navigation in der Verein Unterseite
 ![](media/VereineDropdown.png)
 
 ### Suchfunktion nach Vereinen
 ![](media/VereineSuche.png)
 
 ### Chat für Vereine
-![](media/Vereine.png)
+![](media/VereineChat.png)
+
+### Chat für Events
+![](media/EventsChat.png)
 
 
 
@@ -72,6 +75,8 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 - Begriffe im Glossar darstellen
 - Modellierung des physikalischen Datenmodells 
   - RDBMS: ER-Diagramm bzw. Dokumentenorientiert: JSON-Schema
+
+![](media/ER-Diagram.png)
 
 ## Abläufe
 
@@ -93,7 +98,6 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 - Aufteilen in Commands, Events, Queries
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
-**Beispiel:**
 
 ### URL
 

@@ -50,20 +50,21 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 - Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
 - Mockups für unterschiedliche Akteure
 
+### Homepage der Kultur Seite
 ![](media/Homepage.png)
-Homepage der Kultur Seite
 
+### Homepage der Verein Seite
 ![](media/VereineHome.png)
-Homepage der Verein Seite
 
+### Dropdown zur Navigation in der Vereinseite
 ![](media/VereineDropdown.png)
-Dropdown zur Navigation in der Vereinseite
 
+### Suchfunktion nach Vereinen
 ![](media/VereineSuche.png)
-Suchfunktion nach Vereinen
 
+### Chat für Vereine
 ![](media/Vereine.png)
-Chat für Vereine
+
 
 
 ## Datenmodell 

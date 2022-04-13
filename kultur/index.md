@@ -53,25 +53,37 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 ### Homepage der Kultur Seite
 ![](media/Homepage.png)
 
-### Homepage der Verein Seite
+### Homepage der Verein Unterseite
 ![](media/VereineHome.png)
 
-### Dropdown zur Navigation in der Vereinseite
+### Dropdown zur Navigation in der Verein Unterseite
 ![](media/VereineDropdown.png)
 
 ### Suchfunktion nach Vereinen
 ![](media/VereineSuche.png)
 
 ### Chat für Vereine
-![](media/Vereine.png)
+![](media/VereineChat.png)
 
+### Chat für Events
+![](media/EventsChat.png)
 
+### Homepage der Bibliothek Unterseite
+![](media/Bibliothek.png)
+
+### Homepage der Stadtplan Unterseite
+![](media/map.png)
 
 ## Datenmodell 
 
 - Begriffe im Glossar darstellen
 - Modellierung des physikalischen Datenmodells 
   - RDBMS: ER-Diagramm bzw. Dokumentenorientiert: JSON-Schema
+
+![](media/ER-Diagram.png)
+
+
+Datenbankmodell
 
 ## Abläufe
 
@@ -84,6 +96,8 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 - Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
   Softwaresystems hilfreich sind. 
 
+![](media/flow_chart.png)
+
 
 ## Schnittstellen
 
@@ -93,7 +107,8 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 - Aufteilen in Commands, Events, Queries
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
-**Beispiel:**
+![](media/UML-Diagramm.png)
+UML Diagramm 
 
 ### URL
 
@@ -141,9 +156,9 @@ https://smart.city/kultur
 | ```getEvents()``` | - | Event [] list |
 | ```getEvent()``` | int id | Event e|
 | ```getEvent()``` | string name | Event [] list |
-| ```getClubs()``` | - | Club [] list |
-| ```getClubs()``` | int id | Club c |
-| ```getClubs()``` | string name | Club [] list |
+| ```getClub()``` | - | Club [] list |
+| ```getClub()``` | int id | Club c |
+| ```getClub()``` | string name | Club [] list |
 | ```getBook()``` | - | Book [] list|
 | ```getBook()``` | string searchterm | Book [] list|
 

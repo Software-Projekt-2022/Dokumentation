@@ -77,6 +77,7 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
   - RDBMS: ER-Diagramm bzw. Dokumentenorientiert: JSON-Schema
 
 ![](media/ER-Diagram.png)
+Datenbankmodell
 
 ## Abläufe
 
@@ -88,6 +89,8 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
   in einem Sequenz- oder Aktivitätsdiagramm darstellen
 - Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
   Softwaresystems hilfreich sind. 
+
+![](media/flow_chart.png)
 
 
 ## Schnittstellen

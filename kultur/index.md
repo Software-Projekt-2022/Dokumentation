@@ -9,7 +9,7 @@
 - Textuelle Beschreibung der Anwendungsdomäne
 - Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der Anwendungsdomäne)
 
-Der Mikroservice Kultur stellt eine Verbindung zwischen Veranstaltern und Interessierten dar. Die Plattform soll dafür dienen einen Überblick über aktuelle Aktivitäten in der Umgebung zu bekommen oder das Interesse für die Mitarbeit in einem örtlichen Verein zu wecken. Außerdem kann über das Portal das aktuelle Inventar der Stadtbibliothek eingesehen, sowie den Status der Bücher abgefragt werden, sodass unnötige Besuche und langes Suchen verhindert werden kann. Des Weiteren Gibt es einen Lageplan alles öffentlichen Gebäude, sowie deren angebotenen Services. Außerdem soll durch Anbindung an den Wetter Mikroservice zu anstehenden Events eine Wettervorhersage einsehbar sein. 
+Der Mikroservice Kultur stellt eine Verbindung zwischen Veranstaltern und Interessierten dar. Die Plattform soll dafür dienen einen Überblick über aktuelle Aktivitäten in der Umgebung zu bekommen oder das Interesse für die Mitarbeit in einem örtlichen Verein zu wecken. Außerdem kann über das Portal das aktuelle Inventar der Stadtbibliothek eingesehen, sowie den Status der Bücher abgefragt werden, sodass unnötige Besuche und langes Suchen verhindert werden kann. Des Weiteren Gibt es einen Lageplan alles öffentlichen Gebäude, sowie deren angebotenen Services. Außerdem soll durch Anbindung an den Wetter Mikroservice zu anstehenden Events eine Wettervorhersage einsehbar sein. Es gibt auf den Vereins Seiten die Möglichkeit mit anderen Mitgliedern zu schreiben. 
 
 ## Funktionale Anforderungen
 
@@ -36,6 +36,8 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 |Melanie|Bürgerin| alle anstehenden Events auf einen Blick sehen können|immer auf dem neusten Stand bin und bei Interesse an Events teilnehmen kann| Liste von Events | Muss |
 |Luca| Bücherwurm| schon von Zuhause sehen, ob die Stadtbücherei das neue Buch von Stephen King bereits hat|ich es mir ausleihen kann | suchbare Liste von verfügbaren Büchern |Muss|
 |Mathias|Vorstand Schützenverein|den Termin für das Jährliche Schützenfest für alle Interessierten veröffentlichen|jeder der kommen möchte weiß, wann er stattfindet|Events hinzugefügt werden können|Muss|
+|Felix|Hergezogener|alle Örtlichen Vereine sehen|ich einem Verein beitreten kann|Liste aller Vereine nach Interessengebiet sortiert|Muss|
+|Vivien|Mitglied im Verein|mich mit den anderen Vereinsmitgliedern austauschen und auch außerhalb der Treffen mich austauschen|ich engeren Kontakt mit den andern Mitgliedern schließen kann|Gruppenchat Funktion|Kann|
 |Marc|Leiter der Stadtbibliothek|neue Bücher online veröffentlichen|Interessenten schon vorher wissen, ob ein Buch verfügbar ist|Bücher zur Bücherliste hinzugefügt werden können|Sollte|
 |Marc|Leiter der Stadtbibliothek|den Status von Büchern ändern (Ausgeliehen, Verfügbar, Bestellt)|Interessenten schon vorher wissen, ob ein Buch vor Ort ist|Status für Bücher ändern|Kann|
 
@@ -47,6 +49,21 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 - Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen abgehandelt werden
 - Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
 - Mockups für unterschiedliche Akteure
+
+![](media/Homepage.png)
+Homepage der Kultur Seite
+
+![](media/VereineHome.png)
+Homepage der Verein Seite
+
+![](media/VereineDropdown.png)
+Dropdown zur Navigation in der Vereinseite
+
+![](media/VereineSuche.png)
+Suchfunktion nach Vereinen
+
+![](media/Vereine.png)
+Chat für Vereine
 
 
 ## Datenmodell 

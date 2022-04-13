@@ -86,7 +86,7 @@
 | Leon Stümpeley | DevOps Engineer | Github-Repos, Docker, CI/CD, Dokumentation, Support, Infrastrukturqualität | 
 | Andreas Wegner | Software Architekt | Technische Leitung/Vision, Code Reviews, Mentoring, Technikevaluation, Softwarequalität |
 | Jonas vom Brauke | Software Engineer | Microservice [Parkplatz](parkplatz/index) |
-| Toni Schnittger | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
+| Toni Schnittger | Software Engineer | Microservice [Wetter](wetter/index),[Infrastrucktur](infrastruktur/index) |
 | Malte Kanders | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
 | Jason Piper | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
 | Clemens Maas | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |

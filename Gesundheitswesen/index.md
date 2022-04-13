@@ -62,12 +62,22 @@
 
 ## Graphische Benutzerschnittstelle
 
-- GUI-Mockups passend zu User Stories
-- Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
-- Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen abgehandelt werden
-- Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
-- Mockups für unterschiedliche Akteure
-
+  #### Startseite/Home: 
+  
+  ![HOME](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Home.png)
+  
+  #### Über uns/Impressum/Hilfe
+  ![ABOUT US](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/AboutUs.png)
+  
+  #### Einzelner Service
+  ![SINGLE SERVICE](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Single%20Service.png)
+  
+  #### Kategorie/Notfallkontakt
+  ![CATEGORY/EMERGENCY](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/KategorienUndNotfallkontakte.PNG)
+  
+  #### Aktivitätsdiagramm (Kompliziertes Erscheinungsbild, aber viele Kategorien befinden sich auf ähnlichen Screens, beispiel: Home Button immer oben links führt immer zum Home -> 4 Pfeile)
+  [ACTIVITY_DIAGRAMM](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Aktivit%C3%A4tsdiagramm.png)
+  
 
 ## Datenmodell
 

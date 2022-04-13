@@ -81,6 +81,8 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
   - RDBMS: ER-Diagramm bzw. Dokumentenorientiert: JSON-Schema
 
 ![](media/ER-Diagram.png)
+
+
 Datenbankmodell
 
 ## Abläufe
@@ -105,6 +107,7 @@ Datenbankmodell
 - Aufteilen in Commands, Events, Queries
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
+[](media/UML-Diagramm.png)
 
 ### URL
 
@@ -152,9 +155,9 @@ https://smart.city/kultur
 | ```getEvents()``` | - | Event [] list |
 | ```getEvent()``` | int id | Event e|
 | ```getEvent()``` | string name | Event [] list |
-| ```getClubs()``` | - | Club [] list |
-| ```getClubs()``` | int id | Club c |
-| ```getClubs()``` | string name | Club [] list |
+| ```getClub()``` | - | Club [] list |
+| ```getClub()``` | int id | Club c |
+| ```getClub()``` | string name | Club [] list |
 | ```getBook()``` | - | Book [] list|
 | ```getBook()``` | string searchterm | Book [] list|
 

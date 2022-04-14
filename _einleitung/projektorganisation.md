@@ -82,7 +82,7 @@
 | Person | Rolle | Verantwortlichkeit |
 |----------|-----------|-----------|
 | Mark Mödeker | Scrum Master | Leitung, Kanban-Board, Protokollierung, Prozessqualität |
-| Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice, Softwareproduktqualität |
+| Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice ([Landing Page](landingpage/index)), Softwareproduktqualität |
 | Leon Stümpeley | DevOps Engineer | Github-Repos, Docker, CI/CD, Dokumentation, Support, Infrastrukturqualität | 
 | Andreas Wegner | Software Architekt | Technische Leitung/Vision, Code Reviews, Mentoring, Technikevaluation, Softwarequalität |
 | Jonas vom Brauke | Software Engineer | Microservice [Parkplatz](parkplatz/index) |

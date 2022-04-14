@@ -53,7 +53,7 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 
 **Wetter Startseite**
 
-![Mockup01](https://github.com/Software-Projekt-2022/Dokumentation/edit/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup01.png)
+![Wetter_Mockup01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup01.png)
 
 ## Datenmodell 
 

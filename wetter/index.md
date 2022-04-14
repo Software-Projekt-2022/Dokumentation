@@ -8,7 +8,7 @@
 Im Microservice Wetter sollen die Temperatur, die Luftreinheit, das Wetter, der Pollenflug, klarheit des Himmels sowie der Wasserstand des Stadt nahen Flusses 
 übersichtlich für verschiedene Stadtteile dargestellt werden. Außerdem sollen passend zu den verhältnissen Aktivitäten wie z.B. Radfahren vorgeschlagen werden.
 Wichtig sollte dazu noch eine Warnung zu bevorstehendem Extremwetter wie Stürme oder Hochwasseer sein. Der Microservice soll die Nutzer mit allem verbinden was
-Wettertechnisch in der Stadt passiert. 
+Umwelttechnisch in der Stadt passiert. 
 
 - Textuelle Beschreibung der Anwendungsdomäne
 - Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der Anwendungsdomäne)
@@ -38,10 +38,11 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 
 | **Als** | **möchte ich** | **so dass** | **Erfüllt wenn** | **Priorität**   |
 | :------ | :----- | :------ | :-------- | :-------- |
-| Sportler | wissen ob es heute regnet | ich nicht vom Regen überrascht werde | Wetter für den rest des Tages angezeigt wird | Muss |
-| Allergiker | wissen welche Pollen-Arten fliegen | ich weiß ob ich Medikamente nehmen muss | Anzeige für Pollenflug/Arten | Muss |
-| Angler | den Wasserstand erfahren | ich weiß ob ich Angeln gehen kann | Wasserstand anzeige | Muss |
-
+| Sportler | wissen ob es heute regnet | ich nicht vom Regen überrascht werde | Wetter für den rest des Tages angezeigt wird | Must |
+| Allergiker | wissen welche Pollen-Arten fliegen | ich weiß ob ich Medikamente nehmen muss | Anzeige für Pollenflug/Arten | Must |
+| Angler | den Wasserstand erfahren | ich weiß ob ich Angeln gehen kann | Wasserstand anzeige | Must |
+| Tourist | das Wetter für nachste Woche sehen | ich den Zeitraum meines Ausflugs planen kann | Vorhersage anzeige Funktioniert | Must |
+| Bootbesitzer | Alle aktuellen Daten zum Fluss erfahren | sicher fahren kann | Detail anzeige der Flussdaten | could |
 
 ## Graphische Benutzerschnittstelle
 
@@ -76,7 +77,10 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
   
   
   Wetter abfrage alle 15 Minuten, Pollen Täglich jeden Morgen, Wasserstand alle 30 Minuten
-
+  
+Die Gratis version beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen. 
+Die Aktualisierung des Wasserstands, wird wahrscheinlich ein mal pro Stunde stattfinden.
+Da diese Daten nur Täglich aktualisiert werden, wird diese Anzeige auch ein mal Täglich, oder wenn Technisch nötig aktualisiert.  
 
 ## Schnittstellen
 
@@ -88,8 +92,13 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 
 API: 
 Wetter, UV-Level, etc: Openweathermap(https://openweathermap.org/api) 
+Mit Openweathermap wird der Großteil der Informationen für die Wetter Seite dargestellt. Sie liefert die Temperatur, das Wetter, die Windgeschwindigkeit, die Gefühlte Temperatur, die Luftverschmutzung und mehr für Mehrere Tage im Vorraus. 
+
 Wasserstand: Pegelonline(https://www.pegelonline.wsv.de/webservice/dokuRestapi)
+Pegelonline liefert den Wasserstand und viele andere Daten, wovon die meisten Jedoch unintressant für User wären, weswegen wir hier nur das Wichtigste darstellen. 
+
 Pollen: Pollen Forecast API(https://achoo.dev/)
+Pollen Forecast API liefer viele Daten über den Flug der verschiedenen Arten für jeden Bereicht von Deutschland. 
 
 **Beispiel:**
 
@@ -99,39 +108,13 @@ http://smart.city/microservices/wetter
 
 ### Commands
 
-**Synchronous**
-
-
-
-**Asynchronous**
-
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| createContract() | int id | int id |
-| changeContract() | int id | - |
-
-### Events
-
-**Customer event channel**
-
-| **Name** | **Payload** | 
-| :------ | :----- | 
-| Customer Authorized | int id |
-| Customer Deleted | int id |
-
-**Contract event channel**
-
-| **Name** | **Payload** | 
-| :------ | :----- | 
-| Contract Received | int id |
-| Contract Deleted | int id |
-
-### Queries
-
-| **Name** | **Parameter** | **Resultat** |
-| :------ | :----- | :------ |
+| getPollen() | - | JSON pollendata |
+| getRiver() | - | JSON riverdata|
 | getWeather() | - | JSON weatherdata |
-| getPollen() | - | JSON Pollendata |
+| getWeather() | int hour | JSON weatherdata |
+| getWeather() | date day | JSON weatherdata |+
 
 ### Dependencies
 

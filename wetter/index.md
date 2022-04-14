@@ -188,9 +188,7 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
 - Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
 
 * Frontend
-  - HTML
-  - CSS
-  - 
+  - REACT
 * Backend
   - REST API
   - Javascript

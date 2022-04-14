@@ -51,6 +51,9 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 - Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
 - Mockups für unterschiedliche Akteure
 
+**Wetter Startseite**
+
+![Mockup01](https://github.com/Software-Projekt-2022/Dokumentation/edit/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup01.png)
 
 ## Datenmodell 
 

@@ -55,6 +55,10 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 
 ![Wetter_Mockup01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup01.png)
 
+**Buttons zum ansehen von Späterem Wetter**
+
+![Wetter_Mockup02](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup02.png)
+
 ## Datenmodell 
 
 Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergangenen Wetterdaten ebenfalls über die API verfügbar sind.

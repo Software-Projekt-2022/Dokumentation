@@ -25,6 +25,11 @@ Umwelttechnisch in der Stadt passiert.
 
 Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 
+**Use-Case**
+
+
+![Usecase01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Usecase01.png)
+
 
 ## Anforderungen im Detail
 
@@ -59,6 +64,11 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 **Buttons zum ansehen von Späterem Wetter**
 
 ![Wetter_Mockup02](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup02.png)
+
+**Button zum Anzeigen genauerer Wasserstands Informationen**
+
+
+![Wetter_Mockup03](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup03.png)
 
 ## Datenmodell 
 

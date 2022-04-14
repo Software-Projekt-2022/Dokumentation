@@ -129,26 +129,44 @@ http://smart.city/microservices/wealthsystem/
   * Logik-Schicht
     * Kotlin/JVM
   * Persistenz-Schicht
-    * MySQL 
+    * Postgre
 
 * Client
   * View-Schicht
-    * React
+    * KVison(React)
   * Logik-Schicht
     * Kotlin/JS
   * Kommunikation-Schicht
-    * KTor
+    * KTor/KVision
 
 
 ### Entwurf
 
-- Detaillierte UML-Diagramme für relevante Softwarebausteine
+##### FullStack WebAPP in der Gesamtübersicht:
+
+![FULLSTACK](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Fullstack%20UML.PNG)
+
+##### Model UML:
+Hier sollen alle Klassen die wie eine Daten Klasse operieren verlagert werden. So soll doppeltes schreiben und der Vorteil der durchgängigen Benutzung einer Sprache genutzt werden. Ebenso werden die Skripte zum erstellen der passenden Datenbank Tabellen abgelegt.
+![MODEL](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Model%20UML.PNG)
+
+##### Backend UML:
+![BACKEND](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Backend-JVM-UML.PNG)
+
+##### Frontend UML 
+Nur kurze Idee, denn da noch kein Framework für das Frontend festgelegt wurde(KVision vs React) kann nicht genau die vorgehensweise bestimmt werden. 
+Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert da es ohne, oder fast ohne CSS und HTML auskommt.
+![FRONTEND](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Frontend-JS-UML.PNG%23.PNG)
 
 ### Fehlerbehandlung
 
-* Mögliche Fehler / Exceptions auflisten
-* Fehlercodes / IDs sind hilfreich
-* Nicht nur Fehler technischer Art ("Datenbankserver nicht erreichbar") definieren, sondern auch fachliche Fehler wie "Kunde nicht gefunden", "Nachricht wurde bereits gelöscht" o.ä. sind relevant.
+* 200 -> OK
+* 204 -> No Content
+* 400 -> Bad Request *beispiel wäre, die Anfrage enthielt irgendwelche komischen nicht erwünschten zusätze*
+* 403 -> Permission Denied
+* 409 -> Conflict *beispielhaft: Zweimal die gleiche ID beim erstellen oder irgendwas als Unique gekennzeichnetes doppelt einfügen wollen.*
+* 422 -> Unprocessable Entity *beispielhaft: Sehr wahrscheinliche eine kaputte und oder falsch formatierte JSON*
+* default -> unexpected Error
 
 ### Validierung
 

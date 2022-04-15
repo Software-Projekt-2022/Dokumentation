@@ -23,7 +23,8 @@ Umwelttechnisch in der Stadt passiert.
 * Begriffe konsistent in der Spezifikation verwenden  
 * Begriffe im Glossar darstellen
 
-Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
+Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
+
 
 **Use-Case**
 
@@ -89,7 +90,7 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
   
   Wetter abfrage alle 15 Minuten, Pollen Täglich jeden Morgen, Wasserstand alle 30 Minuten
   
-Die Gratis version beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen. 
+Die Gratis version von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen. 
 Die Aktualisierung des Wasserstands, wird wahrscheinlich ein mal pro Stunde stattfinden.
 Da diese Daten nur Täglich aktualisiert werden, wird diese Anzeige auch ein mal Täglich, oder wenn Technisch nötig aktualisiert.  
 

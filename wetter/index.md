@@ -47,6 +47,7 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter
 | Allergiker | wissen welche Pollen-Arten fliegen | ich weiß ob ich Medikamente nehmen muss | Anzeige für Pollenflug/Arten | Must |
 | Angler | den Wasserstand erfahren | ich weiß ob ich Angeln gehen kann | Wasserstand anzeige | Must |
 | Tourist | das Wetter für nachste Woche sehen | ich den Zeitraum meines Ausflugs planen kann | Vorhersage anzeige Funktioniert | Must |
+| Bürger | das Wetter der letzten Woche sehen | ich die Entwicklung verfolgen kann | Letzte 5 Tage anzeige Funktioniert | should |
 | Bootbesitzer | Alle aktuellen Daten zum Fluss erfahren | sicher fahren kann | Detail anzeige der Flussdaten | could |
 
 ## Graphische Benutzerschnittstelle

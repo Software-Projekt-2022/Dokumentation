@@ -26,6 +26,13 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 
 ### Verwendete Technologien
 
+* Tools
+	- PS7
+	- Git
+	- NeoVim
+	- Datagrip
+	- IntelliJ
+	- Bootstrap Studio
 * Frontend
 	- HTML
 	- CSS

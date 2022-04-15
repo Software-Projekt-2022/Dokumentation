@@ -28,7 +28,8 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 | Bürger | soziale Kontakte pflegen können | ich meinen professionellen Raum erweitern kann | Social Hub |
 
 ## Grafische Benutzerschnittstellen
-//TODO
+#### Profil von Unternehmen
+![](media/unternehmen_profil.png)
 
 ## Datenmodell
 *Relations sind scuffed, nur grob*

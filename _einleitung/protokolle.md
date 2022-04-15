@@ -96,3 +96,30 @@
   * JavaScript, MariaDB
 * Namensänderung von Smart City in CyberCity - angenommen
 * Fragen und Bedenken zum 1. Sprint
+
+## 15.04.2022 14:00 - 
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Clemens Maas | Software Engineer |
+| Malte Kanders | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| später erschienen |
+| Andreas Wegner | Software Architekt |
+| Jonas vom Braucke | Software Engineer |
+
+### Themen
+* Was wird heute alles besprochen
+  * Wir schauen uns den bisherigen Stand der Mitglieder an
+  * Geben Feedback zu den bisherigen Spezifikationen
+* Clemens stellt seine Spezifikation vor
+* Toni stellt seine Spezfikation vor
+* Malte stellt seine Spezifikation vor
+* Kleinere Fahrplanbesprechung
+* Jonas und Mattis mit Karte absprechen
+* Punkte in Spezifikationen -> Validierung? Softwarearchitektur vs. Verwendete Technologien (eins von beiden raus schmeißen?!)
+* Andreas stellt ein RabbitMQ Beispiel vor
+* PO und SM bereiten ein globales Stylesheet vor
+* Jonas stellt eine Seite vor die Farben und Fonts vorschlägt

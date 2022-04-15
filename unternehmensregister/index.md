@@ -12,6 +12,30 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 
 ## Funtionale Anforderungen
 
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
+| :------ | :----- | :------ | :-------- |
+| Wer | Was | Warum | Wann akzeptiert |
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
+| :------ | :----- | :------ | :-------- |
+| Unternehmen | mich präsentieren | Ich attraktiv wirkte | Profilseite |
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
+| :------ | :----- | :------ | :-------- |
+| Unternehmen | Bewerbungen bekommen können |  | Bewerbungsmanager |
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
+| :------ | :----- | :------ | :-------- |
+| Bürger | mich präsentieren | ich bei Unternehmen punkten kann | Profilseite |
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
+| :------ | :----- | :------ | :-------- |
+| Bürger | mich bewerben können | ich einen Job finden kann | Stellenmarkt |
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
+| :------ | :----- | :------ | :-------- |
+| Bürger | soziale Kontakte pflegen können | ich meinen professionellen Raum erweitern kann | Social Hub |
+
 ## Anforderungen im Detail
 
 ## Grafische Benutzerschnittstellen

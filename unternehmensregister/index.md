@@ -22,7 +22,7 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 | **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
 | :------ | :----- | :------ | :-------- |
 | Unternehmen | mich präsentieren | Ich attraktiv wirkte | Profilseite |
-| Unternehmen | Bewerbungen bekommen können |  | Bewerbungsmanager |
+| Unternehmen | Bewerbungen bekommen können | Um Mitarbeiter einstellen zu können | Bewerbungsmanager |
 | Bürger | mich präsentieren | ich bei Unternehmen punkten kann | Profilseite |
 | Bürger | mich bewerben können | ich einen Job finden kann | Stellenmarkt |
 | Bürger | soziale Kontakte pflegen können | ich meinen professionellen Raum erweitern kann | Social Hub |

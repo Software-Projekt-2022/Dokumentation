@@ -11,6 +11,9 @@ Er bietet Mitgliedern die Möglichkeit sich über ein Profil darzustellen, und s
 So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 
 ## Funtionale Anforderungen
+//?
+
+### Anforderungen im Detail
 
 | **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
 | :------ | :----- | :------ | :-------- |
@@ -36,17 +39,51 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 | :------ | :----- | :------ | :-------- |
 | Bürger | soziale Kontakte pflegen können | ich meinen professionellen Raum erweitern kann | Social Hub |
 
-## Anforderungen im Detail
-
 ## Grafische Benutzerschnittstellen
+//TODO
 
 ## Datenmodell
+//TODO
 
 ## Abläufe
+//TODO
 
 ## Schnittstellen
 
+### URL
+http://cyber.city/unternehmensregister
+
+### Commands
+//TODO
+
+### Events
+//TODO
+
+### Queries
+//TODO
+
+### Dependencies
+//TODO
+
+#### RPC
+//TODO
+
+#### Event-Subscriptions
+//TODO
+
 ## Technische Umsetzung
+
+### Softwarearchitektur
+//TODO
+
+### Entwurf
+//TODO
+
+### Fehlerbehandlung
+//TODO
+
+### Validierung
+//TODO
 
 ### Verwendete Technologien
 

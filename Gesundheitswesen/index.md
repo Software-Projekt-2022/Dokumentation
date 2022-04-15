@@ -11,7 +11,6 @@
   - Soll eine Sammelstelle für Relevante Daten sein, bspw. Notfallkontakte
   - Soll von Personen im Gesundheitssystem gefüllt werden. Diese können
   sich und ihr Angebot vorstellen.
-- Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der Anwendungsdomäne)
 
 
 ## Funktionale Anforderungen
@@ -81,7 +80,7 @@ Vorläufige Skizze:
 
 ![ER](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/ER_Diagramm.PNG)
 
-## Abläufe
+(## Abläufe
 
 - Aktivitätsdiagramm für den Ablauf sämtlicher Use Cases
 - Aktivitätsdiagramme für relevante Use Cases
@@ -91,7 +90,7 @@ Vorläufige Skizze:
   in einem Sequenz- oder Aktivitätsdiagramm darstellen
 - Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
   Softwaresystems hilfreich sind.
-
+)
 
 ## Schnittstellen
 
@@ -129,7 +128,7 @@ http://smart.city/microservices/wealthsystem/
   * Logik-Schicht
     * Kotlin/JVM
   * Persistenz-Schicht
-    * Postgre
+    * PostgreSQL
 
 * Client
   * View-Schicht
@@ -139,8 +138,6 @@ http://smart.city/microservices/wealthsystem/
   * Kommunikation-Schicht
     * KTor/KVision
 
-
-### Entwurf
 
 ##### FullStack WebAPP in der Gesamtübersicht:
 
@@ -168,7 +165,7 @@ Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert
 * 422 -> Unprocessable Entity *beispielhaft: Sehr wahrscheinliche eine kaputte und oder falsch formatierte JSON*
 * default -> unexpected Error
 
-### Validierung
+(### Validierung
 
 * Relevante (Integrations)-Testfälle, die aus den Use Cases abgeleitet werden können
 * Testfälle für
@@ -177,15 +174,13 @@ Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert
   - User Interface
 * Fokussieren Sie mehr auf Integrationstestfälle als auf Unittests
 * Es bietet sich an, die IDs der Use Cases / User Stories mit den Testfällen zu verbinden,
-  so dass erkennbar ist, ob Sie alle Use Cases getestet haben.
+  so dass erkennbar ist, ob Sie alle Use Cases getestet haben.)
 
 ### Verwendete Technologien
 
 * Frontend
-  * Framework: React
-  * KTor 
+  * KVison/React 
 * Backend
-  * Kotlin 
-  * Ktor
+  * KTor
 * Datenbank
-  * MySql 
+  * PostgreSQL 

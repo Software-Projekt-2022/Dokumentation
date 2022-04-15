@@ -19,7 +19,7 @@
     
     ->Digital Ocean Database
 
-* Proxy Server
+* Reverse Proxy Server
     
     ->traefik proxy
 

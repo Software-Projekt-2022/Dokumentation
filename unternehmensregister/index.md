@@ -31,7 +31,8 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 //TODO
 
 ## Datenmodell
-//TODO
+*Relations sind scuffed, nur grob*
+![](media/database.png)
 
 ## Abläufe
 //TODO

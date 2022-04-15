@@ -32,7 +32,7 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 ![](media/unternehmen_profil.png)
 
 #### Profil von Nutzern
-![](media/nutzer_profil.png)
+![](media/nutzer_profil.jpeg)
 
 ## Datenmodell
 *Relations sind scuffed, nur grob*

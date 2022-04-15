@@ -47,7 +47,21 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 http://cyber.city/unternehmensregister
 
 ### Commands
-//TODO
+**Synchronous**
+| **Name** | **Parameter** | **Resultat** |
+| :------ | :----- | :------ |
+| addCompany | id: integer | 'success |
+| deleteCompany | id: int | 'success' |
+| addUser | id: int | 'success' |
+| deleteUser | id: int | 'success' |
+
+**Asynchronous**
+| **Name** | **Parameter** | **Resultat** |
+| :------ | :----- | :------ |
+| newContact | id_user1: int, id_user2: int | 'success |
+| deleteContact | id_user1: int, id_user2: int | 'success |
+| newEmployee | id_company: int, id_user: int | 'success |
+| removeEmployee | id_company: int, id_user: int | 'success' |
 
 ### Events
 //TODO

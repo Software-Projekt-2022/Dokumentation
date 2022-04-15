@@ -31,6 +31,9 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 #### Profil von Unternehmen
 ![](media/unternehmen_profil.png)
 
+#### Profil von Nutzern
+![](media/nutzer_profil.png)
+
 ## Datenmodell
 *Relations sind scuffed, nur grob*
 ![](media/database.png)

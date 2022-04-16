@@ -9,19 +9,35 @@
 * Nach ablegen eines Docker Images wird dieses im Running Enviroment deployed.
 
 ## Deployment-Components
+* Deployed in Docker Container
+
+    ![](assets\docker.png)
+
 * Github Repositories
+
+    ![](assets\github.png)
 
 * Deployment Server
 
+    -> Ubuntu 20.04
+
+    ![](assets\ubuntu.png)
+    
     -> Digital Ocean Droplet
+
+    ![](assets\digitalOcean.png)
 
 * Database Server
     
-    ->Digital Ocean Database
+    -> MySQL
+
+    ![](assets/mysql.png)
 
 * Proxy Server
     
     ->traefik proxy
+
+    ![](assets/traefik.png)
 
 * Docker Registry
     
@@ -33,7 +49,11 @@
     
     ->cyber-city.systems (via name.com)
 
+    ![](assets/name.com.png)
+
 * TLS Certificate
     
     ->Automatic via letsencrypt
+
+    ![](assets/letsencrypt.svg)
 

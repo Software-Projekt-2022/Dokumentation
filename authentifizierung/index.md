@@ -34,6 +34,8 @@ Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dan
 | Jürgen  |Admin| Mir einen Account anlegen |aktivitäten bearbeiten kann| mein account aktiv ist und bearbeiten funktioniert | Muss |
 ## Graphische Benutzerschnittstelle
 
+![](media/mockups.png)
+
 - GUI-Mockups passend zu User Stories
 - Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
 - Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen abgehandelt werden
@@ -56,8 +58,8 @@ Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dan
 - Abläufe der Kommunikation von Rechnerknoten (z.B. Client/Server)
   in einem Sequenz- oder Aktivitätsdiagramm darstellen
 - Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
-  Softwaresystems hilfreich sind. 
-
+  Softwaresystems hilfreich sind.
+  ![](media/Aktivitätsdiagramm.png)
 
 ## Schnittstellen
 
@@ -71,7 +73,7 @@ Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dan
 
 ### URL
 
-http://smart.city/microservices/customer
+http://smart.city/authentifizierung
 
 ### Commands
 

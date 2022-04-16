@@ -33,7 +33,7 @@
 
     ![](assets/mysql.png)
 
-* Proxy Server
+* Reverse Proxy Server
     
     ->traefik proxy
 

@@ -1,6 +1,6 @@
 # Projektorganisation
 
-**Autor:** Scrum Master: Mark Mödeker
+**Autor:** Mark Mödeker
 
 ## Richtlinien
 
@@ -82,7 +82,7 @@
 | Person | Rolle | Verantwortlichkeit |
 |----------|-----------|-----------|
 | Mark Mödeker | Scrum Master | Leitung, Kanban-Board, Protokollierung, Prozessqualität |
-| Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice, Softwareproduktqualität |
+| Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice ([Landing Page](landingpage/index)), Softwareproduktqualität |
 | Leon Stümpeley | DevOps Engineer | Github-Repos, Docker, CI/CD, Dokumentation, Support, Infrastrukturqualität | 
 | Andreas Wegner | Software Architekt | Technische Leitung/Vision, Code Reviews, Mentoring, Technikevaluation, Softwarequalität |
 | Jonas vom Brauke | Software Engineer | Microservice [Parkplatz](parkplatz/index) |
@@ -90,8 +90,7 @@
 | Malte Kanders | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
 | Jason Piper | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
 | Clemens Maas | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Mattis Fieseler | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Eric Neppert | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
+| Mattis Fieseler | Software Engineer | Microservice [Kultur](kultur/index) |
 
 Hinweis: Ein Microservice für die Authentifizierung/Autorisierung könnte sinnvoll sein.
 

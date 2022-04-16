@@ -85,11 +85,11 @@
 | Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice ([Landing Page](landingpage/index)), Softwareproduktqualität |
 | Leon Stümpeley | DevOps Engineer | Github-Repos, Docker, CI/CD, Dokumentation, Support, Infrastrukturqualität | 
 | Andreas Wegner | Software Architekt | Technische Leitung/Vision, Code Reviews, Mentoring, Technikevaluation, Softwarequalität |
-| Jonas vom Brauke | Software Engineer | Microservice [Parkplatz](parkplatz/index) |
-| Toni Schnittger | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Malte Kanders | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Jason Piper | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
-| Clemens Maas | Software Engineer | Microservice [Krankenhaus](krankenhaus/index) |
+| Jonas vom Brauke | Software Engineer | Microservice [Verkehr](verkehr/index) |
+| Toni Schnittger | Software Engineer | Microservice [Umwelt](umwelt/index) |
+| Malte Kanders | Software Engineer | Microservice [Gesundheitswesen](gesundheitswesen/index) |
+| Jason Piper | Software Engineer | Microservice [Authentifizierung](authentifizierung/index) |
+| Clemens Maas | Software Engineer | Microservice [Unternehmensregister](unternehmensregister/index) |
 | Mattis Fieseler | Software Engineer | Microservice [Kultur](kultur/index) |
 
 Hinweis: Ein Microservice für die Authentifizierung/Autorisierung könnte sinnvoll sein.

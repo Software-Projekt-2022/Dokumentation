@@ -1,3 +1,6 @@
+# Protokolle
+Autor: Mark Mödeker
+
 ## 08.04.2022 17:30 - 18:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
@@ -97,7 +100,7 @@
 * Namensänderung von Smart City in CyberCity - angenommen
 * Fragen und Bedenken zum 1. Sprint
 
-## 15.04.2022 14:00 - 
+## 15.04.2022 14:00 - 16:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -123,3 +126,30 @@
 * Andreas stellt ein RabbitMQ Beispiel vor
 * PO und SM bereiten ein globales Stylesheet vor
 * Jonas stellt eine Seite vor die Farben und Fonts vorschlägt
+* "Wetter/Infrastruktur" heißt jetzt "Umwelt"
+
+## 16.04.2022 14:00 - 15:50
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Jason Piper | Software Engineer |
+
+### Themen
+* Was wird heute alles besprochen
+  * Wir schauen uns den bisherigen Stand der Mitglieder an
+  * Geben Feedback zu den bisherigen Spezifikationen
+* Jason stellt seine Spezifikation vor
+* Jonas stellt seine Spezifikation vor
+* kleine Fragen/Antworten Runde
+* Leon stellt seine Spezifikation vor
+  * Erklärung zu Traefik
+  * Besprechung zum Deployment bei DigitalOcean
+* Diskussion zu RabbitMQ
+* Muss man sich noch gegenseitig helfen bei den Spezifikationen
+* Wo bekommt Andreas die Variablen für die Events her
+* Roadmap Besprechung

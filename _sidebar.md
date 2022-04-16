@@ -10,5 +10,8 @@
 * [**Parkplatz**](parkplatz/index)
 * [**Krankenhaus**](krankenhaus/index)
 * [**Kultur**](kultur/index)
-* [**Authentifizierung**](Authentifizierung/index)
+* [**Authentifizierung**](authentifizierung/index)
 * [**Gesundheitswesen**](Gesundheitswesen/index)
+
+
+>>>>>>> Stashed changes

@@ -1,5 +1,9 @@
 # Continuous Integration / Continuos Deployment
 
+//TODO Aktivitätsdiagramme CI/CD
+//TODO Diagramm/Erklärung Traefik
+//TODO erwähnen poxyauflösung über subdomains
+
 **Autor:** Leon Stümpeley
 
 ## CI
@@ -56,4 +60,3 @@
     ->Automatic via letsencrypt
 
     ![](assets/letsencrypt.svg)
-

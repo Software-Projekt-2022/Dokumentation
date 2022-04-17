@@ -61,16 +61,20 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 
 **Wetter Startseite**
 
-![Wetter_Mockup01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup01.png)
+![mockup01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/mockup01.png)
 
 **Buttons zum ansehen von Späterem Wetter**
 
-![Wetter_Mockup02](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup02.png)
+![mockup02](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/mockup02.png)
 
 **Button zum Anzeigen genauerer Wasserstands Informationen**
 
 
-![Wetter_Mockup03](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Wetter_Mockup03.png)
+![mockup03](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/mockup03.png)
+
+**Die Temperatur der letzten Tage im Diagramm**
+
+![mockup04](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/mockup04.png)
 
 ## Datenmodell 
 

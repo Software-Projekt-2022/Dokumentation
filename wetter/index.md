@@ -91,6 +91,9 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 - Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
   Softwaresystems hilfreich sind. 
   
+  **Funktionen der Buttons**
+
+![Aktivitaeten](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/wetter/media/Aktivitaeten.pdf)
   
   Wetter abfrage alle 15 Minuten, Pollen Täglich jeden Morgen, Wasserstand alle 30 Minuten
   

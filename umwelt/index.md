@@ -161,8 +161,11 @@ Von der Serverseite aus gestaltet sich das Anfertigen eines UMLs noch schwierig,
 * Server einer API sind nicht erreichbar
 
 200 --> OK
+
 204 --> No Content
+
 422 --> Unprocessable Entity (Bsp.: Eine fehlerhafte/falsch formatierte JSON)
+
 
 ### Validierung
 

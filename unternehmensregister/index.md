@@ -104,7 +104,9 @@ Habe ich nicht
 //TODO
 
 ### Fehlerbehandlung
-//TODO
+* API Response Codes:
+	* 200 [Ok]
+	* 400 [Bad Request]
 
 ### Validierung
 //TODO

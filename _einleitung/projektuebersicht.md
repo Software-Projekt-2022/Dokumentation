@@ -1,14 +1,18 @@
-# Projektübersicht *Smart City*
+# Projektübersicht *CyberCity*
 
-**Autor:** Product Owner
+**Autor:** Tim Bollmeyer
 
 ## Beschreibung
 
-Beschreibung des Softwareprodukts "Smart City".
+Ob Einkaufen, die Arbeit, Bildung oder Kommunikation. Der Alltag vieler Menschen findet zunehmend digital statt. Höchste Zeit auch das städtische Leben mit all seinen Facetten digital abzubilden. Unsere ***CyberCity*** legt den nötigen Grundstein. Auf dieser digitalen Plattform finden sich die kommunalen Angebote und Informationen aus den Bereichen Kultur, Gesundheitswesen, Verkehr, Unternehmen und Umwelt. 
 
 ## Github Repository
 
-* Link zum Github Repository mit Source Code, Dokumentation, Kanban-Board
+Zur Umsetzung der ***CyberCity*** haben wir die *GitHub-Organisation* [Software-Projekt-2022](https://github.com/Software-Projekt-2022) aufgesetzt.
+Dort finden sich alle Repositories zu diesem Projekt. <br>
+Das [Dokumentation Repository](https://github.com/Software-Projekt-2022/Dokumentation) enthält alle Spezifikationen und Dokumentationen der Microservices und die Protokolle der gemeinsamen Meetings.
+
+Die [Projektorganisation](_einleitung/projektorganisation) findet über das [Kanban-Board](https://github.com/orgs/Software-Projekt-2022/projects/1) auf Organisations-Ebene statt, um einen Gesamtüberblick über das gesamte Projekt zu bekommen.
 
 ## Ziele
 
@@ -32,9 +36,7 @@ Beschreibung des Softwareprodukts "Smart City".
 
 ## Systemübersicht
 
-Dieser Abschnitt zeigt die technische Beschreibung des Softwaresystems
-in Form eines Systemarchitekturdiagramms.
-Das Diagramm ist statisch und nicht dynamisch und stellt daher keine Abläufe dar. Abläufe werden im Kapitel "Abläufe" dargestellt. Im Kapitel "Systemübersicht" soll genau ein Diagramm dargstellt werden. Das "Box-and-Arrow"-Diagramm soll als Systemarchitekturdiagramm eine abstrakte Übersicht über das Softwaresystem geben. Dazu stellt es die Rechnerknoten und deren Kommunikationsbeziehungen (Protokoll (z.B. HTTP), Datenformat (z.B. JSON)) dar. Also Rechtecke und gerichtete Pfeile. Ähnlich einem UML-Deployment-Diagramm, aber noch abstrakter, denn es zeigt nicht die Verteilung der Softwarebausteine auf die Rechnerknoten. So erlangt der Leser einen schnellen und guten Überblick über das Softwaresystem. 
+*Systemarchitekturdiagramm*
 
 ## Kommunikationsprotokolle und Datenformate
 
@@ -55,11 +57,11 @@ Das Diagramm ist statisch und nicht dynamisch und stellt daher keine Abläufe da
 
 ### Betriebsbedingungen
 
-- Vorgaben des Kunden (z.B. Web Browser / Betriebssystem Versionen, Programmiersprache)
+Für eine gute Nutzerzufriedenheit und Akzeptanz durch alle Altersgruppen der Bürger, ist es notwendig, dass die Services einfach zugänglich und bedienbar sind.
+Deshalb soll die CyberCity als Web-Applikation über sämtliche Web-Browser bedienbar sein. <br>
+Aus Sicht der Bürger ist es außerdem wichtig, dass die Services jederzeit und auch bei hohen Nutzerzahlen verfügbar sind.
 
 ### Qualitätsmerkmale
-
-- Externe Qualitätsanforderungen (z.B. Performance, Sicherheit, Zuverlässigkeit, Benutzerfreundlichkeit)
 
 Qualitätsmerkmal | sehr gut | gut | normal | nicht relevant
 ---|---|---|---|---
@@ -70,13 +72,13 @@ Ordnungsmäßigkeit |X|-|-|-|
 Richtigkeit |X|-|-|-|
 Konformität |-|X|-|-|
 **Benutzerfreundlichkeit** | | | | |
-Installierbarkeit |-|-|X|-|
+Installierbarkeit |-|-|-|X|
 Verständlichkeit |X|-|-|-|
 Erlernbarkeit |-|X|-|-|
-Bedienbarkeit |-|X|-|-|
+Bedienbarkeit |X|-|-|-|
 **Performance** | | | | |
-Zeitverhalten |-|-|X|-|
-Effizienz|-|-|-|X|
+Zeitverhalten |-|X|-|-|
+Effizienz|-|X|-|-|
 **Sicherheit** | | | | |
 Analysierbarkeit |X|-|-|-|
 Modifizierbarkeit |-|-|-|X|
@@ -92,7 +94,3 @@ Prüfbarkeit |X|-|-|-|
 
 * Handbücher, Gesetze
 * z.B. Datenschutzgrundverordnung
-
-
-
-

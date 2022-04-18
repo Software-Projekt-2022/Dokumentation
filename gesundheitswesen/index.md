@@ -3,6 +3,8 @@
 **Autor:** Malte Theodor Kanders
 
 
+![THEME](media/theme_pic.jpg)
+
 ## Überblick
 
 - Textuelle Beschreibung der Anwendungsdomäne
@@ -19,9 +21,10 @@
   - Bürger die nach Informationen/Kontaktmöglichkeiten suchen
   - Ärzte/Apotheken/Krankenhäuser/Therapeuten die sich vorstellen und eine Kontaktstelle
   bieten
-  Use Cases des Microservices:
 
-  ![USE_CASE](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/UseCase.PNG)
+
+  Use Cases des Microservices:
+  ![USE_CASE](media/use_case_health.PNG)
 
   Akteure:
     * Bürger
@@ -59,26 +62,26 @@
 
   #### Startseite/Home:
 
-  ![HOME](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Home.png)
+  ![HOME](media/mock_home.png)
 
   #### Über uns/Impressum/Hilfe
-  ![ABOUT US](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/AboutUs.png)
+  ![ABOUT US](media/mock_about_us.png)
 
   #### Einzelner Service
-  ![SINGLE SERVICE](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Single%20Service.png)
+  ![SINGLE SERVICE](media/mock_single_service.png)
 
   #### Kategorie/Notfallkontakt
-  ![CATEGORY/EMERGENCY](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/KategorienUndNotfallkontakte.PNG)
+  ![CATEGORY/EMERGENCY](media/mock_categorys_emergency.png)
 
   #### Aktivitätsdiagramm
-  [ACTIVITY_DIAGRAMM](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Aktivit%C3%A4tsdiagramm.png)
+  [ACTIVITY_DIAGRAMM](media/mock_activity_diagramm.png)
 
 
 ## Datenmodell
 
 Vorläufige Skizze:
 
-![ER](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/ER_Diagramm.PNG)
+![ER](media/er_health_system.PNG)
 
 (## Abläufe
 
@@ -94,13 +97,13 @@ Vorläufige Skizze:
 
 ## Schnittstellen
 
-[Api Draft](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/CyberCity%20API%20Draft.pdf)
+[Api Draft](media/api_draft.pdf)
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
 
 ### URL
 
-http://smart.city/microservices/wealthsystem/
+http://smart.city/gesundheitssystem/
 
 ### Commands / Events ?
 
@@ -141,19 +144,19 @@ http://smart.city/microservices/wealthsystem/
 
 ##### FullStack WebAPP in der Gesamtübersicht:
 
-![FULLSTACK](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Fullstack%20UML.PNG)
+![FULLSTACK](media/sw_fullstack.PNG)
 
 ##### Model UML:
 Hier sollen alle Klassen die wie eine Daten Klasse operieren verlagert werden. So soll doppeltes schreiben und der Vorteil der durchgängigen Benutzung einer Sprache genutzt werden. Ebenso werden die Skripte zum erstellen der passenden Datenbank Tabellen abgelegt.
-![MODEL](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Model%20UML.PNG)
+![MODEL](media/sw_model.PNG)
 
 ##### Backend UML:
-![BACKEND](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Backend-JVM-UML.PNG)
+![BACKEND](media/sw_backend.png)
 
 ##### Frontend UML
 Nur kurze Idee, denn da noch kein Framework für das Frontend festgelegt wurde(KVision vs React) kann nicht genau die vorgehensweise bestimmt werden.
 Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert da es ohne, oder fast ohne CSS und HTML auskommt.
-![FRONTEND](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Frontend-JS-UML.PNG%23.PNG)
+![FRONTEND](media/sw_frontend.png)
 
 ### Fehlerbehandlung
 
@@ -165,7 +168,7 @@ Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert
 * 422 -> Unprocessable Entity *beispielhaft: Sehr wahrscheinliche eine kaputte und oder falsch formatierte JSON*
 * default -> unexpected Error
 
-(### Validierung
+( ### Validierung
 
 * Relevante (Integrations)-Testfälle, die aus den Use Cases abgeleitet werden können
 * Testfälle für

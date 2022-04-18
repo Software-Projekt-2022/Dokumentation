@@ -70,18 +70,34 @@ http://cyber.city/unternehmensregister
 //TODO
 
 ### Dependencies
-//TODO
 
 #### RPC
 //TODO
 
 #### Event-Subscriptions
-//TODO
+Habe ich nicht
 
 ## Technische Umsetzung
 
 ### Softwarearchitektur
-//TODO
+* Server
+  * Web-Schicht
+	* Spring
+  * Logik-Schicht
+	* Java
+	* Spring
+  * Persistenz-Schicht
+	* PostgreSQL
+
+* Client
+  * View-Schicht
+	* CSS
+	* HTML
+	* Bootstrap 5
+  * Logik-Schicht
+	* JavaScript
+  * Kommunikation-Schicht
+	* JavaScript
 
 ### Entwurf
 //TODO

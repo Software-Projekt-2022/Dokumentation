@@ -24,7 +24,7 @@
 
 
   Use Cases des Microservices:
-  ![USE_CASE](media/use_case_health.PNG)
+  ![USE_CASE](media/use_case_health.png)
 
   Akteure:
     * Bürger
@@ -81,7 +81,7 @@
 
 Vorläufige Skizze:
 
-![ER](media/er_health_system.PNG)
+![ER](media/er_health_system.png)
 
 (## Abläufe
 
@@ -144,19 +144,19 @@ http://smart.city/gesundheitssystem/
 
 ##### FullStack WebAPP in der Gesamtübersicht:
 
-![FULLSTACK](media/sw_fullstack.PNG)
+![FULLSTACK](media/sw_fullstack.png)
 
 ##### Model UML:
 Hier sollen alle Klassen die wie eine Daten Klasse operieren verlagert werden. So soll doppeltes schreiben und der Vorteil der durchgängigen Benutzung einer Sprache genutzt werden. Ebenso werden die Skripte zum erstellen der passenden Datenbank Tabellen abgelegt.
 ![MODEL](media/sw_model.PNG)
 
 ##### Backend UML:
-![BACKEND](media/sw_backend.png)
+![BACKEND](media/sw_backend.PNG)
 
 ##### Frontend UML
 Nur kurze Idee, denn da noch kein Framework für das Frontend festgelegt wurde(KVision vs React) kann nicht genau die vorgehensweise bestimmt werden.
 Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert da es ohne, oder fast ohne CSS und HTML auskommt.
-![FRONTEND](media/sw_frontend.png)
+![FRONTEND](media/sw_frontend.PNG)
 
 ### Fehlerbehandlung
 

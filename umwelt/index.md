@@ -66,9 +66,9 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 ![Aktivitaeten](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/Aktivitaeten.pdf)
   
 
-Die Gratis Version von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
+Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
 Die Aktualisierung des Wasserstands, wird wahrscheinlich ein Mal pro Stunde stattfinden.
-Da diese Daten nur täglich aktualisiert werden, wird diese Anzeige auch einmal täglich, oder wenn Technisch nötig aktualisiert.  
+Da diese Daten nur täglich aktualisiert werden, wird diese Anzeige auch einmal täglich, oder wenn technisch nötig aktualisiert.  
 
 ## Schnittstellen
 
@@ -79,7 +79,7 @@ Mit Openweathermap wird der Großteil der Informationen für die Wetter Seite da
 Wasserstand: Pegelonline(https://www.pegelonline.wsv.de/webservice/dokuRestapi)
 Pegelonline liefert den Wasserstand und viele andere Daten, wovon die meisten Jedoch uninteressant für User wären, weswegen wir hier nur das Wichtigste darstellen. 
 
-Pollen: Pollen Forecast API(https://achoo.dev/)
+Pollen: Pollen Forecast API (https://achoo.dev/)
 Pollen Forecast API liefern viele Daten über den Flug der verschiedenen Arten für jeden Bereich von Deutschland. 
 
 ### URL
@@ -139,7 +139,7 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
 
 Aufgrund von mangelnder Erfahrung in den benutzten Programmiersprachen bzw. Webentwicklung ist das UML hier grob gehalten, da ich mich erst in die Materie hineinarbeite.
 
-**Javascript API Einbindung und Darstellung**
+**Javascript API-Einbindung und Darstellung**
 
 ![UML](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/UML.PNG)
 

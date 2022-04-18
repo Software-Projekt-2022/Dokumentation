@@ -10,8 +10,9 @@ Er bietet Mitgliedern die Möglichkeit sich über ein Profil darzustellen, und s
 Über Profile kann die gesamte professionelle Laufbahn abgebildet werden, aber auch Kontakte geknüpft werden.
 So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 
-## Funtionale Anforderungen
-//?
+## Funktionale Anforderungen
+* Bürger: Leute die nach einem Job suchen oder im Arbeitsumfeld Kontakte knüpfen wollen.
+* Unternehmen: Firmen die nach neuen Mitarbeitern suchen und sich präsentieren wollen.
 
 ### Anforderungen im Detail
 

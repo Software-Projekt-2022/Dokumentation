@@ -58,6 +58,70 @@ Jeder Microservice muss als geschlossenes System funktionieren, damit auch dann 
 
 *Systemarchitekturdiagramm*
 
+### Event Bus
+
+Der Event Bus wird mit RabbitMQ umgesetzt.
+Jeder Microservice hat eine Queue namens `microservice.<name>`, wobei `name` der Name des Microservices ist.
+Jeder Microservice hat eine Exchange vom Typ `direct` namens `publish_event.<name>`, wobei `name` auch der Name des Microservices ist.
+
+| Microservice         | Queue-Name                          | Exchange-Name                        |
+| -------------------- | ----------------------------------- | ------------------------------------ |
+| Unternehmensregister | `microservice.unternehmensregister` | `publish_event.unternehmensregister` |
+| Authentifizierung    | `microservice.authentifizierung`    | `publish_event.authentifizierung`    |
+| Umwelt               | `microservice.umwelt`               | `publish_event.umwelt`               |
+| Gesundheitswesen     | `microservice.gesundheitswesen`     | `publish_event.gesundheitswesen`     |
+| Kultur               | `microservice.kultur`               | `publish_event.kultur`               |
+| Verkehr              | `microservice.verkehr`              | `publish_event.verkehr`              |
+| Landing Page         | `microservice.landing_page`         | `publish_event.landing_page`         |
+
+Die Queues empfangen alle Events, die an die zugehörigen Microservices gerichtet sind.
+Die Microservices können Events versenden, indem sie diese an die zugehörigen Exchanges sendet.
+Microservices können auswählen, von welchem Microservice sie welche Events bekommen möchten.
+
+Damit ein Microservice ein Event mit seiner Queue empfangen kann, muss er ein Binding zwischen seiner Queue und der Exchange des
+versendenden Microservices herstellen. Dabei hat das Binding als Routing Key den Namen des Events, welches empfangen werden soll.
+Wenn ein Micoservice ein Event an seine Exchange sendet, wird dieses über das Binding an die richtige Queue gesendet.
+Dazu muss der Microservice beim Senden auch den Rounting Key auf dem Namen des Events setzen.
+Zeigen mehrere Bindings auf die Exchange, wird das Event an alle Queues mit einem Binding geschickt.
+Auf diese Weise können mehrere Microservices das selbe Event von dem selben Microservice empfangen.
+
+Zusätzlich gibt es noch eine weitere Exchange mit dem Namen `publish_event.global`, welche benutzt wird, wenn ein Event
+nicht von einem Microservice gesendet wird, sondern z. B. von einem Admin.
+
+![Diagramm der Exchanges und Queues](media/exchanges-queues.png)
+
+Die blauen Kreise sind Exchanges und die roten Rechtecke sind Queues.
+In diesem Diagramm wird die folgende Situation dargestellt:
+
+| Microservice         | empfängt Event          | von Microservice  |
+| -------------------- | ----------------------- | ----------------- |
+| Authentifizierung    | `daily_cultural_events` | Kultur            |
+| Umwelt               | `daily_cultural_events` | Kultur            |
+| Umwelt               | `customer_created`      | Authentifizierung |
+| Umwelt               | `customer_deleted`      | Authentifizierung |
+| Kultur               | `customer_created`      | Authentifizierung |
+| Kultur               | `customer_deleted`      | Authentifizierung |
+| Kultur               | `air_quality_warning`   | Umwelt            |
+
+Es ist so auch möglich, dass jeder Microservice jedes Event von jedem Microservice empfangen kann.
+Es muss darauf geachtet werden, dass ein Microservice nicht seine eigenen Events empfängt, außer es ist so gewollt.
+
+Events sind JSON-Objekte, welche die Informationen des Events enthalten.
+Diese JSON-Objekte sind wiederum in einem JSON-Objekt enthalten, welches die Metadaten des Events enthält.
+Ein Beispiel könnte so aussehen:
+```
+{
+  "event_type": "customer_added",
+  "event_origin": "microservice.authentifizierung",
+  "content": {
+    "id": 1,
+    "name": "Jeff"
+  }
+}
+```
+Hier enthält das Feld `content` die eigentlichen Eventinformationen.
+Detailliertere Informationen zu den Events gibt es in der [Spezifikation mit AsyncAPI](https://software-projekt-2022.github.io/Dokumentation/asyncapi/).
+
 ## Kommunikationsprotokolle und Datenformate
 
 ## Funktionale Anforderungen 

@@ -91,6 +91,7 @@ nicht von einem Microservice gesendet wird, sondern z. B. von einem Admin.
 ![Diagramm der Exchanges und Queues](media/exchanges-queues.png)
 
 Die blauen Kreise sind Exchanges und die roten Rechtecke sind Queues.
+Die Pfeile sind Bindings mit dem Routing Key.
 In diesem Diagramm wird die folgende Situation dargestellt:
 
 | Microservice         | empfängt Event          | von Microservice  |

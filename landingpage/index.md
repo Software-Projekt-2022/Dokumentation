@@ -1,56 +1,29 @@
 # Landing Page
 
-**Autor:** Tim Bollmeyer
-
+**Autor:** Tim Bollmeyer <br>
+**URL:** http://smart.city/microservices/landingpage
 
 ## Überblick
 
-- Textuelle Beschreibung der Anwendungsdomäne
-- Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der Anwendungsdomäne)
+Die Landing Page stellt den Einstiegspunkt der ***CyberCity*** dar. <br>
+In Kacheln werden die einzelnen Services unserer Stadt präsentiert, sodass jeder Bürger schnell das Gesuchte finden kann.
+Neben der Verlinkung zu den einzelnen Microservices werden außerdem die aktuellen Nachrichten/Meldungen der Stadt angezeigt.
 
 
-## Funktionale Anforderungen
-
-* Definition der Akteure
-* Use-Case Diagramme
-* Strukturierung der Diagramme in funktionale Gruppen
-* Akteure sowie andere Begriffe der implementierten Fachdomäne definieren 
-* Begriffe konsistent in der Spezifikation verwenden  
-* Begriffe im Glossar darstellen
-
-## Anforderungen im Detail
-
-- User Stories mit Akzeptanzkritierien 
-- Optional: Name (oder ID) und Priorität ("Must", "Should", "Could", "Won't")
-- Strukturierung der User Stories in funktionale Gruppen
-- Sicherheit: Misuse-Stories formulieren
-
-**Schablone für User Stories**
-
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Wer | Was | Warum | Wann akzeptiert |
-
-**Beispiel 1**
-
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Benutzer | bei Fehleingabe die Lösung angezeigt bekommen | ich lernen kann | Lösung wird angezeigt |
-
-**Beispiel**
+## Funktionale Anforderungen im Detail
 
 | **Name**| **In meiner Rolle als**...|   ...**möchte ich**...   | ..., **so dass**... | **Erfüllt, wenn**... | **Priorität**   |
 |:-----|:----------:|:-------------------|:-------------|:---------|:----------------|
-| Lernen  |Benutzer| bei Fehleingabe die Lösung angezeigt bekommen|ich lernen kann| Lösung wird angezeigt | Muss |
+| Service-Übersicht | Bürger | alle angebotenen Services der Stadt in einer Kachel-Übersicht sehen | ich alle Services gut überblicken kann | Alle Services werden in Kacheln angezeigt | Must |
+| Microservice-Verlinkung | Bürger | über eine Kachel zum entsprechenden Service weitergeleitet werden | ich schnell auf einen gewünschten Service zugreifen kann | Korrekte Verlinkung auf jeweilige Microservices | Must |
+| Kachel-Infos | Bürger | dass jede Kachel neben dem Namen des Services auch ein Bild und eine Beschreibung des Services enthält | der Zweck des Services deutlich wird | Bild + Beschreibung in jeder Service-Kachel | Should |
+| Kachel-Positionierung | Bürger | ich die Kacheln nach Belieben positionieren können | ich die Startseite an meine Bedürfnisse anpassen kann | Drag & Drop der Kacheln | Could |
+| News-Feed | Bürger | alle aktuellen Meldungen der Stadt sehen | ich auf dem Laufenden bleibe und bspw. auf Staumeldungen reagieren kann | News-Feed zeigt aktuelle Meldungen | Should |
+| News-Filter | Bürger | die Meldungen filtern können | ich für mich relevante Meldungen schnell mitbekomme | Filter-Möglichkeiten für Meldungen (Thema, Datum etc.) | Could |
 
 ## Graphische Benutzerschnittstelle
 
-- GUI-Mockups passend zu User Stories
-- Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
-- Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen abgehandelt werden
-- Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
-- Mockups für unterschiedliche Akteure
-
+![Landing Page](media/LandingPage.png)
 
 ## Datenmodell 
 
@@ -79,10 +52,6 @@
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
 **Beispiel:**
-
-### URL
-
-http://smart.city/microservices/customer
 
 ### Commands
 

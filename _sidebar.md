@@ -8,7 +8,6 @@
 
 * [**Landing Page**](landingpage/index)
 * [**Verkehr**](verkehr/index)
-* [**Krankenhaus**](krankenhaus/index)
 * [**Kultur**](kultur/index)
 * [**Authentifizierung**](authentifizierung/index)
 * [**Gesundheitswesen**](gesundheitswesen/index)

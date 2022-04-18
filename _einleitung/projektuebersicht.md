@@ -2,9 +2,8 @@
 
 **Autor:** Tim Bollmeyer
 
-<p align="center">
-<img src="media/cyber-city-logo.png"/>
-</p>
+![CyberCity-Logo](media/cyber-city-logo.png)
+
 
 ## Beschreibung
 

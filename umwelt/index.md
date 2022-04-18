@@ -18,7 +18,7 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 **Use-Case**
 
 
-![Usecase01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/Usecase01.PNG)
+![Usecase01](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/Usecase01.PNG)
 
 
 ## Anforderungen im Detail
@@ -40,20 +40,20 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 
 **Wetter Startseite**
 
-![mockup01](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/mockup01.png)
+![mockup01](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup01.png)
 
 **Buttons zum Ansehen von Späterem Wetter**
 
-![mockup02](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/mockup02.png)
+![mockup02](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup02.png)
 
 **Button zum Anzeigen genauerer Wasserstands Informationen**
 
 
-![mockup03](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/mockup03.png)
+![mockup03](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup03.png)
 
 **Die Temperatur der letzten Tage im Diagramm**
 
-![mockup04](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/mockup04.png)
+![mockup04](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup04.png)
 
 ## Datenmodell 
 
@@ -63,7 +63,7 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 
   **Funktionen der Buttons**
 
-![Aktivitaeten](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/Aktivitaeten.pdf)
+![Aktivitaeten](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/Aktivitaeten.pdf)
   
 
 Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
@@ -131,7 +131,7 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
-![Softwarearchitektur](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/Softwarearchitektur.PNG)
+![Softwarearchitektur](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/Softwarearchitektur.PNG)
 
 (Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall pro API)
 
@@ -141,7 +141,7 @@ Aufgrund von mangelnder Erfahrung in den benutzten Programmiersprachen bzw. Webe
 
 **Javascript API-Einbindung und Darstellung**
 
-![UML](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/UML.PNG)
+![UML](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/UML.PNG)
 
 **Serverseite**
 

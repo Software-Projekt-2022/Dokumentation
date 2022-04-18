@@ -11,7 +11,7 @@
 * [**Krankenhaus**](krankenhaus/index)
 * [**Kultur**](kultur/index)
 * [**Authentifizierung**](authentifizierung/index)
-* [**Gesundheitswesen**](Gesundheitswesen/index)
+* [**Gesundheitswesen**](gesundheitswesen/index)
 
 
 >>>>>>> Stashed changes

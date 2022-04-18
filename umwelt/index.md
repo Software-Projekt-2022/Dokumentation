@@ -174,7 +174,7 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
 
-![Softwarearchitektur](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/Softwarearchitektur.PNG)
+![Softwarearchitektur](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Infrastruktur_Wetter/umwelt/media/Softwarearchitektur.png)
 
 (Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall pro API)
 

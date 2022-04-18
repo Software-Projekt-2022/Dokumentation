@@ -2,6 +2,10 @@
 
 **Autor:** Tim Bollmeyer
 
+<p align="center">
+<img src="media/cyber-city-logo.png"/>
+</p>
+
 ## Beschreibung
 
 Ob Einkaufen, die Arbeit, Bildung oder Kommunikation. Der Alltag vieler Menschen findet zunehmend digital statt. Höchste Zeit auch das städtische Leben mit all seinen Facetten digital abzubilden. Unsere ***CyberCity*** legt den nötigen Grundstein. Auf dieser digitalen Plattform finden sich die kommunalen Angebote und Informationen aus den Bereichen Kultur, Gesundheitswesen, Verkehr, Unternehmen und Umwelt. 
@@ -17,14 +21,31 @@ Die [Projektorganisation](_einleitung/projektorganisation) findet über das [Kan
 ## Ziele
 
 - Anwendungsbereiche, Motivation, Umfang, Alleinstellungsmerkmale, Marktanforderungen
-- Informationen zu Zielbenutzergruppen und deren Merkmale (Bildung, Erfahrung, Sachkenntnis)
-- Abgrenzung (Was ist das Softwaresystem _nicht_)
+
+Die Zielbenutzergruppen der Services unterliegen keinen Einschränkungen.
+Vermutlich lassen sich die ersten Nutzer als jung und technik-affin charakterisieren. Diese *Early-Adopters* sind jedoch nicht die alleinige Zielgruppe.
+Alle Bürger der CyberCity, unabhängig von Alter, Bildung, Erfahrung etc., sollen diese digitale Plattform nutzen können.
+
+Klar abzugrenzen ist dieses Softwaresystem von eher datengetriebenen SmartCity-Ideen, die mit Sensorik, Big Data und Machine Learning die Stadt der Zukunft optimieren.
+Wir setzen an der digitalen Transformation städtischer Angebote an. <br>
+Bei uns steht der Bürger im Mittelpunkt. Wir wollen Zugang und Möglichkeiten zum digitalen Leben von morgen schaffen.
 
 ## Risiken
 
-* SWOT-Analyse
-* Verfügen wir über die notwendigen Kompetenzen? (Umsetzbarkeit)
-* Welche Risiken und negativen Nebeneffekte sind zu erwarten?
+| Stärken      | Schwächen           | 
+| :-------------: | :-------------: | 
+| <ul><li>item1</li><li>item2</li></ul>| <ul><li>item1</li><li>item2</li></ul> |
+|  || |
+| **Chancen** | **Risiken** | 
+| <ul><li>item1</li><li>item2</li></ul>| <ul><li>item1</li><li>item2</li></ul> |
+
+Die Fähigkeiten und Erfahrungen einzelner Teammitglieder unterscheiden sich teilweise stark.
+Bisher hat auch noch niemand einen kompletten Microservice alleine implementiert. 
+Mit gutem Zusammenhalt im Team und dem Willen weitere notwendige Kompetenzen gemeinsam zu erlernen, halten wir das Projekt aber insgesamt für umsetzbar.
+
+Das Projekt wird in dem Modul `Softwareprojekt` umgesetzt. Parallel finden viele weitere Module in diesem Semester statt, sodass schlechtes Zeitmanagement und schlechte Organisation große Risiken für das Projekt darstellen. <br>
+Auf Produkt-Ebene muss darauf geachtet werden, dass es keine große Abhängigkeiten zwischen einzelnen Microservices gibt.
+Jeder Microservice muss als geschlossenes System funktionieren, damit auch dann ein funktionierendes Gesamtprodukt entstehen kann, wenn es zu weiteren unvorhergesehenen Ereignissen kommt.
 
 ## Stakeholder
 

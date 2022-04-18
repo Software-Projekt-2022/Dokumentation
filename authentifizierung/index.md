@@ -34,7 +34,7 @@ Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dan
 | Jürgen  |Admin| Mir einen Account anlegen |aktivitäten bearbeiten kann| mein account aktiv ist und bearbeiten funktioniert | Muss |
 ## Graphische Benutzerschnittstelle
 
-![](media/mockups.png)
+![](media/mockupsF.png)
 
 - GUI-Mockups passend zu User Stories
 - Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
@@ -68,7 +68,12 @@ Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dan
 - In Event-gesteuerten Systemen ebenfalls die Definition der Ereignisse und deren Attribute
 - Aufteilen in Commands, Events, Queries
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
-
+  
+- POST (‘/register ‘)
+  - Daten fürs Registrieren schicken 
+- POST (‘/login ‘)
+  - Daten fürs login schicken
+  
 **Beispiel:**
 
 ### URL
@@ -150,8 +155,8 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
   * Logik-Schicht
   * Kommunikation-Schicht
 
-Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
-
+Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt.
+![](media/softwarearchitektur.png)
 
 
 ### Entwurf
@@ -180,5 +185,12 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
 - Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
 
 * Frontend
+  - Java
+  - Spring 
+  - Bootstrap
 * Backend
+   - Java 
+   - Springboot
+   - REST API
 * Datenbank
+   - postgresSQL

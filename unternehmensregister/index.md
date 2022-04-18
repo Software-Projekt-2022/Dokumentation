@@ -30,6 +30,7 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 | Bürger | Fotos hochladen | ich mehr von mir zeigen kann | Profil -> Gallery |
 | Bürger | mich bewerben können | ich einen Job finden kann | Stellenmarkt |
 | Bürger | soziale Kontakte pflegen können | ich meinen professionellen Raum erweitern kann | Social Hub |
+| Bürger | Nachrichten schreiben können | keine externen Tools zur Kommunikation brauche | Chat |
 
 ## Grafische Benutzerschnittstellen
 #### Profil von Unternehmen

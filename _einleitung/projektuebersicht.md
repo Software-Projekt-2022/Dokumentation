@@ -56,7 +56,7 @@ Jeder Microservice muss als geschlossenes System funktionieren, damit auch dann 
 
 ## Systemübersicht
 
-*Systemarchitekturdiagramm*
+![Diagramm der Systemarchitektur](media/system-architecture.png)
 
 ### Event Bus
 

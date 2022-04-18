@@ -2,6 +2,7 @@
 
 **Autor:** Toni Schnittger
 
+![Banner](media/Banner.jpg)
 
 ## Überblick
 

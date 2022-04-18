@@ -18,7 +18,7 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 **Use-Case**
 
 
-![Usecase01](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/Usecase01.PNG)
+![Usecase01](media/Usecase01.PNG)
 
 
 ## Anforderungen im Detail
@@ -40,20 +40,20 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 
 **Wetter Startseite**
 
-![mockup01](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup01.png)
+![mockup01](media/mockup01.png)
 
 **Buttons zum Ansehen von Späterem Wetter**
 
-![mockup02](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup02.png)
+![mockup02](media/mockup02.png)
 
 **Button zum Anzeigen genauerer Wasserstands Informationen**
 
 
-![mockup03](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup03.png)
+![mockup03](media/mockup03.png)
 
 **Die Temperatur der letzten Tage im Diagramm**
 
-![mockup04](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/mockup04.png)
+![mockup04](media/mockup04.png)
 
 ## Datenmodell 
 
@@ -63,24 +63,30 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 
   **Funktionen der Buttons**
 
-![Aktivitaeten](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/Aktivitaeten.pdf)
+![Aktivitaeten](media/Aktivitaeten.pdf)
   
-
-Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
-Die Aktualisierung des Wasserstands, wird wahrscheinlich ein Mal pro Stunde stattfinden.
-Da diese Daten nur täglich aktualisiert werden, wird diese Anzeige auch einmal täglich, oder wenn technisch nötig aktualisiert.  
 
 ## Schnittstellen
 
-API: 
+###API
+
+####Wetter
+
 Wetter, UV-Level, etc.: Openweathermap(https://openweathermap.org/api) 
 Mit Openweathermap wird der Großteil der Informationen für die Wetter Seite dargestellt. Sie liefert die Temperatur, das Wetter, die Windgeschwindigkeit, die Gefühlte Temperatur, die Luftverschmutzung und mehr für Mehrere Tage im Voraus. 
+Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
+
+####Wasserstand
 
 Wasserstand: Pegelonline(https://www.pegelonline.wsv.de/webservice/dokuRestapi)
 Pegelonline liefert den Wasserstand und viele andere Daten, wovon die meisten Jedoch uninteressant für User wären, weswegen wir hier nur das Wichtigste darstellen. 
+Die Aktualisierung des Wasserstands, wird wahrscheinlich ein Mal pro Stunde stattfinden.
+
+####Pollen
 
 Pollen: Pollen Forecast API (https://achoo.dev/)
 Pollen Forecast API liefern viele Daten über den Flug der verschiedenen Arten für jeden Bereich von Deutschland. 
+Da die Daten der Pollen API nur täglich aktualisiert werden, wird diese Anzeige auch einmal täglich, oder wenn technisch nötig aktualisiert.  
 
 ### URL
 
@@ -131,7 +137,7 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
-![Softwarearchitektur](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/Softwarearchitektur.PNG)
+![Softwarearchitektur](media/Softwarearchitektur.PNG)
 
 (Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall pro API)
 
@@ -141,7 +147,7 @@ Aufgrund von mangelnder Erfahrung in den benutzten Programmiersprachen bzw. Webe
 
 **Javascript API-Einbindung und Darstellung**
 
-![UML](https://github.com/Software-Projekt-2022/Dokumentation/umwelt/media/UML.PNG)
+![UML](media/UML.PNG)
 
 **Serverseite**
 

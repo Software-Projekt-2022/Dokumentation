@@ -69,21 +69,21 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 
 ## Schnittstellen
 
-###API
+### API
 
-####Wetter
+#### Wetter
 
 Wetter, UV-Level, etc.: Openweathermap(https://openweathermap.org/api) 
 Mit Openweathermap wird der Großteil der Informationen für die Wetter Seite dargestellt. Sie liefert die Temperatur, das Wetter, die Windgeschwindigkeit, die Gefühlte Temperatur, die Luftverschmutzung und mehr für Mehrere Tage im Voraus. 
 Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
 
-####Wasserstand
+#### Wasserstand
 
 Wasserstand: Pegelonline(https://www.pegelonline.wsv.de/webservice/dokuRestapi)
 Pegelonline liefert den Wasserstand und viele andere Daten, wovon die meisten Jedoch uninteressant für User wären, weswegen wir hier nur das Wichtigste darstellen. 
 Die Aktualisierung des Wasserstands, wird wahrscheinlich ein Mal pro Stunde stattfinden.
 
-####Pollen
+#### Pollen
 
 Pollen: Pollen Forecast API (https://achoo.dev/)
 Pollen Forecast API liefern viele Daten über den Flug der verschiedenen Arten für jeden Bereich von Deutschland. 
@@ -138,7 +138,7 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
-![Softwarearchitektur](media/Serverarchitektur.PNG)
+![Softwarearchitektur](media/Serverarchitektur.png)
 
 (Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall pro API)
 

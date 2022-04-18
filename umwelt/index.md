@@ -63,7 +63,7 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 
   **Funktionen der Buttons**
 
-![Aktivitaeten](media/Aktivitaeten.pdf)
+![Aktivitaeten](media/Aktivitaeten.jpg)
   
 
 ## Schnittstellen

@@ -81,8 +81,9 @@ http://cyber.city/unternehmensregister
 
 *Eventuell nicht benötigt da -> REST API*
 | **Name** | **Payload** |
-| **newWorker** | **Infos des neu eingestellen ÖPNV Mitarbeiters** |
-| **removedWorker** | **Infos des abgesprungen Mitarbeiters** |
+| :------ | :----- | :------ |
+| newWorker | Infos des neu eingestellen ÖPNV Mitarbeiters |
+| removedWorker | Infos des abgesprungen Mitarbeiters |
 
 ## Technische Umsetzung
 

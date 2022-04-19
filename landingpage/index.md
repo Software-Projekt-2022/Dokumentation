@@ -1,7 +1,7 @@
 # Landing Page
 
 **Autor:** Tim Bollmeyer <br>
-**URL:** http://smart.city/microservices/landingpage
+**URL:** http://cyber-city.systems
 
 ## Überblick
 

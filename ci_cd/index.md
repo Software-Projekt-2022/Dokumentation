@@ -1,4 +1,4 @@
-# Continuous Integration / Continuos Deployment
+# Continuous Integration / Continuous Deployment
 
 **Autor:** Leon Stümpeley
 
@@ -8,6 +8,7 @@
 * Nach ablegen eines Docker Images wird dieses im Running Enviroment deployed.
 
 ![](assets\ci_cd.png)
+//TODO tests?
 ## Deployment-Komponenten
 | Komponente          | Anbieter Wahl          |
 |---------------------|------------------------|

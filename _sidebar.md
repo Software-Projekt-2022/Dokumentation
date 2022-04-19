@@ -2,7 +2,7 @@
 * [**Projektorganisation**](_einleitung/projektorganisation)
 * [**Protokolle**](_einleitung/protokolle)
 * [**CI/CD**](ci_cd/index)
-* [**Events**](asyncapi/index)
+* [**Events**](https://software-projekt-2022.github.io/Dokumentation/asyncapi/)
 <br>
 
 - ***Microservices***

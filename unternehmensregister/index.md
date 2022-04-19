@@ -41,6 +41,9 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 #### Profil von Nutzern
 ![](media/nutzer_profil.jpeg)
 
+#### Bewerbungsmanager
+![](media/bewerbungsmanager.png)
+
 ## Datenmodell
 *Relations sind scuffed, nur grob*
 ![](media/database.png)

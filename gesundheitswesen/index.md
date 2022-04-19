@@ -107,11 +107,11 @@ Vorläufige Skizze:
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| createHelthExpert() | int x_id, timestamp x_date, x_name string, x_title string | int id |
+| createHealthExpert() | int x_id, timestamp x_date, x_name string, x_title string | int id |
 | createCrewMember() | int crew_id, timestamp crew_date, crew_name string | int id |
 | removeHealthExpert() | int id | int id |
-| removeCrewMember | int id | int id |
-| createBreakingNews | int n_id, string message | int id |
+| removeCrewMember() | int id | int id |
+| createBreakingNews() | int n_id, string message | int id |
 
 
 
@@ -153,7 +153,7 @@ Hier sollen alle Klassen die wie eine Daten Klasse operieren verlagert werden. S
 
 ##### Frontend UML
 Nur kurze Idee, denn da noch kein Framework für das Frontend festgelegt wurde(KVision vs React) kann nicht genau die vorgehensweise bestimmt werden.
-Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert da es ohne, oder fast ohne CSS und HTML auskommt.
+Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher präferiert da es ohne, oder fast ohne CSS und HTML auskommt.
 ![FRONTEND](media/sw_frontend.PNG)
 
 ### Fehlerbehandlung

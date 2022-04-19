@@ -25,11 +25,12 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 | **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
 | :------ | :----- | :------ | :-------- |
 | Unternehmen | mich präsentieren | Ich attraktiv nach außen wirke | Profilseite |
-| Unternehmen | Stellenanzeigen veröffentlichen | Ich vermittelt werden kann | Stellenmarkt |
-| Unternehmen | Bewerbungen bekommen kann | Ich Mitarbeiter einstellen zu kann | Bewerbungsmanager |
+| Unternehmen | Stellenanzeigen veröffentlichen | Leute auf die Stelle aufmerksam werden | Stellenmarkt |
+| Unternehmen | Bewerbungen bekommen können | Ich Mitarbeiter einstellen | Bewerbungsmanager |
 | Bürger | mich präsentieren | ich bei Unternehmen punkten kann | Profilseite |
 | Bürger | meine Laufbahn zeigen | man meine Expertise nachverfolgen kann | Profil -> Laufbahn |
 | Bürger | Fotos hochladen | ich mehr von mir zeigen kann | Profil -> Gallery |
+| Bürger | Zertifikate ausstellen können | Ich meine Qualitäten darstellen kann | Profil -> Expertise |
 | Bürger | mich bewerben können | ich einen Job finden kann | Stellenmarkt |
 | Bürger | soziale Kontakte pflegen können | ich meinen professionellen Raum erweitern kann | Social Hub |
 | Bürger | Nachrichten schreiben können | keine externen Tools zur Kommunikation brauche | Chat |

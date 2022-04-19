@@ -14,6 +14,8 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 * Bürger: Leute die nach einem Job suchen oder im Arbeitsumfeld Kontakte knüpfen wollen.
 * Unternehmen: Firmen die nach neuen Mitarbeitern suchen und sich präsentieren wollen.
 
+![](media/UseCaseDiagramm.png)
+
 ### Anforderungen im Detail
 
 | **Als** | **möchte ich** | **so dass** | **Akzeptanz** |

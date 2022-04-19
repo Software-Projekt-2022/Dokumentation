@@ -62,16 +62,21 @@ http://cyber.city/unternehmensregister
 
 ### Commands
 **REST API**
-| **Name** | **Parameter** | **Resultat** |
-| :------ | :----- | :------ |
-| addCompany | id: integer | 200 |
-| deleteCompany | id: int | 200 |
-| addUser | id: int | 200 |
-| deleteUser | id: int | 200 |
-| newContact | id_user1: int, id_user2: int | 200 |
-| deleteContact | id_user1: int, id_user2: int | 200 |
-| newEmployee | id_company: int, id_user: int | 200 |
-| removeEmployee | id_company: int, id_user: int | 200 |
+| **Name** | **Parameter** | **Resultat** | **Cors** |
+| :------ | :----- | :------ | :------ |
+| addCompany | id: integer | 200 | local |
+| deleteCompany | id: int | 200 | local |
+| addUser | id: int | 200 | local |
+| deleteUser | id: int | 200 | local |
+| newContact | id_user1: int, id_user2: int | 200 | local |
+| deleteContact | id_user1: int, id_user2: int | 200 | local |
+| newEmployee | id_company: int, id_user: int | 200 | local |
+| removeEmployee | id_company: int, id_user: int | 200 | local |
+| addCeo | id_company: int, id_user: int | 200 | local |
+| removeCeo | id_company: int, id_user: int | 200 | local |
+| getCompanies | - | 200 | * |
+| getCeos | - | 200 | * |
+| getJobs | - | 200 | * |
 
 ### Events
 

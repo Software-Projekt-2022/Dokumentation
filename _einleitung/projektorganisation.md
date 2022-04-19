@@ -45,7 +45,7 @@
 - Werte und menschliche Umgangsformen
   - Respekt, Ausreden lassen, Höflichkeit
 - Wie werden Meinungsverschiedenheiten gelöst?
-  - Untereinande Konflikte lösen, danach an Scrum-Master eskalieren, danach an Dozent
+  - Untereinander Konflikte lösen, danach an Scrum-Master eskalieren, danach an Dozent
 - Wer legt Prioritäten und Zeitpläne fest?
   - Gesamtes Team
 - Was passiert, wenn ein Teammitglied ein Ziel nicht einhält bzw. die Erwartungen nicht erfüllt?
@@ -60,16 +60,15 @@
   - automatische und manuelle Tests
   - Statische Codeanalyse
   - Security
-  - ...
 - Aufteilung in Repositories gemäß Systemarchitektur?
   - Je ein Repo für jeden Microservices
 - Versionskontrolle? Git-Workflow?
   - Pro Sprint einen development-Branch
-- Wie werden Änderungen intgriert und ausgeliefert? CI/CD?
+- Wie werden Änderungen integriert und ausgeliefert? CI/CD?
   - github-actions o.ä.
 - Wie wird die Infrastruktur spezifiziert? Containerisierung?
   - docker
-- Implementierung
+- für folgende Punkte ist jeder Software Engineer während der Implementierung selber verantwortlich:
   - Entwicklungsumgebung.
   - Betriebssysteme.
   - Programmiersprachen.
@@ -91,8 +90,6 @@
 | Jason Piper | Software Engineer | Microservice [Authentifizierung](authentifizierung/index) |
 | Clemens Maas | Software Engineer | Microservice [Unternehmensregister](unternehmensregister/index) |
 | Mattis Fieseler | Software Engineer | Microservice [Kultur](kultur/index) |
-
-Hinweis: Ein Microservice für die Authentifizierung/Autorisierung könnte sinnvoll sein.
 
 ## Grober Meilensteinplan
 

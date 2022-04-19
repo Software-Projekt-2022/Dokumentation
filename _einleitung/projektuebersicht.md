@@ -19,7 +19,16 @@ Die [Projektorganisation](_einleitung/projektorganisation) findet über das [Kan
 
 ## Ziele
 
-- Anwendungsbereiche, Motivation, Umfang, Alleinstellungsmerkmale, Marktanforderungen
+Mit den Bereichen:
+- Kultur
+- Gesundheitswesen
+- Verkehr
+- Unternehmen
+- Umwelt
+
+wollen wir im Rahmen des Sommersemesters 2022 die wichtigsten Aspekte des Alltags unserer Bürger digital abbilden. <br>
+
+
 
 Die Zielbenutzergruppen der Services unterliegen keinen Einschränkungen.
 Vermutlich lassen sich die ersten Nutzer als jung und technik-affin charakterisieren. Diese *Early-Adopters* sind jedoch nicht die alleinige Zielgruppe.
@@ -129,12 +138,7 @@ Detailliertere Informationen zu den Events gibt es in der [Spezifikation mit Asy
 
 ## Funktionale Anforderungen 
 
-- "Globale" Funktionalitäten, die alle Microservices überspannen
-
-## Abläufe
-
-- Abläufe der Kommunikation von Microservices
-  in Sequenz- oder Aktivitätsdiagramm darstellen
+Über den RabbitMQ Event Bus sollen alle Microservices aktuelle Meldungen und Neuigkeiten senden können, sodass es eine Art News-Feed der Stadt gibt.
 
 ## Nicht-funktionale Anforderungen 
 

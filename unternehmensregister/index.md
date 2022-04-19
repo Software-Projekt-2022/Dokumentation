@@ -61,6 +61,7 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 
 ### Commands
 **REST API**
+
 | **Name** | **Parameter** | **Resultat** | **Cors** |
 | :------ | :----- | :------ | :------ |
 | addCompany | id: integer | 200 | local |
@@ -80,6 +81,7 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 ### Events
 
 *Eventuell nicht benötigt da -> REST API*
+
 | **Name** | **Payload** |
 | :------ | :----- |
 | newWorker | Infos des neu eingestellen ÖPNV Mitarbeiters |

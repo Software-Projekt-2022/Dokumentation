@@ -63,11 +63,8 @@ Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergang
 
 ## Abläufe
 
-  **Funktionen der Buttons**
-
-![Aktivitaeten](media/Aktivitaeten.jpg)
+Der Ablauf beschränkt sich auf die Aktualisierung der API-Daten(beschrieben im Abschnitt API) und das Aufrufen der Tabellen bei Knopfdruck.
   
-
 ## Schnittstellen
 
 ### API

@@ -78,18 +78,11 @@ http://cyber.city/unternehmensregister
 | removeEmployee | id_company: int, id_user: int | 'success' |
 
 ### Events
-//TODO
 
-### Queries
-//TODO
-
-### Dependencies
-
-#### RPC
-//TODO
-
-#### Event-Subscriptions
-Habe ich nicht
+*Eventuell nicht benötigt da -> REST API*
+| **Name** | **Payload** |
+| **newWorker** | **Infos des neu eingestellen ÖPNV Mitarbeiters** |
+| **removedWorker** | **Infos des abgesprungen Mitarbeiters** |
 
 ## Technische Umsetzung
 

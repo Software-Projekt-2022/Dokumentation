@@ -233,6 +233,12 @@ Autor: Mark Mödeker
   * Was wird alles reviewed? 
 * Andreas braucht ein eigenes Repository für Beispiele, etc.
 * Event Spezifikation automatisiertes Deployment funktioniert nicht
-* Sprintplanning
+* Sprintplanning extra Informationen und Diskussionsstoff
   * wieder 7 Tage
-  * 
+  * wie soll der Entwicklungsbranch heißen? Dev-Branch/Sprint-Branch/Feature-Branch: Ein Dev-Branch wochenübergreifend
+  * Ein Dev-Branch von dem Features-Branches abgezweigt werden können. Nur der Dev-Branch wird am Ende des Sprints in den Main-Branch gemerged.
+  * Eventueller Docker Workshop? Abgelehnt.
+  * Beispieldaten nur für Testfälle oder auch für die Implementierung
+  * Beispieldaten sollten zusammenhängend funktionieren
+* Arbeitsaufwand für eine Woche gerechtfertigt?
+  * Im Allgemeinen ein schaffbarer Sprint

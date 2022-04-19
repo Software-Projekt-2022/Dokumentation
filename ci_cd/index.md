@@ -1,62 +1,34 @@
 # Continuous Integration / Continuos Deployment
 
-//TODO Aktivitätsdiagramme CI/CD
-//TODO Diagramm/Erklärung Traefik
-//TODO erwähnen poxyauflösung über subdomains
-
 **Autor:** Leon Stümpeley
 
-## CI
+## CI/CD
 * Bei jedem Push auf einen Main-Branch, wird dieser über einen Github Actions Workflow gebaut und in einem ausführbaren Docker Image gespeichert, dieser wird in einer Docker-Registry abgelegt.
 
-## CD
 * Nach ablegen eines Docker Images wird dieses im Running Enviroment deployed.
 
-## Deployment-Components
-* Deployed in Docker Container
+![](assets\ci_cd-workflow.png)
+## Deployment-Komponenten
+| Komponente          | Anbieter Wahl          |
+|---------------------|------------------------|
+| Deployment Umgebung | Ubuntu 20.04           |
+| Datenbank Server    | MySQL                  |
+| Reverse Proxy       | Traefik                |
+| DNS Eintrag         | Name.com               |
+| TLS Zertifikat      | Let's Encrypt          |
+| Cloud Platform      | Digital Ocean Droplet  |
+| Docker Registry     | Digital Ocean Registry |
 
-    ![](assets\docker.png)
 
-* Github Repositories
+## Reverse Proxy Konfiguration
+* Die Zuordnung zum Micro-Service erfolgt über die Subdomain
 
-    ![](assets\github.png)
-
-* Deployment Server
-
-    -> Ubuntu 20.04
-
-    ![](assets\ubuntu.png)
-    
-    -> Digital Ocean Droplet
-
-    ![](assets\digitalOcean.png)
-
-* Database Server
-    
-    -> MySQL
-
-    ![](assets/mysql.png)
-
-* Reverse Proxy Server
-    
-    ->traefik proxy
-
-    ![](assets/traefik.png)
-
-* Docker Registry
-    
-    ->Private Digital Ocean Registry
-    
-    ->Eventueller Wechsel auf Public Docker Hub Registry
-
-* DNS Entry
-    
-    ->cyber-city.systems (via name.com)
-
-    ![](assets/name.com.png)
-
-* TLS Certificate
-    
-    ->Automatic via letsencrypt
-
-    ![](assets/letsencrypt.svg)
+| Micro-Service        	| Subdomain                      	|
+|----------------------	|--------------------------------	|
+| Landing Page         	| cyber-city.systems             	|
+| Verkehr              	| verkehr.cyber-city.systems     	|
+| Kultur               	| kultur.cyber-city.systems      	|
+| Gesundheitswesen     	| gesundheit.cyber-city.systems  	|
+| Umwelt               	| umwelt.cyber-city.systems      	|
+| Unternehmensregister 	| unternehmen.cyber-city.systems 	|
+| Authentifikation     	| auth.cyber-city.systems        	|

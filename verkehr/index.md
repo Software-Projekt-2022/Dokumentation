@@ -9,7 +9,7 @@
 ## Überblick
 
 	In der Domäne Verkehr werden grundsätzlich alle Inhalte der Personen-Fortbewegung festgehalten.
-	Dies betrifft in unserer Cyber City den Status der Parkplätze und Ladesäulen,
+	Dies betrifft in unserer CyberCity den Status der Parkplätze und Ladesäulen,
 	die Addressen von Tankstellen und aktuelle Preise suchen,
 	Addressen und Kontaktinformationen von Werkstätten einsehen,
 	Informationen zum öffentlichen Nahverkehr mit Bus und Bahn erhalten, 

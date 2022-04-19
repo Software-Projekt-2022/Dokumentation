@@ -2,6 +2,7 @@
 * [**Projektorganisation**](_einleitung/projektorganisation)
 * [**Protokolle**](_einleitung/protokolle)
 * [**CI/CD**](ci_cd/index)
+* [**Events**](asyncapi/index)
 <br>
 
 - ***Microservices***

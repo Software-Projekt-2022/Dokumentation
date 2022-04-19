@@ -7,12 +7,12 @@
 
 * Nach ablegen eines Docker Images wird dieses im Running Enviroment deployed.
 
-![](assets\ci_cd-workflow.png)
+![](assets\ci_cd.png)
 ## Deployment-Komponenten
 | Komponente          | Anbieter Wahl          |
 |---------------------|------------------------|
 | Deployment Umgebung | Ubuntu 20.04           |
-| Datenbank Server    | MySQL                  |
+| DBMS                | MySQL                  |
 | Reverse Proxy       | Traefik                |
 | DNS Eintrag         | Name.com               |
 | TLS Zertifikat      | Let's Encrypt          |

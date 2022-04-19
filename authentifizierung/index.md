@@ -1,7 +1,7 @@
 # Authentifizierung
 
-**Autor:** Jason Piper
-
+**Autor:** Jason Piper <br>
+**URL:** http://auth.cyber-city.systems
 
 ## Überblick
   In der Authentifizierung kann ein Nutzer sich einloggen und registrieren, die Registrierung 
@@ -76,9 +76,6 @@ Der Mikroservice Authentifizierung kann einen Nutzer anlegen. Dieser bekommt dan
   
 **Beispiel:**
 
-### URL
-
-http://smart.city/authentifizierung
 
 ### Commands
 

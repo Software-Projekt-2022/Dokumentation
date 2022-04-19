@@ -1,6 +1,7 @@
 # Unternehmensregister
 
-**Autor:** Clemens Maas
+**Autor:** Clemens Maas <br>
+**URL:** http://unternehmensregister.cyber-city.systems
 
 ## Überblick
 
@@ -57,8 +58,6 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 
 ## Schnittstellen
 
-### URL
-http://cyber.city/unternehmensregister
 
 ### Commands
 **REST API**

@@ -41,11 +41,11 @@ Bei uns steht der Bürger im Mittelpunkt. Wir wollen Zugang und Möglichkeiten z
 ## Risiken
 
 | Stärken      | Schwächen           | 
-| :-------------: | :-------------: | 
-| <ul><li>item1</li><li>item2</li></ul>| <ul><li>item1</li><li>item2</li></ul> |
+| ------------- | ------------- | 
+| <ul><li>Verschiedene Expertiesen</li><li>Viele Blickwinkel</li><li>Discord-Kommunikation</li></ul>| <ul><li>Wenig Scrum Erfahrung</li><li>Wenig Fullstack-Erfahrung</li></ul> |
 |  || |
 | **Chancen** | **Risiken** | 
-| <ul><li>item1</li><li>item2</li></ul>| <ul><li>item1</li><li>item2</li></ul> |
+| <ul><li>Erlernen neuer Fähgikeiten</li><li>Scrum-Praxiserfahrungen sammeln</li></ul>| <ul><li>Planung</li><li>Organisation</li><li>Zeitmanagement</li><li>großes Team</li></ul> |
 
 Die Fähigkeiten und Erfahrungen einzelner Teammitglieder unterscheiden sich teilweise stark.
 Bisher hat auch noch niemand einen kompletten Microservice alleine implementiert. 

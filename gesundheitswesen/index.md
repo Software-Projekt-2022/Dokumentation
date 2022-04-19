@@ -1,6 +1,7 @@
 # Gesundheitswesen
 
-**Autor:** Malte Theodor Kanders
+**Autor:** Malte Theodor Kanders <br>
+**URL:** http://gesundheitswesen.cyber-city.systems
 
 
 ![THEME](media/theme_pic.jpg)
@@ -101,9 +102,6 @@ Vorläufige Skizze:
 * Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
 
 
-### URL
-
-http://smart.city/gesundheitssystem/
 
 ### Commands / Events ?
 

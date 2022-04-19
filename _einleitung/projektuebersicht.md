@@ -19,7 +19,16 @@ Die [Projektorganisation](_einleitung/projektorganisation) findet über das [Kan
 
 ## Ziele
 
-- Anwendungsbereiche, Motivation, Umfang, Alleinstellungsmerkmale, Marktanforderungen
+Mit den Bereichen:
+- Kultur
+- Gesundheitswesen
+- Verkehr
+- Unternehmen
+- Umwelt
+
+wollen wir im Rahmen des Sommersemesters 2022 die wichtigsten Aspekte des Alltags unserer Bürger digital abbilden. <br>
+
+
 
 Die Zielbenutzergruppen der Services unterliegen keinen Einschränkungen.
 Vermutlich lassen sich die ersten Nutzer als jung und technik-affin charakterisieren. Diese *Early-Adopters* sind jedoch nicht die alleinige Zielgruppe.
@@ -32,11 +41,11 @@ Bei uns steht der Bürger im Mittelpunkt. Wir wollen Zugang und Möglichkeiten z
 ## Risiken
 
 | Stärken      | Schwächen           | 
-| :-------------: | :-------------: | 
-| <ul><li>item1</li><li>item2</li></ul>| <ul><li>item1</li><li>item2</li></ul> |
+| ------------- | ------------- | 
+| <ul><li>Verschiedene Expertiesen</li><li>Viele Blickwinkel</li><li>Discord-Kommunikation</li></ul>| <ul><li>Wenig Scrum Erfahrung</li><li>Wenig Fullstack-Erfahrung</li></ul> |
 |  || |
 | **Chancen** | **Risiken** | 
-| <ul><li>item1</li><li>item2</li></ul>| <ul><li>item1</li><li>item2</li></ul> |
+| <ul><li>Erlernen neuer Fähgikeiten</li><li>Scrum-Praxiserfahrungen sammeln</li></ul>| <ul><li>Planung</li><li>Organisation</li><li>Zeitmanagement</li><li>großes Team</li></ul> |
 
 Die Fähigkeiten und Erfahrungen einzelner Teammitglieder unterscheiden sich teilweise stark.
 Bisher hat auch noch niemand einen kompletten Microservice alleine implementiert. 
@@ -49,10 +58,12 @@ Jeder Microservice muss als geschlossenes System funktionieren, damit auch dann 
 ## Stakeholder
 
 | Funktion / Relevanz | Name | Kontakt / Verfügbarkeit | Wissen  | Interessen / Ziele  | 
-|---|---|---|---|---|
-| Leiter der Bibliothek, Fachlicher Entscheider  |  Herr Bauer | Tel. 409000, Von 9-19 Uhr telefonisch erreichbar, Mitarbeit zu 30% möglich, Nürnberg  | Kennt das Altsystem aus der Anwendersicht, soll mit dem System arbeiten  | Vereinfachung der Ausleihprozesse  |  
-| Administrator, Informationslieferant bzgl. Wartungsanforderungen  | Herr Heiner  | Heiner@gmx.net, Per E-Mail, immer erreichbar, Verfügbarkeit 50%, Nürnberg  | Vertraut mit vergleichbarer Verwaltungssoftware   |  Stabiles System, geringer Wartungsaufwand | 
-| Product-Owner, Entscheider - als Koordinator der Stakeholderanforderungen   | Paul Ottmer  |  po@ottmer.de, Per E-Mail und tel. tagsüber, Verfügbarkeit 100%, Nürnberg  | Koordinator für die Inputs der Stakeholder  | ROI des Systems sicherstellen  | 
+|---|---|---|---|---| 
+| Kommunal-Politiker | Herr Schmidt | schmidt@gmx.de | Kennt Angebot und Nachfrage städtischer Angebote | Digitalisierung der Stadt vorantreiben |
+| Ansprechperson ÖPNV-Verbund | Frau Tannenbaum | marietb@gmail.com | Chancen und Herausforderungen des städtischen Verkehrs | Möchte ÖPNV-Angebot der Stadt digital zugänglich machen |
+| Referenz-Bürger | Frau Meier  | mmeier@outlook.de, Verfügbarkeit für erste Usertests | Kennt die Bedürfnisse der Bürger | Möchte Alltag digitaler und moderner gestalten können |
+| Dozent, "Auftraggeber" | Herr Prof. Dr. Brunsmann | joerg.brunsmann@fh-bielefeld.de | Softwaretechnik und Programmierung | Umfangreiches Gesamtprodukt, gute Teamarbeit |
+| Product-Owner, Entscheider - als Koordinator der Stakeholderanforderungen | Tim Bollmeyer |  tim.bollmeyer@fh-bielefeld.de, Verfügbarkeit 100%, Minden  | Koordinator für die Inputs der Stakeholder  | ROI des Systems sicherstellen  | 
 
 ## Systemübersicht
 
@@ -127,18 +138,14 @@ Detailliertere Informationen zu den Events gibt es in der [Spezifikation mit Asy
 
 ## Funktionale Anforderungen 
 
-- "Globale" Funktionalitäten, die alle Microservices überspannen
-
-## Abläufe
-
-- Abläufe der Kommunikation von Microservices
-  in Sequenz- oder Aktivitätsdiagramm darstellen
+Über den RabbitMQ Event Bus sollen alle Microservices aktuelle Meldungen und Neuigkeiten senden können, sodass es eine Art News-Feed der Stadt gibt.
 
 ## Nicht-funktionale Anforderungen 
 
 ### Rahmenbedingungen
 
-- Normen, Standards, Protokolle, Hardware, externe Vorgaben
+Die gesamte Anwendung soll mit Blick auf Datenschutz und IT-Sicherheit nach den einschlägigen Normen und dem Stand der Technik implementiert werden.
+Besonders soll dabei auf die [DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679) und die [ISO 27001](https://www.iso.org/standard/54534.html) hingewiesen werden.
 
 ### Betriebsbedingungen
 
@@ -169,13 +176,3 @@ Analysierbarkeit |X|-|-|-|
 Modifizierbarkeit |-|-|-|X|
 Stabilität |X|-|-|-|
 Prüfbarkeit |X|-|-|-|
-
-
-## Glossar 
-
-- Definitionen, Abkürzungen, Begriffe
-
-## Referenzen
-
-* Handbücher, Gesetze
-* z.B. Datenschutzgrundverordnung

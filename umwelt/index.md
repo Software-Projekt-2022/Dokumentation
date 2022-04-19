@@ -44,7 +44,7 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 
 ![mockup01](media/mockup01.png)
 
-**Buttons zum Ansehen von Späterem Wetter**
+**Buttons zum Ansehen von späterem Wetter**
 
 ![mockup02](media/mockup02.png)
 
@@ -59,11 +59,11 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 
 ## Datenmodell 
 
-Eine Datenbank wird für den Wetter Microservice nicht benötigt, da die Vergangenen Wetterdaten ebenfalls über die API verfügbar sind.
+Speichern Besonderer Wetterereignisse.
 
 ## Abläufe
 
-Der Ablauf beschränkt sich auf die Aktualisierung der API-Daten(beschrieben im Abschnitt API) und das Aufrufen der Tabellen bei Knopfdruck.
+Der Ablauf beschränkt sich auf die Aktualisierung der API-Daten(beschrieben im Abschnitt API) und das Aufrufen/Schließen der Tabellen bei Knopfdruck.
   
 ## Schnittstellen
 
@@ -79,7 +79,7 @@ Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir 
 
 Wasserstand: Pegelonline(https://www.pegelonline.wsv.de/webservice/dokuRestapi)
 Pegelonline liefert den Wasserstand und viele andere Daten, wovon die meisten Jedoch uninteressant für User wären, weswegen wir hier nur das Wichtigste darstellen. 
-Die Aktualisierung des Wasserstands, wird wahrscheinlich ein Mal pro Stunde stattfinden.
+Die Aktualisierung des Wasserstands, wird wahrscheinlich ein Mal pro Stunde stattfinden(Bei Hochwassergefahr ggf. öfter).
 
 #### Pollen
 
@@ -110,15 +110,17 @@ Da die Daten der Pollen API nur täglich aktualisiert werden, wird diese Anzeige
 
 ## Technische Umsetzung
 
+Aufgrund von mangelnder Erfahrung in Webentwicklung ist dieser Abschnitt hier etwas grob gehalten. Ich es in den ersten 2,5 Wochen des Semesters noch nicht geschafft mich weit genug in die Materie hinein zu arbeiten um die beste Lösung zu finden. Anstatt mich jetzt auf eine möglicherweise zweitklassige Lösung festzulegen. Dieser Abschnitt wird entsprechend ergänzt/geändert. 
 
 ### Softwarearchitektur
 
 - Darstellung von Softwarebausteinen (Module, Schichten, Komponenten)
 
-Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar. Das ist die Softwarearchitektur. Zum Beispiel Javascript-Software auf dem Client und Java-Software auf dem Server. In der Regel wird die Software dabei sowohl auf dem Client als auch auf dem Server in Schichten dargestellt.
+ 
 
 * Server
   * Web-Schicht
+    - REACT
   * Logik-Schicht
     - Javascript 
   * Persistenz-Schicht
@@ -127,9 +129,11 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
   * View-Schicht
     - HMTL
     - CSS
+    - Bootstrap 5?
   * Logik-Schicht
     - Javascript
   * Kommunikation-Schicht
+    - Javascript
 
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
@@ -138,8 +142,6 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
 (Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall pro API)
 
 ### Entwurf
-
-Aufgrund von mangelnder Erfahrung in den benutzten Programmiersprachen bzw. Webentwicklung ist das UML hier grob gehalten, da ich mich erst in die Materie hineinarbeite.
 
 **Javascript API-Einbindung und Darstellung**
 

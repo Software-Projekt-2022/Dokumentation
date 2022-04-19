@@ -109,7 +109,7 @@ http://cyber.city/unternehmensregister
 	* JavaScript
 
 ### Entwurf
-//TODO
+![](media/aktivitätsdiagramm.png)
 
 ### Fehlerbehandlung
 * API Response Codes:

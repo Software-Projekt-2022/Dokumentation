@@ -49,10 +49,12 @@ Jeder Microservice muss als geschlossenes System funktionieren, damit auch dann 
 ## Stakeholder
 
 | Funktion / Relevanz | Name | Kontakt / Verfügbarkeit | Wissen  | Interessen / Ziele  | 
-|---|---|---|---|---|
-| Leiter der Bibliothek, Fachlicher Entscheider  |  Herr Bauer | Tel. 409000, Von 9-19 Uhr telefonisch erreichbar, Mitarbeit zu 30% möglich, Nürnberg  | Kennt das Altsystem aus der Anwendersicht, soll mit dem System arbeiten  | Vereinfachung der Ausleihprozesse  |  
-| Administrator, Informationslieferant bzgl. Wartungsanforderungen  | Herr Heiner  | Heiner@gmx.net, Per E-Mail, immer erreichbar, Verfügbarkeit 50%, Nürnberg  | Vertraut mit vergleichbarer Verwaltungssoftware   |  Stabiles System, geringer Wartungsaufwand | 
-| Product-Owner, Entscheider - als Koordinator der Stakeholderanforderungen   | Paul Ottmer  |  po@ottmer.de, Per E-Mail und tel. tagsüber, Verfügbarkeit 100%, Nürnberg  | Koordinator für die Inputs der Stakeholder  | ROI des Systems sicherstellen  | 
+|---|---|---|---|---| 
+| Kommunal-Politiker | Herr Schmidt | schmidt@gmx.de | Kennt Angebot und Nachfrage städtischer Angebote | Digitalisierung der Stadt vorantreiben |
+| Ansprechperson ÖPNV-Verbund | Frau Tannenbaum | marietb@gmail.com | Chancen und Herausforderungen des städtischen Verkehrs | Möchte ÖPNV-Angebot der Stadt digital zugänglich machen |
+| Referenz-Bürger | Frau Meier  | mmeier@outlook.de, Verfügbarkeit für erste Usertests | Kennt die Bedürfnisse der Bürger | Möchte Alltag digitaler und moderner gestalten können |
+| Dozent, "Auftraggeber" | Herr Prof. Dr. Brunsmann | joerg.brunsmann@fh-bielefeld.de | Softwaretechnik und Programmierung | Umfangreiches Gesamtprodukt, gute Teamarbeit |
+| Product-Owner, Entscheider - als Koordinator der Stakeholderanforderungen | Tim Bollmeyer |  tim.bollmeyer@fh-bielefeld.de, Verfügbarkeit 100%, Minden  | Koordinator für die Inputs der Stakeholder  | ROI des Systems sicherstellen  | 
 
 ## Systemübersicht
 
@@ -138,7 +140,8 @@ Detailliertere Informationen zu den Events gibt es in der [Spezifikation mit Asy
 
 ### Rahmenbedingungen
 
-- Normen, Standards, Protokolle, Hardware, externe Vorgaben
+Die gesamte Anwendung soll mit Blick auf Datenschutz und IT-Sicherheit nach den einschlägigen Normen und dem Stand der Technik implementiert werden.
+Besonders soll dabei auf die [DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679) und die [ISO 27001](https://www.iso.org/standard/54534.html) hingewiesen werden.
 
 ### Betriebsbedingungen
 
@@ -169,13 +172,3 @@ Analysierbarkeit |X|-|-|-|
 Modifizierbarkeit |-|-|-|X|
 Stabilität |X|-|-|-|
 Prüfbarkeit |X|-|-|-|
-
-
-## Glossar 
-
-- Definitionen, Abkürzungen, Begriffe
-
-## Referenzen
-
-* Handbücher, Gesetze
-* z.B. Datenschutzgrundverordnung

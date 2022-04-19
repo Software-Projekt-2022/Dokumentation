@@ -242,3 +242,5 @@ Autor: Mark Mödeker
   * Beispieldaten sollten zusammenhängend funktionieren
 * Arbeitsaufwand für eine Woche gerechtfertigt?
   * Im Allgemeinen ein schaffbarer Sprint
+* SM und PO müssen mehr auf Microservice Ebene die Issues schreiben. So können wir einen gerechten Arbeitsaufwand pro Woche gewährleisten.
+* Fragerunde mit den Software Engineers in der wir deren Aufgaben für Sprint 2 besprechen und einteilen.

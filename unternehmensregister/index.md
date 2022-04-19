@@ -61,21 +61,17 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 http://cyber.city/unternehmensregister
 
 ### Commands
-**Synchronous**
+**REST API**
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| addCompany | id: integer | 'success |
-| deleteCompany | id: int | 'success' |
-| addUser | id: int | 'success' |
-| deleteUser | id: int | 'success' |
-
-**Asynchronous**
-| **Name** | **Parameter** | **Resultat** |
-| :------ | :----- | :------ |
-| newContact | id_user1: int, id_user2: int | 'success |
-| deleteContact | id_user1: int, id_user2: int | 'success |
-| newEmployee | id_company: int, id_user: int | 'success |
-| removeEmployee | id_company: int, id_user: int | 'success' |
+| addCompany | id: integer | 200 |
+| deleteCompany | id: int | 200 |
+| addUser | id: int | 200 |
+| deleteUser | id: int | 200 |
+| newContact | id_user1: int, id_user2: int | 200 |
+| deleteContact | id_user1: int, id_user2: int | 200 |
+| newEmployee | id_company: int, id_user: int | 200 |
+| removeEmployee | id_company: int, id_user: int | 200 |
 
 ### Events
 

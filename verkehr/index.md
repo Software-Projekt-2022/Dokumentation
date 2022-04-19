@@ -56,30 +56,30 @@
 
 | **Name**| **In meiner Rolle als**...|   ...**möchte ich**...   | ..., **so dass**... | **Erfüllt, wenn**... | **Priorität**   |
 |:-----|:----------:|:-------------------|:-------------|:---------|:----------------|
-| Nachichten  | Reporter//in | wissen welche Unfälle wann passiert sind | ich darüber Berichten kann | Neuigkeiten angezeigt werden | Muss |
-| Neuigkeiten Berichten | Polizist//in | über eine Sperrung informieren können | sie umfahren werden kann | die Verkehrsteilnehmer informiert sind | Muss |
-| Parkauskunft | Autofahrer//in | wissen wo Parkplätze frei sind | ich mein Auto abstellen kann | ich sehen kann, welche Plätze frei sind | Muss |
-| Parkplatz Informationen | Event Besucher//in | wissen welche Parkplätze wo verfügbar sind | ich Parkmöglichkeiten vergleichen kann | ich einsehen kann wie die Auswahl der Plätze ist | Sollte|
-| Ladestationen | Elektro Auto Besitzer//in | mich über mögliche Ladesäulenplätze informieren | ich mein Auto laden kann | ich den Status der Ladesäulen einsehen kann| Muss |
-| Parkplatz Finder | Autofahrer//in | einen Parkplatz finden | ich dort Parken kann | die Navigatoin mich zu einem Parkplatz führt | Sollte |
-| Fahrpläne | Student//in | wissen wie ich von A nach B mit dem Bus komme | ich nicht den ganzen Weg laufen muss | ich sehen kann welchen Bus ich nehemen muss | Muss|
-| Haltestellen Finden | Ortsfremde//r | erfahren wo die passende Haltestelle ist | ich nicht ewig dannach suchen muss | ich eine Wegbeschreibung erhalte | Sollte |
-| Arbeitszeiten | Bahnfahrer//in | wissen wann und wo meine Schicht beginnt | ich pünktlich und am richtigen Ort meine Schicht beginnen kann | ich meinen Artbeitsplan einsehen kann | Muss |
-| Spritpreise Finden | Autofahrer//in | sehen wo ich für welchen Spritpreis ich tanken kann | mein Auto nicht leer ist und ich nicht zu viel zahle | mir die möglichen Tankstellen angezeigt werden | Muss |
-| Tankstelle Finden | Ortsfremde//r | die nächste Tankstelle finden | ich nicht planlos umher Fahre und suche | mir eine Wegbeschreibung gegeben wird | Sollte |
+| Nachichten  | Reporter/in | wissen welche Unfälle wann passiert sind | ich darüber Berichten kann | Neuigkeiten angezeigt werden | Muss |
+| Neuigkeiten Berichten | Polizist/in | über eine Sperrung informieren können | sie umfahren werden kann | die Verkehrsteilnehmer informiert sind | Muss |
+| Parkauskunft | Autofahrer/in | wissen wo Parkplätze frei sind | ich mein Auto abstellen kann | ich sehen kann, welche Plätze frei sind | Muss |
+| Parkplatz Informationen | Event Besucher/in | wissen welche Parkplätze wo verfügbar sind | ich Parkmöglichkeiten vergleichen kann | ich einsehen kann wie die Auswahl der Plätze ist | Sollte|
+| Ladestationen | Elektro Auto Besitzer/in | mich über mögliche Ladesäulenplätze informieren | ich mein Auto laden kann | ich den Status der Ladesäulen einsehen kann| Muss |
+| Parkplatz Finder | Autofahrer/in | einen Parkplatz finden | ich dort Parken kann | die Navigatoin mich zu einem Parkplatz führt | Sollte |
+| Fahrpläne | Student/in | wissen wie ich von A nach B mit dem Bus komme | ich nicht den ganzen Weg laufen muss | ich sehen kann welchen Bus ich nehemen muss | Muss|
+| Haltestellen Finden | Ortsfremde/r | erfahren wo die passende Haltestelle ist | ich nicht ewig dannach suchen muss | ich eine Wegbeschreibung erhalte | Sollte |
+| Arbeitszeiten | Bahnfahrer/in | wissen wann und wo meine Schicht beginnt | ich pünktlich und am richtigen Ort meine Schicht beginnen kann | ich meinen Artbeitsplan einsehen kann | Muss |
+| Spritpreise Finden | Autofahrer/in | sehen wo ich für welchen Spritpreis ich tanken kann | mein Auto nicht leer ist und ich nicht zu viel zahle | mir die möglichen Tankstellen angezeigt werden | Muss |
+| Tankstelle Finden | Ortsfremde/r | die nächste Tankstelle finden | ich nicht planlos umher Fahre und suche | mir eine Wegbeschreibung gegeben wird | Sollte |
 | Spritpreise Vergleichen | Spaarfuchs | sehen an welcher Tankstelle ich am günstigsten tanken kann | ich Geld spaare | ich eine Übersicht der Preise bekomme | Könnte |
-| Werkstatt Finden | Autofahrer//in | eine Werkstatt finden | Reperaturen an meinem Auto durchführen lassen kann | mir mögliche Werkstätte angezeigt werden | Muss |
-| Werkstatt Informationen | Tuner//in | mich über eine Werkstatt informieren | ich mein Auto zur richtigen Werkstatt bringen kann | ich weitere Informationen zu einer Werkstatt einsehen kann | Könnte |
-| Werkstadt Aufsuchen | Autofahrer//in | den Weg zu einer Werkstatt wissen | ich diese aufsuchen kann | mir eine Wegbeschreibung gegeben wird | Sollte |
-| KFZ/-Notfall | Verunfallte//r | herausfinden wie die Telefonnummer eines Abschleppdienstes ist | ich mein KFZ in eine Werkstatt bringen kann | mir die Telefonnummer angezeigt wird | Sollte |
-| Notfall Direktwahl | Verunfallte//r | direkt über einen Tastendruck den richtigen Dienst anrufen | ich direkt Telefonieren kann | ich automatisch anrufen kann | Könnte | 
+| Werkstatt Finden | Autofahrer/in | eine Werkstatt finden | Reperaturen an meinem Auto durchführen lassen kann | mir mögliche Werkstätte angezeigt werden | Muss |
+| Werkstatt Informationen | Tuner/in | mich über eine Werkstatt informieren | ich mein Auto zur richtigen Werkstatt bringen kann | ich weitere Informationen zu einer Werkstatt einsehen kann | Könnte |
+| Werkstadt Aufsuchen | Autofahrer/in | den Weg zu einer Werkstatt wissen | ich diese aufsuchen kann | mir eine Wegbeschreibung gegeben wird | Sollte |
+| KFZ/-Notfall | Verunfallte/r | herausfinden wie die Telefonnummer eines Abschleppdienstes ist | ich mein KFZ in eine Werkstatt bringen kann | mir die Telefonnummer angezeigt wird | Sollte |
+| Notfall Direktwahl | Verunfallte/r | direkt über einen Tastendruck den richtigen Dienst anrufen | ich direkt Telefonieren kann | ich automatisch anrufen kann | Könnte | 
 
 **Misuse-Stories**
 
 | **Name**| **In meiner Rolle als**...|   ...**möchte ich**...   | ..., **so dass**... | **Behoben, wenn**... | **Priorität**   |
 |:-----|:----------:|:-------------------|:-------------|:---------|:----------------|
 | Fehlinformationen | Troll | einen Flaschen Unfall melden | ich andere irreführen kann | das nicht jeder nutzer diese Funktion nutzen kann | Muss |
-| Fahrer Sicherheit | Stalker//in | den Arbeitsplan eines Busfahrers//in einsehen | ich ihm//ihr schaden kann | nur die berechtigte Person ihren Plan einsehen kann | Muss |
+| Fahrer Sicherheit | Stalker/in | den Arbeitsplan eines Busfahrers einsehen | ich ihm schaden kann | nur die berechtigte Person ihren Plan einsehen kann | Muss |
 
 ## Graphische Benutzerschnittstelle
 

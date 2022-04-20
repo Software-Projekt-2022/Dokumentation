@@ -89,37 +89,23 @@
 
 ![mock_lists](media/mock_lists.png)
 
+#### Detailseite
+
+![mock_details](media/mock_details.png)
+
 #### Kategorien
 
-![mock_details](media/mock_details.png)
+![mock_details](media/mock_category.png)
 
 ## Datenmodell
 
 Vorläufige Skizze:
 
 ![ER](media/er_health_system.png)
-
-![mock_details](media/mock_details.png)
-
-## Datenmodell
-
-Vorläufige Skizze:
-
-![ER](media/er_health_system.png)
-
-(## Abläufe
-
-- Aktivitätsdiagramm für den Ablauf sämtlicher Use Cases
-- Aktivitätsdiagramme für relevante Use Cases
-- Aktivitätsdiagramm mit Swimlanes sind in der Regel hilfreich
-  für die Darstellung der Interaktion von Akteuren der Use Cases / User Stories
-- Abläufe der Kommunikation von Rechnerknoten (z.B. Client/Server)
-  in einem Sequenz- oder Aktivitätsdiagramm darstellen
-- Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
-  Softwaresystems hilfreich sind.
-)
 
 ## Schnittstellen
+
+<object data="../media/api_draft.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 [Api Draft](media/api_draft.pdf)
 

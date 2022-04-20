@@ -1,7 +1,10 @@
 # Gesundheitswesen
 
-**Autor:** Malte Theodor Kanders
+**Autor:** Malte Theodor Kanders <br>
+**URL:** http://gesundheitswesen.cyber-city.systems
 
+
+![THEME](media/theme_pic.jpg)
 
 ## Überblick
 
@@ -19,9 +22,10 @@
   - Bürger die nach Informationen/Kontaktmöglichkeiten suchen
   - Ärzte/Apotheken/Krankenhäuser/Therapeuten die sich vorstellen und eine Kontaktstelle
   bieten
-  Use Cases des Microservices:
 
-  ![USE_CASE](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/UseCase.PNG)
+
+  Use Cases des Microservices:
+  ![USE_CASE](media/use_case_health.png)
 
   Akteure:
     * Bürger
@@ -33,52 +37,68 @@
 
 ## Anforderungen im Detail
 
+#### Haupt Template
 
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Benutzer | die Suche nutzen | nicht selber Suchen muss| Suche gibt brauchbare Ergebnisse |
-| Benutzer | eine übersichtliche Seite | ich schnell finde was ich suche | wenig aber funktionale Anwendungen |
-| Benutzer | einfach rumgucken können | ich vielleicht finde was ich nicht gesucht habe | Auflistung verschiedener Angebote |
-| Benutzer | News sehen die relevanz haben können | ich über wichtiges Informiert bin | kleine News die Interessant sein können angezeigt bekommen |
-| Benutzer | eine Kontaktschnittstelle haben | ich um persöhnliche Hilfe bitten kann | Funktionierende Kontaktschnittstelle |
-| Benutzer | eine kurze grobe Übersicht relevanter Bereiche | ich einen Oberflächlichen EIndruck gewinnen kann | Auflistung mehrerer Kategorien (Optional) |
-| Benutzer | sehen was ein Vertreter eines Gesundheitsvertreters anbietet | ich den richtigen Kontakt finden kann | Eine Komponente mit Stichwortartiger Beschreibung des Angebots |
-| Gesundheitsvertreter | meine Angebote präsentieren | ich den Menschen meine Hilfe anbieten kann | Eine Komponente mit Stichwortartiger Beschreibung des Angebots |
-| Benutzer | einen ersten Eindruck des jeweiligen Anbieters gewinnen | damit ich mich vertraut fühle | Ein kurzes Tagebuch / Curriculum Vitae |
-| Gesundheitsvertreter | mich präsentieren | sich Patienten mir anvertrauen | Ein kurzes Tagebuch / Curriculum Vitae eintragen können |
-| Gesundheitsvertreter | mein Team präsentieren lassen | sich auch mein Team präsentieren kann | Ein kurzes Profil eines Teammitglieds erstellen können |
-| Benutzer | einen Termin online buchen könnnen | ich selbstbestimmt den Tag und die Uhrzeit bestimmen kann | einen Kalender mit auswählbaren Terminen |
-| Gesundheitsvertreter | einen Terminkalender anbieten | mein Team mehr Zeit für wichtigeres hat | einen Kalender mit auswählbaren Terminen |
-| Benutzer / Gesundheitsvertreter | Öffnungszeiten sichten können | diese leicht zugänglich sind | eine Zeitleiste mit Öffnungszeiten |
-| Benutzer | möchte ich eine kurze News seite | ich zu aktuellen Themen benachrichtigt werden kann | Ein paar News auf einer Seite |
-| Benutzer | möchte ich eine Seite mit den wichtigsten Informationen | ich Notdienste oder Notfallansprechpartner sofort finden kann | Eine Auflistung bestimmter Notfallansprechpartner |
-| Benutzer | einen ersten Eindruck des jeweiligen Anbieters gewinnen | damit ich mich vertraut fühle | Ein kurzes Tagebuch / Curriculum Vitae |
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| einen Home Button | ich immer schnell zum Start zurück finde | Im Hauptrand Segment ist ein Homebutton | Muss |
+| Benutzer| einen Kategorien Button | ich schnell alle verfügbaren Kategorien sehen kann | Im Hauptrand ist ein Kategorien Button | Muss |
+| Benutzer| einen Notfallkontakt Button | ich schnell alle Notfallkontakte sehen kann | Im Hauptrand ist ein Kategorien Button | Muss |
+| Benutzer| einen CycberCity Button | ich schnell zurück zur Landingpage komme | Im Hauptrand ist ein LandingPage Button | Muss |
+
+#### Startseite
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| einen Suche | ich mich nicht durch die Seite klicken muss | die Suche ist auf der Startseite zu finden | Muss |
+| Benutzer| einen Datumsbutton zur Suche | ich nur freie Termine oder Notfallkontakte im richtigen Zeitraum finden kann| zur Suche befindet sich ein Datumsbutton | Optional |
+| Benutzer| Einen Kategorie Button | ich zwischen Notfallkontakten oder Kategorien auswählen kann | zur Suche befindet sich ein Button um Kategorien auswählen zu können | Optional |
+
+#### Details
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| ein Profil Bild des Arztes | ich mir ein erstes Bild machen kann | Profilbild | Muss |
+| Benutzer| einen Kalender | an dem ich freie Tage zur Buchung finde | einen Kalender mit eingefärbten Tagen | Muss |
+| Benutzer| einen Button um zwischen bestimmten Zeiten auswählen zu können | ich einen genauen Termin buchen kann | verfügbare Auswahltermine | Muss |
+| Benutzer| am Rand dargestellt die Spezialgebiete des Spezialisten | ich weiß den richtigen Spezialisten zu haben | Liste aus Symbolen und Fachgebieten | Optional |
+
+#### Such/ Kategorie/ Notfallkontakt Listenseite
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| eine Liste mit den passenden Experten | ich alle relevanten Personen finde | Die passende Liste Personen | Muss |
+| Benutzer| ein Button der zu dem Profil führt | ich zu dem richtigen Profil komme | Ein zum Profil führender Button | Muss |
+| Benutzer| weitere Informationen der Experten | ich mehr Informationen habe | weitere Informationskästen | Optional |
+
+#### Kategorien
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| eine Sammlung an Kategorien | ich über diese Experten finden kann | eine "endliche" Menge an Kategorien | Muss |
 
 
 ## Graphische Benutzerschnittstelle
 
-  #### Startseite/Home:
+#### Startseite
 
-  ![HOME](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Home.png)
+![HOME](media/mock_home.png)
 
-  #### Über uns/Impressum/Hilfe
-  ![ABOUT US](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/AboutUs.png)
 
-  #### Einzelner Service
-  ![SINGLE SERVICE](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Single%20Service.png)
 
-  #### Kategorie/Notfallkontakt
-  ![CATEGORY/EMERGENCY](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/KategorienUndNotfallkontakte.PNG)
+#### Such/ Kategorie/ Notfallkontakt Listenseite
 
-  #### Aktivitätsdiagramm
-  [ACTIVITY_DIAGRAMM](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Aktivit%C3%A4tsdiagramm.png)
+![mock_lists](media/mock_lists.png)
 
+#### Kategorien
+
+![mock_details](media/mock_details.png)
 
 ## Datenmodell
 
 Vorläufige Skizze:
 
-![ER](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/ER_Diagramm.PNG)
+![ER](media/er_health_system.png)
 
 (## Abläufe
 
@@ -94,25 +114,25 @@ Vorläufige Skizze:
 
 ## Schnittstellen
 
-[Api Draft](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/CyberCity%20API%20Draft.pdf)
-* Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
+[Api Draft](media/api_draft.pdf)
 
-
-### URL
-
-http://smart.city/microservices/wealthsystem/
 
 ### Commands / Events ?
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| createHelthExpert() | int x_id, timestamp x_date, x_name string, x_title string | int id |
+| createHealthExpert() | int x_id, timestamp x_date, x_name string, x_title string | int id |
 | createCrewMember() | int crew_id, timestamp crew_date, crew_name string | int id |
 | removeHealthExpert() | int id | int id |
-| removeCrewMember | int id | int id |
-| createBreakingNews | int n_id, string message | int id |
+| removeCrewMember() | int id | int id |
+| createBreakingNews() | int n_id, string message | int id |
 
+### Events
 
+| **Name** | **Parameter** | **Resultat** |
+| :------ | :----- | :------ |
+| air_quality_waring_issues |  string message | string polution_type | string pollution_level | int id |
+| daily_cultural_events_published |  string name | string location | string adress | string start | string end | int id |
 
 ## Technische Umsetzung
 
@@ -141,19 +161,19 @@ http://smart.city/microservices/wealthsystem/
 
 ##### FullStack WebAPP in der Gesamtübersicht:
 
-![FULLSTACK](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Fullstack%20UML.PNG)
+![FULLSTACK](media/sw_fullstack.png)
 
 ##### Model UML:
 Hier sollen alle Klassen die wie eine Daten Klasse operieren verlagert werden. So soll doppeltes schreiben und der Vorteil der durchgängigen Benutzung einer Sprache genutzt werden. Ebenso werden die Skripte zum erstellen der passenden Datenbank Tabellen abgelegt.
-![MODEL](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Model%20UML.PNG)
+![MODEL](media/sw_model.PNG)
 
 ##### Backend UML:
-![BACKEND](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Backend-JVM-UML.PNG)
+![BACKEND](media/sw_backend.PNG)
 
 ##### Frontend UML
 Nur kurze Idee, denn da noch kein Framework für das Frontend festgelegt wurde(KVision vs React) kann nicht genau die vorgehensweise bestimmt werden.
-Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert da es ohne, oder fast ohne CSS und HTML auskommt.
-![FRONTEND](https://github.com/Software-Projekt-2022/Dokumentation/blob/Unterseite-Gesundheitswesen/Gesundheitswesen/media/Frontend-JS-UML.PNG%23.PNG)
+Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher präferiert da es ohne, oder fast ohne CSS und HTML auskommt.
+![FRONTEND](media/sw_frontend.PNG)
 
 ### Fehlerbehandlung
 
@@ -165,7 +185,7 @@ Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher preferiert
 * 422 -> Unprocessable Entity *beispielhaft: Sehr wahrscheinliche eine kaputte und oder falsch formatierte JSON*
 * default -> unexpected Error
 
-(### Validierung
+( ### Validierung
 
 * Relevante (Integrations)-Testfälle, die aus den Use Cases abgeleitet werden können
 * Testfälle für

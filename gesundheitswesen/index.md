@@ -105,9 +105,12 @@ Vorläufige Skizze:
 
 ## Schnittstellen
 
-<object data="../media/api_draft.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="media/api_draft.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="media/api_draft.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Software-Projekt-2022/Dokumentation/blob/main/gesundheitswesen/media/api_draft.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
-[Api Draft](media/api_draft.pdf)
 
 ### Commands / Events ?
 

@@ -1,6 +1,7 @@
 # Kultur
 
-**Autor:** Mattis Fieseler
+**Autor:** Mattis Fieseler <br>
+**URL:** http://kultur.cyber-city.systems
 
 ![](media/dom-in-minden.jpg)
 
@@ -110,9 +111,6 @@ Datenbankmodell
 ![](media/UML-Diagramm.png)
 UML Diagramm 
 
-### URL
-
-https://smart.city/kultur
 
 ### Commands
 
@@ -137,6 +135,7 @@ https://smart.city/kultur
 
 | **Name** | **Payload** | 
 | :------ | :----- | 
+| Today Events | int [] List |
 | Event starts | int id |
 | New Event | int id |
 
@@ -153,7 +152,7 @@ https://smart.city/kultur
 
 | **Name** | **Parameter** | **Resultat** |
 | :------ | :----- | :------ |
-| ```getEvents()``` | - | Event [] list |
+| ```getEvent()``` | - | Event [] list |
 | ```getEvent()``` | int id | Event e|
 | ```getEvent()``` | string name | Event [] list |
 | ```getClub()``` | - | Club [] list |

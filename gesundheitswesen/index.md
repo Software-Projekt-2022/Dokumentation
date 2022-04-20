@@ -85,12 +85,19 @@
 ![HOME](media/mock_home.png)
 
 
-
 #### Such/ Kategorie/ Notfallkontakt Listenseite
 
 ![mock_lists](media/mock_lists.png)
 
 #### Kategorien
+
+![mock_details](media/mock_details.png)
+
+## Datenmodell
+
+Vorläufige Skizze:
+
+![ER](media/er_health_system.png)
 
 ![mock_details](media/mock_details.png)
 
@@ -115,7 +122,6 @@ Vorläufige Skizze:
 ## Schnittstellen
 
 [Api Draft](media/api_draft.pdf)
-
 
 ### Commands / Events ?
 

@@ -153,3 +153,94 @@ Autor: Mark Mödeker
 * Muss man sich noch gegenseitig helfen bei den Spezifikationen
 * Wo bekommt Andreas die Variablen für die Events her
 * Roadmap Besprechung
+
+## 19.04.2022 14:30 - 
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Clemens Maas | Software Engineer |
+| Jason Piper | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Malte Kanders | Software Engineer |
+| Toni Schnittger | Software Engineer |
+
+## Themen
+* Vorstellung der Spezifikationen
+  * Projektübersicht
+    * In Diagrammen immer mit Pfeilen arbeiten
+  * Projektorganisation
+    * Nicht viel hinzugekommen, nur die korrekten Microservice einteilungen und deren Verlinkungen
+  * Protokolle
+  * CI/CD
+    * Titel der Seite korrigieren
+    * Testing aufnehmen in die Arbeitsschritte
+    * Neben MySQL jetzt noch PostgreSQL
+    * Datenbanken in Containern
+    * Entwickler müssen ihre Technologien und Ports für den DevOps Engineer dokumentieren
+    * Sollten die Software Engineers ihre Docker Files selber schreiben?
+  * Events
+    * an einem JSON example wird erklärt wie der Eventbus aussehen wird
+    * Wie vollständig ist die Spezifikation? Wird noch ausgebaut, es werden noch mehr Events von den Software Engineers benötigt.
+  * Landing Page
+  * Authentifizierung
+  * Verkehr
+    * Inwiefern funktioniert die Autorisirung pro Microservice?
+  * Umwelt
+    * Denglisch generell nicht erwünscht (Hier bei Umwelt kein Fehler).
+  * Gesundheitswesen
+    * Weitere spalte in den Anforderungen hinzufügen für muss/soll/kann
+  * Unternehmensregister
+    * Tabelle richtig formatieren
+  * Kultur
+    * Leaflet js um die Karte anzuzeigen
+* Nachbesprechung 1. Sprint
+  * Was lief gut
+    * Kommunikation
+    * Jede Person hat seine Aufgaben weitesgehend geschafft
+  * Was lief schlecht
+    * Kanban Board
+    * gesplittete Meetings vermeiden damit alle immer den gleichen Informationsstand haben
+* Kanbanboard Kritik und Feature Vorstellung
+  * Die eigenen Issues immer aktuell halten
+  * Eventuell den eigenen Namen filtern damit es nicht so viele Aufgaben sind
+  * Manche Aufgaben zu grob, andere sehr spezifisch -> Gute Balance finden
+  * Häkchen teilweise ein Arbeitsschritt zu viel, sollte eher zur Orientierung dienen und nicht Pflicht sein
+  * Weitere Tasks während der Implementierung aufgegriffen
+* Rollen und Verantwortlichkeiten
+  * Product Owner
+    * Nur WAS gemacht wird, nicht WIE etwas gemacht wird?
+    * Der PO sollte weiterhin auch Vorschläge zum WIE einbringen können
+    * Muss eine klare Produktvision im Kopf haben
+    * Kann eingreifen wenn etwas nicht mit der Vision übereinstimmt
+  * Abgrenzung DevOps Engineer und Software Architekt
+    * Der Software Architekt hat die Idee, der DevOps Engineer übernimmt die Umsetzung
+    * Reverse Proxy wird vom DevOps Engineer umgesetzt
+  * Scrum Master
+    * Starker Fokus auf Prozessqualität in den nächsten Schritten
+    * Einen gemeinsamen Workflow umsetzen
+* Mehr als ein Meeting?
+  * In der Anfangsphase eher nicht, aber zum Abschluss des Projektes mehr Besprechungen
+  * Mehrere Termine können zu Komplikationen führen mit den normalen Terminen der Gruppenmitglieder
+  * Kürzere Termine sollten schneller zu finden sein als Stundenlange
+* Pull Requests umsetzung
+  * Software Architekt muss die Code Reviews durchführen, muss bitte Assigned werden
+  * DevOps Engineer muss die main branches protecten, nur über Pull Request können Änderungen darauf kommen
+  * Was wird alles reviewed? 
+* Andreas braucht ein eigenes Repository für Beispiele, etc.
+* Event Spezifikation automatisiertes Deployment funktioniert nicht
+* Sprintplanning extra Informationen und Diskussionsstoff
+  * wieder 7 Tage
+  * wie soll der Entwicklungsbranch heißen? Dev-Branch/Sprint-Branch/Feature-Branch: Ein Dev-Branch wochenübergreifend
+  * Ein Dev-Branch von dem Features-Branches abgezweigt werden können. Nur der Dev-Branch wird am Ende des Sprints in den Main-Branch gemerged.
+  * Eventueller Docker Workshop? Abgelehnt.
+  * Beispieldaten nur für Testfälle oder auch für die Implementierung
+  * Beispieldaten sollten zusammenhängend funktionieren
+* Arbeitsaufwand für eine Woche gerechtfertigt?
+  * Im Allgemeinen ein schaffbarer Sprint
+* SM und PO müssen mehr auf Microservice Ebene die Issues schreiben. So können wir einen gerechten Arbeitsaufwand pro Woche gewährleisten.
+* Fragerunde mit den Software Engineers in der wir deren Aufgaben für Sprint 2 besprechen und einteilen.

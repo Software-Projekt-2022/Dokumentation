@@ -37,46 +37,69 @@
 
 ## Anforderungen im Detail
 
+#### Haupt Template
 
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz** |
-| :------ | :----- | :------ | :-------- |
-| Benutzer | die Suche nutzen | nicht selber Suchen muss| Suche gibt brauchbare Ergebnisse |
-| Benutzer | eine übersichtliche Seite | ich schnell finde was ich suche | wenig aber funktionale Anwendungen |
-| Benutzer | einfach rumgucken können | ich vielleicht finde was ich nicht gesucht habe | Auflistung verschiedener Angebote |
-| Benutzer | News sehen die relevanz haben können | ich über wichtiges Informiert bin | kleine News die Interessant sein können angezeigt bekommen |
-| Benutzer | eine Kontaktschnittstelle haben | ich um persöhnliche Hilfe bitten kann | Funktionierende Kontaktschnittstelle |
-| Benutzer | eine kurze grobe Übersicht relevanter Bereiche | ich einen Oberflächlichen EIndruck gewinnen kann | Auflistung mehrerer Kategorien (Optional) |
-| Benutzer | sehen was ein Vertreter eines Gesundheitsvertreters anbietet | ich den richtigen Kontakt finden kann | Eine Komponente mit Stichwortartiger Beschreibung des Angebots |
-| Gesundheitsvertreter | meine Angebote präsentieren | ich den Menschen meine Hilfe anbieten kann | Eine Komponente mit Stichwortartiger Beschreibung des Angebots |
-| Benutzer | einen ersten Eindruck des jeweiligen Anbieters gewinnen | damit ich mich vertraut fühle | Ein kurzes Tagebuch / Curriculum Vitae |
-| Gesundheitsvertreter | mich präsentieren | sich Patienten mir anvertrauen | Ein kurzes Tagebuch / Curriculum Vitae eintragen können |
-| Gesundheitsvertreter | mein Team präsentieren lassen | sich auch mein Team präsentieren kann | Ein kurzes Profil eines Teammitglieds erstellen können |
-| Benutzer | einen Termin online buchen könnnen | ich selbstbestimmt den Tag und die Uhrzeit bestimmen kann | einen Kalender mit auswählbaren Terminen |
-| Gesundheitsvertreter | einen Terminkalender anbieten | mein Team mehr Zeit für wichtigeres hat | einen Kalender mit auswählbaren Terminen |
-| Benutzer / Gesundheitsvertreter | Öffnungszeiten sichten können | diese leicht zugänglich sind | eine Zeitleiste mit Öffnungszeiten |
-| Benutzer | möchte ich eine kurze News seite | ich zu aktuellen Themen benachrichtigt werden kann | Ein paar News auf einer Seite |
-| Benutzer | möchte ich eine Seite mit den wichtigsten Informationen | ich Notdienste oder Notfallansprechpartner sofort finden kann | Eine Auflistung bestimmter Notfallansprechpartner |
-| Benutzer | einen ersten Eindruck des jeweiligen Anbieters gewinnen | damit ich mich vertraut fühle | Ein kurzes Tagebuch / Curriculum Vitae |
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| einen Home Button | ich immer schnell zum Start zurück finde | Im Hauptrand Segment ist ein Homebutton | Muss |
+| Benutzer| einen Kategorien Button | ich schnell alle verfügbaren Kategorien sehen kann | Im Hauptrand ist ein Kategorien Button | Muss |
+| Benutzer| einen Notfallkontakt Button | ich schnell alle Notfallkontakte sehen kann | Im Hauptrand ist ein Kategorien Button | Muss |
+| Benutzer| einen CycberCity Button | ich schnell zurück zur Landingpage komme | Im Hauptrand ist ein LandingPage Button | Muss |
+
+#### Startseite
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| einen Suche | ich mich nicht durch die Seite klicken muss | die Suche ist auf der Startseite zu finden | Muss |
+| Benutzer| einen Datumsbutton zur Suche | ich nur freie Termine oder Notfallkontakte im richtigen Zeitraum finden kann| zur Suche befindet sich ein Datumsbutton | Optional |
+| Benutzer| Einen Kategorie Button | ich zwischen Notfallkontakten oder Kategorien auswählen kann | zur Suche befindet sich ein Button um Kategorien auswählen zu können | Optional |
+
+#### Details
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| ein Profil Bild des Arztes | ich mir ein erstes Bild machen kann | Profilbild | Muss |
+| Benutzer| einen Kalender | an dem ich freie Tage zur Buchung finde | einen Kalender mit eingefärbten Tagen | Muss |
+| Benutzer| einen Button um zwischen bestimmten Zeiten auswählen zu können | ich einen genauen Termin buchen kann | verfügbare Auswahltermine | Muss |
+| Benutzer| am Rand dargestellt die Spezialgebiete des Spezialisten | ich weiß den richtigen Spezialisten zu haben | Liste aus Symbolen und Fachgebieten | Optional |
+
+#### Such/ Kategorie/ Notfallkontakt Listenseite
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| eine Liste mit den passenden Experten | ich alle relevanten Personen finde | Die passende Liste Personen | Muss |
+| Benutzer| ein Button der zu dem Profil führt | ich zu dem richtigen Profil komme | Ein zum Profil führender Button | Muss |
+| Benutzer| weitere Informationen der Experten | ich mehr Informationen habe | weitere Informationskästen | Optional |
+
+#### Kategorien
+
+| **Als** | **möchte ich** | **so dass** | **Akzeptanz** | **Priorität** |
+| :------ | :----- | :------ | :-------- | :-------- |
+| Benutzer| eine Sammlung an Kategorien | ich über diese Experten finden kann | eine "endliche" Menge an Kategorien | Muss |
 
 
 ## Graphische Benutzerschnittstelle
 
-  #### Startseite/Home:
+#### Startseite
 
-  ![HOME](media/mock_home.png)
+![HOME](media/mock_home.png)
 
-  #### Über uns/Impressum/Hilfe
-  ![ABOUT US](media/mock_about_us.png)
 
-  #### Einzelner Service
-  ![SINGLE SERVICE](media/mock_single_service.png)
+#### Such/ Kategorie/ Notfallkontakt Listenseite
 
-  #### Kategorie/Notfallkontakt
-  ![CATEGORY/EMERGENCY](media/mock_categorys_emergency.png)
+![mock_lists](media/mock_lists.png)
 
-  #### Aktivitätsdiagramm
-  [ACTIVITY_DIAGRAMM](media/mock_activity_diagramm.png)
+#### Kategorien
 
+![mock_details](media/mock_details.png)
+
+## Datenmodell
+
+Vorläufige Skizze:
+
+![ER](media/er_health_system.png)
+
+![mock_details](media/mock_details.png)
 
 ## Datenmodell
 
@@ -99,9 +122,6 @@ Vorläufige Skizze:
 ## Schnittstellen
 
 [Api Draft](media/api_draft.pdf)
-* Abhängigkeiten: Liste mit Kommunikationsabhängigkeiten zu anderen Microservices
-
-
 
 ### Commands / Events ?
 
@@ -113,7 +133,12 @@ Vorläufige Skizze:
 | removeCrewMember() | int id | int id |
 | createBreakingNews() | int n_id, string message | int id |
 
+### Events
 
+| **Name** | **Parameter** | **Resultat** |
+| :------ | :----- | :------ |
+| air_quality_waring_issues |  string message | string polution_type | string pollution_level | int id |
+| daily_cultural_events_published |  string name | string location | string adress | string start | string end | int id |
 
 ## Technische Umsetzung
 

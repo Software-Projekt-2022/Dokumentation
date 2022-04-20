@@ -123,6 +123,7 @@ Diese JSON-Objekte sind wiederum in einem JSON-Objekt enthalten, welches die Met
 Ein Beispiel könnte so aussehen:
 ```
 {
+  "event_id": "GES-70530";
   "event_type": "customer_added",
   "event_origin": "microservice.authentifizierung",
   "content": {
@@ -132,7 +133,36 @@ Ein Beispiel könnte so aussehen:
 }
 ```
 Hier enthält das Feld `content` die eigentlichen Eventinformationen.
+Das Feld `event_id` enthält eine ID, welche für jedes Event über alle Microservices einzigartig sein sollte.
+Dies kann dazu genutzt werden, um einzelne Events voneinander zu unterscheiden und kann bei Fehlermeldungen oder Debugging nützlich sein. Damit die Event-ID über alle Microservices einzigartig ist,
+könnte ein Zähler zwischen allen Microservices synchronisiert werden. Da dies aber etwas mehr Aufwand benötigt,
+ist eine einfachere Lösung, dass jeder Microservice selber dafür sorgt, dass die IDs, die der Microservice produziert, einzigartig sind.
+Danach wird ein Präfix gefolgt von einem Minuszeichen vor die ID gesetzt, die für jeden Microservice einzigartig ist.
+
+| Microservice         | ID-Präfix |
+| -------------------- | --------- |
+| Unternehmensregister | `UNT`     |
+| Authentifizierung    | `AUT`     |
+| Umwelt               | `UMW`     |
+| Gesundheitswesen     | `GES`     |
+| Kultur               | `KUL`     |
+| Verkehr              | `VER`     |
+| Landing Page         | `LAN`     |
+
+Aus dieser Tabelle lassen sich die Präfixe auslesen.
+Würde das Unternehmensregister die ID `12345` produzieren, würde die Event-ID `UNT-12345` sein.
+Der Einfachheit halber könnte die ID generiert werden, in dem die aktuelle Uhrzeit in eine Zahl umgewandelt wird.
+
 Detailliertere Informationen zu den Events gibt es in der [Spezifikation mit AsyncAPI](https://software-projekt-2022.github.io/Dokumentation/asyncapi/).
+
+Es gibt einen Eventtypen namens `error_event`, welcher ein Event darstellt, das nur zur Fehlerbehandlung verwendet wird. Dieses Event soll nicht auf dem normalen Weg über die `publish_event.<name>`-Exchanges gesendet werden.
+Falls ein Microservice ein Event empfängt und einen Fehler feststellt, wie zum Beispiel einen Fehler bei der Validierung, sollte dieser Microservice als Antwort darauf ein Event vom Typ `error_event` zurück senden, aber nicht über die `publish_event.<name>`-Exchange, sondern über die `publish_event.error`-Exchange.
+Das stellt sicher, dass das Error-Event nicht bei jedem Microservice ankommt sondern nur bei dem Microservice,
+an den die Fehlermeldung gerichtet ist. Dafür muss beim Senden zur `publish_event.error`-Exchange der richtige Rounting Key gesetzt werden.
+Der Routing Key entspricht dem Namen des Microservices, an den die Fehlermeldung gerichtet ist,
+so wie er in dem Namen der Queue der Microservices steht. Zum Beispiel `authentifizierung` für den Authentifizierungs-Microservice oder `landing_page` für die Landing Page.
+Wichtig ist, dass Error-Events immer das fehlerhafte Event, das das Error-Event ausgelöst hat, mit im Error-Event enthalten ist.
+Beispiele für Error-Events finden sich ebenfalls in der Event-Spezifikation.
 
 ## Kommunikationsprotokolle und Datenformate
 

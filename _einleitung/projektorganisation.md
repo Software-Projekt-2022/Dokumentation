@@ -84,7 +84,7 @@
 | Tim Bollmeyer | Product Owner | Produktvision, Integrations-Microservice ([Landing Page](landingpage/index)), Softwareproduktqualität |
 | Leon Stümpeley | DevOps Engineer | Github-Repos, Docker, CI/CD, Dokumentation, Support, Infrastrukturqualität | 
 | Andreas Wegner | Software Architekt | Technische Leitung/Vision, Code Reviews, Mentoring, Technikevaluation, Softwarequalität |
-| Jonas vom Brauke | Software Engineer | Microservice [Verkehr](verkehr/index) |
+| Jonas vom Braucke | Software Engineer | Microservice [Verkehr](verkehr/index) |
 | Toni Schnittger | Software Engineer | Microservice [Umwelt](umwelt/index) |
 | Malte Kanders | Software Engineer | Microservice [Gesundheitswesen](gesundheitswesen/index) |
 | Jason Piper | Software Engineer | Microservice [Authentifizierung](authentifizierung/index) |

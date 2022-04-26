@@ -244,3 +244,55 @@ Autor: Mark Mödeker
   * Im Allgemeinen ein schaffbarer Sprint
 * SM und PO müssen mehr auf Microservice Ebene die Issues schreiben. So können wir einen gerechten Arbeitsaufwand pro Woche gewährleisten.
 * Fragerunde mit den Software Engineers in der wir deren Aufgaben für Sprint 2 besprechen und einteilen.
+
+## 19.04.2022 14:30 - 
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Clemens Maas | Software Engineer |
+| Jason Piper | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Malte Kanders | Software Engineer |
+| Toni Schnittger | Software Engineer |
+
+## Themen
+* Hat das Team fragen?
+  * Der DevOps Engineer würde gerne von jedem Mitglied Deployment informationen haben
+    * Wir haben einen Discord Thread erstellt in dem jeder seine Informationen rein schreibt
+    * Informationen werden schnell benötigt damit die Engineers möglichst bald in die Entwicklung starten können
+* Wie werden Pull Requests im Team durchgeführt
+* Code Review Kriterien
+  * Funktionalität
+    * Testfälle laufen durch
+  * Dokumentation
+    * Muss für einen fremden lesbar sein 
+  * Code Qualität
+    * Aussagekräftige Variablennamen
+    * kein auskommentierter Code
+    * Formatierung
+    * einheitliche Sprache
+    * Code Kommentare, Commits und Variblennamen auf Englisch
+    * Logische Aufteilungen, gute Struktur
+ * Frontend auf Deutsch
+ * Sprint nachbesprechung
+   * Sollen wir den Sprint verlängern?
+     * Verlängern
+     * Zu viele Aufgabne offen um sie in die nächste Woche zu übernehmen
+ * Einheitliche Schriftfarbe und Fonts beachten
+ * der Name ist "CyberCity" und alle anderen Varianten sollten angepasst werden 
+ * Weitere Fragen vom Team
+   * Eine Datenbank im Container?
+   * Mehr als ein Container pro Repo?
+   * Was spricht für eine Trennung von Frontend und Backend Container
+   * Umgang mit Umgebungsvariablen?
+ * Authentifizierung
+   * Wie können die anderen Services die Authentifizierung nutzen?
+   * Beim login in der Landing Page erhält man einen Token, dieser wird dann von den anderen MS gegriffen und zur kann zur Validierung zum AuthMS geschickt werden
+   * Fragen zu den Token?
+ * Events
+   * JSON Schema im nächsten Sprint erstellt

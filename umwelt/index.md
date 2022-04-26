@@ -122,8 +122,10 @@ Aufgrund von mangelnder Erfahrung in Webentwicklung ist dieser Abschnitt hier et
   * Web-Schicht
     - REACT
   * Logik-Schicht
-    - Javascript 
+    - Javascript
+    - node.js 
   * Persistenz-Schicht
+    - MySQL
 
 * Client
   * View-Schicht
@@ -178,4 +180,6 @@ Da der Microservice nur darstellt beschränken sich mögliche Fehler auf die API
 * Backend
   - REST API
   - Javascript
+  - NODE.JS
+  - 
 * Datenbank

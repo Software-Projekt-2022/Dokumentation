@@ -154,7 +154,7 @@ Autor: Mark Mödeker
 * Wo bekommt Andreas die Variablen für die Events her
 * Roadmap Besprechung
 
-## 19.04.2022 14:30 - 
+## 19.04.2022 14:30 - 17:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -245,7 +245,7 @@ Autor: Mark Mödeker
 * SM und PO müssen mehr auf Microservice Ebene die Issues schreiben. So können wir einen gerechten Arbeitsaufwand pro Woche gewährleisten.
 * Fragerunde mit den Software Engineers in der wir deren Aufgaben für Sprint 2 besprechen und einteilen.
 
-## 19.04.2022 14:30 - 
+## 19.04.2022 14:30 - 16:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |

@@ -24,12 +24,12 @@
 ## Reverse Proxy Konfiguration
 * Die Zuordnung zum Micro-Service erfolgt über die Subdomain
 
-| Micro-Service        	| Subdomain                      	      |
-|----------------------	|--------------------------------	      |
-| Landing Page         	| cyber-city.systems             	      |
-| Verkehr              	| verkehr.cyber-city.systems     	      |
-| Kultur               	| kultur.cyber-city.systems      	      |
-| Gesundheitswesen     	| gesundheitswesen.cyber-city.systems  	|
-| Umwelt               	| umwelt.cyber-city.systems      	      |
-| Unternehmensregister 	| unternehmen.cyber-city.systems 	      |
-| Authentifikation     	| auth.cyber-city.systems        	      |
+| Micro-Service        	| Subdomain                      	                |
+|----------------------	|-----------------------------------------------  |
+| Landing Page         	| cyber-city.systems             	                |
+| Verkehr              	| verkehr.cyber-city.systems     	                |
+| Kultur               	| kultur.cyber-city.systems      	                |
+| Gesundheitswesen     	| gesundheitswesen.cyber-city.systems           	|
+| Umwelt               	| umwelt.cyber-city.systems      	                |
+| Unternehmensregister 	| unternehmensregister.cyber-city.systems 	      |
+| Authentifikation     	| auth.cyber-city.systems        	                |

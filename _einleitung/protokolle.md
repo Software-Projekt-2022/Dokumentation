@@ -297,7 +297,7 @@ Autor: Mark Mödeker
  * Events
    * JSON Schema im nächsten Sprint erstellt
 
-## 03.05.2022 14:30 - 16:00
+## 03.05.2022 14:30 - 15:30
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -383,3 +383,4 @@ Autor: Mark Mödeker
 * der Software Architekt hat bereits zwischen Meeting Vorbereitung und Meeting alle offenen PRs bearbeitet und muss jetzt auf die nächsten warten
 * Fragen?
   * Issues werden nur vom Product Owner oder Scrum Master geschlossen
+* kleinere Diskussion über den nächsten Sprint

@@ -100,3 +100,17 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
 * **Abgabe Spezifikation:** KW 16 (18.4.-20.4.)
 * **Erster Prototyp (MVP):** KW 20 (16.5.-18.5.) / KW 21 (23.5.-25.5.)
 * **Softwareprojektabgabe:** Ende Juni 2022 / Anfang Juli 2022
+
+## Sprintplanning
+| Sprint | Start | Ende | Dauer |
+| - | - | - | - |
+| 1 | 08.04.2022 | 19.04.2022 | 11 Tage |
+| 2 | 19.04.2022 | 03.05.2022 | 14 Tage |
+| 3 | 03.05.2022 | 10.05.2022 | 7 Tage |
+| 4 | 10.05.2022 | 17.05.2022 | 7 Tage |
+| 5 | 17.05.2022 | 24.05.2022 | 7 Tage |
+| 6 | 24.05.2022 | 31.05.2022 | 7 Tage |
+| 7 | 31.05.2022 | 07.06.2022 | 7 Tage |
+| 8 | 07.06.2022 | 14.06.2022 | 7 Tage |
+| 9 | 14.06.2022 | 21.06.2022 | 7 Tage |
+| 10 | 21.06.2022 | 28.06.2022 | 7 Tage |

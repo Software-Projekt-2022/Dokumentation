@@ -371,4 +371,15 @@ Autor: Mark Mödeker
   * Vorschlag wurde angenommen
 * Fragen an Herrn Brunsmann
   * Es gab keine Fragen
-* 
+* Mark übernimmt Organisationsleitung
+* Bitte nicht die PRs selber mergen ohne, dass diese approved wurden
+* PR workflow beschrieben
+* wo bleibt HTTPS? Mit zertifikaten starten dauert zu lange
+* Es sollen auch in der Zukunft keine CORS fehler auftreten deswegen schnell HTTPS einstellen
+* Pull Requests am Ende von einem Sprint
+* versuch Jasons Push Probleme zu lösen
+* Container Aufgabe wird noch eine Woche weiter geschoben, diesmal aber priorisiert
+* Unternehmensregister, welche User Story kommt als nächstes
+* der Software Architekt hat bereits zwischen Meeting Vorbereitung und Meeting alle offenen PRs bearbeitet und muss jetzt auf die nächsten warten
+* Fragen?
+  * Issues werden nur vom Product Owner oder Scrum Master geschlossen

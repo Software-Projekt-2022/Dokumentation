@@ -245,7 +245,7 @@ Autor: Mark Mödeker
 * SM und PO müssen mehr auf Microservice Ebene die Issues schreiben. So können wir einen gerechten Arbeitsaufwand pro Woche gewährleisten.
 * Fragerunde mit den Software Engineers in der wir deren Aufgaben für Sprint 2 besprechen und einteilen.
 
-## 19.04.2022 14:30 - 16:00
+## 26.04.2022 14:30 - 16:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -296,3 +296,79 @@ Autor: Mark Mödeker
    * Fragen zu den Token?
  * Events
    * JSON Schema im nächsten Sprint erstellt
+
+## 03.05.2022 14:30 - 16:00
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Clemens Maas | Software Engineer |
+| Jason Piper | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Malte Kanders | Software Engineer |
+| Toni Schnittger | Software Engineer |
+
+### Themen
+* Herr Brunsmann gibt eine kleinere Agenda für heute vor
+* Zuerst stellt jeder seinen Fortschritt vor
+  * Jonas
+    * DB Statements fertig, Verknüpfungen in Node.js fertig
+    * HTML Pages existieren
+    * lokal läuft es
+    * Deployment/Containerisierung fehlt
+  * Toni
+    * API funktioniert
+    * HTML existiert, für 48h kann Wetter/Pollen angezeigt werden
+    * Layout muss noch erstellt werden
+    * Deployment/Containerisierung fehlt
+  * Malte
+    * Grundgesrüst (Visueller Part und DB) steht
+    * Datenbankschema fehlt noch
+    * Natives React Problem behoben, mit KVision umgesetzt
+    * Deployment/Containerisierung fehlt
+  * Jason
+    * Login/Registrierung, Verifizierung per Email funktioniert
+    * Probleme mit PostgreSQL, Zugriff über Kommandozeile funktioniert nicht
+    * Deployment/Containerisierung fehlt
+  * Clemens
+    * DB fertig
+    * API zum großteil fertig
+    * Website ist grafisch verfügbar, aber wenig funktionen
+    * Container läuft
+    * Deployment fehlt
+  * Mattis
+    * Website statisch fertig, keine funktion
+    * API großteils fertig
+    * DB nicht angefangen
+    * Docker läuft für Website auslieferung
+    * Deployment fehlt
+  * Leon
+    * Traefik Grundkonfiguration funktioniert
+    * RabbitMQ funktioniert, wird erfolgreich Deployed, vorgegebene JSON wird geladen und setup Script wird ausgeführt
+    * Erklärt wie er die ganzen Container erstellen will
+  * Andreas
+    * Fehlerbehandlung RabbitMQ, neuer Event-Type
+    * Event umbenannt, Beispiel Code für RabbitMQ
+    * Validierung der Events noch nicht vorhanden
+    * JSON Schema steht noch aus
+  * Tim
+    * Landing Page Docker konfiguration wollte erst nicht
+    * Landing Page läuft im groben
+    * Verlinkungen zu den MS noch testen und dann eventuell anpassen
+    * Meldungs/Nachrichtenansicht über Zugriff auf den Meldungsbus noch ausstehend
+  * Mark 
+    * Meetingsplanung für den 03.05.2022
+    * Individuelle Gedanken zu jedem Repo, jeder Person und der Scrum Arbeitsweise
+    * Arbeitsstandüberprüfung der Microservices
+* Dann reden wir über Hindernisse/Probleme auf technischer und menschlicher ebene
+* Weiteres vorgehen für den nächsten Sprint
+* Dann erstellen wir einen Termin für das MVP
+  * Vorschlag: 24.05.2022
+  * Vorschlag wurde angenommen
+* Fragen an Herrn Brunsmann
+  * Es gab keine Fragen
+* 

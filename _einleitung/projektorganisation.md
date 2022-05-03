@@ -117,3 +117,6 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
 
 * Sprint 1 wurde verlängert, da dies die ersten Tage des Projektes waren und man sich erstmal einfinden musste.
 * Sprint 2 wurde verlängert, da bei weitem nicht genug nicht innerhalb der einen Woche abgearbeitet waren und wir den Sprint deshalb verlängerten
+
+<img width="902" alt="Screenshot 2022-05-03 191852" src="https://user-images.githubusercontent.com/81245080/166505510-94d80a6d-63ef-4fc1-8574-9a5aa1fd1c22.png">
+

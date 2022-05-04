@@ -169,7 +169,7 @@ Autor: Mark Mödeker
 | Malte Kanders | Software Engineer |
 | Toni Schnittger | Software Engineer |
 
-## Themen
+### Themen
 * Vorstellung der Spezifikationen
   * Projektübersicht
     * In Diagrammen immer mit Pfeilen arbeiten
@@ -260,7 +260,7 @@ Autor: Mark Mödeker
 | Malte Kanders | Software Engineer |
 | Toni Schnittger | Software Engineer |
 
-## Themen
+### Themen
 * Hat das Team fragen?
   * Der DevOps Engineer würde gerne von jedem Mitglied Deployment informationen haben
     * Wir haben einen Discord Thread erstellt in dem jeder seine Informationen rein schreibt

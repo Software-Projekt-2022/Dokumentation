@@ -453,3 +453,4 @@ Autor: Mark Mödeker
  * PR vom Gesundheitswesen von dev in main erstellt, letzte Woche falscher PR
  * An alle: PR für diesen Sprint stellen um die Changes von allen Entwicklungsbranches in den main zu mergen!
  * Fragen?
+ * Alle Elemente von Sprint 3 die nur auf Todo standen wurden in Sprint 4 übernommen.

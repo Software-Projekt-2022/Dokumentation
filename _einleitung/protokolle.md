@@ -384,3 +384,72 @@ Autor: Mark Mödeker
 * Fragen?
   * Issues werden nur vom Product Owner oder Scrum Master geschlossen
 * kleinere Diskussion über den nächsten Sprint
+
+## 10.05.2022 14:30 - 15:30 (Online-Meeting wegen Corona Fällen)
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Jason Piper | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| später erschienen | - |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Clemens Maas | Software Engineer |
+| krankheitsbedingt ausgefallen | - |
+| Jonas vom Braucke | Software Engineer |
+
+### Themen
+* Das heutige Meeting wird online stattfinden, da es mehrere Corona Fälle im Team gibt
+* Sprint 2 nachbesprechung
+* PR Tipps und Tricks (close, etc.)
+* Pull Requests überprüfen
+* **wichtige Infos zu PRs: Immer am Ende eines Sprints von allen Development Branches in main, schließt die Issues die in der Woche bearbeitet wurden mit "close #issueid"**
+* wie weit sind die Software Engineers diese Woche gekommen
+  * Mattis:
+    * Frage zum Datenmodell, ist aber fertig
+    * Backend fertiggestellt
+    * anstehende Events
+    * eine Issue wird in die nächste Woche übernommen
+  * Jason:
+    * Dockerfile probiert, erst Probleme dann Kommilitonen gefragt
+    * mit DB verknüpfen eventuell fertig, aber email senden fehlerhaft und stoppt den server
+    * Passwort vergessen/reset noch nicht angegangen
+  * Toni:
+    * Wasserstand API fertig und dargestellt
+    * Design verbessert
+    * unser Design eingebaut (font/farben)
+    * weitere Gedanken zum Design
+  * Tim:
+    * LandingPage weiter bearbeitet
+    * Services werden noch nicht so schön dargestellt
+    * Dockerfile läuft soweit
+   * Andreas:
+     * JSON Schemas für die Events sind fertig
+     * befinden sich im zugehörigen Repo im Ordner Schemas
+     * Pull Requests reviewed
+     * RabbitMQ eigentlich fertig
+     * Hauptaufgabe ab jetzt die Pull Requests
+   * Leon:
+     * Muss den Fehler in Event_service Deployment noch beheben -> findet Skript nicht
+     * Lokal ausführen von Event_Service Deployment funktioniert
+     * fast alle Dockerfiles fertig, DB in den selben Container macht Probleme
+     * ein Dockerfile schwieriger wegen Payara
+   * Malte:
+     * kein allzu größerer Fortschritt
+     * Dockerfile versucht zu schreiben
+     * versuch das Dockerimage fertigzustellen, da gibt es noch Probleme mit dem Frontend
+     * Absprache mit Leon zum Dockerimage
+   * Clemens:
+ * RabbitMQ läuft auf http://cyber-city.systems:15672/
+ * Dockerfile in Event_Service fertig, aber Github Actions läuft nicht durch
+   * Scheinbar versucht Github das Dockerimage zu bauen und dann zu DigitalOcean zu senden aber das funktioniert noch nicht
+   * Dockerfile führt Skript aus
+ * Deployment
+ * Leon führt noch ein persönliches Meeting um ein Problem mit den Dockerfiles zu beheben
+ * Müssen DB und Microservice wirklich im selben Container laufen? -> Wir sagen weiterhin "ja", obwohl DB als eigener Container einfacher wäre
+ * PR vom Gesundheitswesen von dev in main erstellt, letzte Woche falscher PR
+ * An alle: PR für diesen Sprint stellen um die Changes von allen Entwicklungsbranches in den main zu mergen!
+ * Fragen?

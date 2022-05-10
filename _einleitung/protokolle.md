@@ -459,3 +459,4 @@ Autor: Mark Mödeker
  * An alle: PR für diesen Sprint stellen um die Changes von allen Entwicklungsbranches in den main zu mergen!
  * Fragen?
  * Alle Elemente von Sprint 3 die nur auf Todo standen wurden in Sprint 4 übernommen.
+ * Alle Issues von Jonas werden übernommen, da er Krankheitsbedingt ein paar Tage ausfiel und diese nicht fertig bearbeiten konnte. Da er schon an den Issues gearbeitet hat bekommt er zusätzlich noch weitere.

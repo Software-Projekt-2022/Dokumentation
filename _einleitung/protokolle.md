@@ -385,7 +385,7 @@ Autor: Mark Mödeker
   * Issues werden nur vom Product Owner oder Scrum Master geschlossen
 * kleinere Diskussion über den nächsten Sprint
 
-## 10.05.2022 14:30 - 15:30 (Online-Meeting wegen Corona Fällen)
+## 10.05.2022 14:30 - 15:45 (Online-Meeting wegen Corona Fällen)
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |

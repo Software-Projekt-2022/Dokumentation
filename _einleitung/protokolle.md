@@ -385,7 +385,7 @@ Autor: Mark Mödeker
   * Issues werden nur vom Product Owner oder Scrum Master geschlossen
 * kleinere Diskussion über den nächsten Sprint
 
-## 10.05.2022 14:30 - 15:45 (Online-Meeting wegen Corona Fällen)
+## 10.05.2022 14:30 - 16:15 (Online-Meeting wegen Corona Fällen)
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -443,6 +443,11 @@ Autor: Mark Mödeker
      * versuch das Dockerimage fertigzustellen, da gibt es noch Probleme mit dem Frontend
      * Absprache mit Leon zum Dockerimage
    * Clemens:
+     * Einbindung JS ist fast fertig
+     * Bewerbungsmanager: Bewerbungen schreiben, sehen funktioniert. Da login durch Authentifizierung noch fehlt geht bewerben über Profile nicht
+     * warten bis Authentifizierung fertiggestellt und deployed ist
+     * Issues sind alle Ready for Review
+     * hat eigene Todos im Repo geschrieben um die logischen nächsten Schritte darzustellen
  * RabbitMQ läuft auf http://cyber-city.systems:15672/
  * Dockerfile in Event_Service fertig, aber Github Actions läuft nicht durch
    * Scheinbar versucht Github das Dockerimage zu bauen und dann zu DigitalOcean zu senden aber das funktioniert noch nicht

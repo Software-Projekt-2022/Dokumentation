@@ -5,5 +5,9 @@
 ## Was muss bis zum MVP fertig sein?
 | Aufgabe | Abgeschlossen |
 | - | - |
-| Aufgabe 1 | [x] |
-| Aufgabe 2 | [ ] |
+| Deployment von allen Microservices | [ ] |
+| Anbindung des Logins | [ ] |
+| Alle Microservices nutzen die Authentifizierung | [ ] |
+| alle API Schnittstellen der Microservices sind definiert | [ ] |
+| Microservices haben alle "must" stories implementiert | [ ] |
+| Verbindung/Schnittstelle zum Messagebus (anhand der Beispiele) | [ ] |

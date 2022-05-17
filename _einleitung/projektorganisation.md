@@ -107,16 +107,17 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
 | 1 | 08.04.2022 | 19.04.2022 | 11 Tage |
 | 2 | 19.04.2022 | 03.05.2022 | 14 Tage |
 | 3 | 03.05.2022 | 10.05.2022 | 7 Tage |
-| 4 | 10.05.2022 | 17.05.2022 | 7 Tage |
-| 5 | 17.05.2022 | 24.05.2022 | 7 Tage |
-| 6 | 24.05.2022 | 31.05.2022 | 7 Tage |
-| 7 | 31.05.2022 | 07.06.2022 | 7 Tage |
-| 8 | 07.06.2022 | 14.06.2022 | 7 Tage |
-| 9 | 14.06.2022 | 21.06.2022 | 7 Tage |
-| 10 | 21.06.2022 | 28.06.2022 | 7 Tage |
+| 4 | 10.05.2022 | 24.05.2022 | 14 Tage |
+| 5 | 24.05.2022 | 31.05.2022 | 7 Tage |
+| 6 | 31.05.2022 | 07.06.2022 | 7 Tage |
+| 7 | 07.06.2022 | 14.06.2022 | 7 Tage |
+| 8 | 14.06.2022 | 21.06.2022 | 7 Tage |
+| 9 | 21.06.2022 | 28.06.2022 | 7 Tage |
 
 * Sprint 1 wurde verlängert, da dies die ersten Tage des Projektes waren und man sich erstmal einfinden musste.
 * Sprint 2 wurde verlängert, da bei weitem nicht genug nicht innerhalb der einen Woche abgearbeitet waren und wir den Sprint deshalb verlängerten
+* Sprint 4 wurde verlängert, da durch viele Krankheitsfälle und andere Module nicht genug Issues abgearbeitet wurden
+* Ab dem MVP wird jeder Sprint 14 Tage andauern (Teamentscheidung vom 17.05.2022)
 
 ### Gantt Diagramm vom 03.05.2022
 Zeigt den Zeitraum vom Start des Projektes bis zum MVP <br>

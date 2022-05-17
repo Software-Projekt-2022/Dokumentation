@@ -15,5 +15,3 @@
 * [**Authentifizierung**](authentifizierung/index)
 * [**Unternehmensregister**](unternehmensregister/index)
 * [**Kultur**](kultur/index)
-
->>>>>>> Stashed changes

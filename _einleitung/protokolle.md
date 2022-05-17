@@ -461,7 +461,7 @@ Autor: Mark Mödeker
  * Alle Elemente von Sprint 3 die nur auf Todo standen wurden in Sprint 4 übernommen.
  * Alle Issues von Jonas werden übernommen, da er Krankheitsbedingt ein paar Tage ausfiel und diese nicht fertig bearbeiten konnte. Da er schon an den Issues gearbeitet hat bekommt er zusätzlich noch weitere.
 
-## 17.05.2022 
+## 17.05.2022 14:30
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -479,4 +479,36 @@ Autor: Mark Mödeker
 | Jason Piper | Software Engineer |
 
 ### Themen
-* 
+* Toni und Jonas sind beide krank, haben sich aber abgemeldet
+* Jason ist nicht vor Ort und kann deswegen auch nicht teilnehmen
+* Was haben die Mitglieder diese Woche gemacht
+  * Malte
+    * Kotlin Projekt verworfen
+    * Web Applikation auf Javascript umgestellt
+    * Dockerfile dafür fertig
+    * Wie siehts aus mit Issue 4 und 5? Verschieben auf nächste Woche weil nach der Umstellung nicht so viel Zeit war
+  * Mattis
+    * Seiten für Vereine und Chats fertiggestellt
+    * Bootstrap selbst recherche
+    * Issue 4 ist fertig
+    * Issue 5 ist Backendseitig implementiert
+    * Issue 6 ist noch auf Todo, muss dann mitgenommen werden
+    * Schau dir bitte den Kommentar zu deinem Pull Request an
+  * Clemens
+    * Testen der bisherigen Anwendung
+    * wartet auf Authenifzierung Deployment sonst soweit fertig
+  * Leon
+    * Dockerfiles fast fertig, 2 Kompilieren nicht
+    * Git Workflows fertig
+    * 2 Repositories schlagen beim Dockerfile fehlt
+  * Andreas
+    * Alle Pull Requests angeschaut und eventuell Kommentare geschrieben
+    * die Pull Requests durchgeführt
+  * Tim
+    * Landingpage im Design weiter angepasst/verbessert
+    * auf andere Module konzentriert
+* Leon fügt an, dass die jar die im Microservice vom Gesundheitswesen generiert wird von gradle nicht ausgeführt werden kann
+* kleinere Besprechung dieses Problem zu resolven
+* kleinere nebenbesprechung über Benachrichtigungen durch Pull Requests von Mattis und Andreas
+* Gruppenbildung um verschiedene Problemstellen zu lösen
+* MVP Ziele definieren

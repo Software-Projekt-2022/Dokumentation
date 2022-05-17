@@ -394,11 +394,11 @@ Autor: Mark Mödeker
 | Jason Piper | Software Engineer |
 | Mattis Fieseler | Software Engineer |
 | Toni Schnittger | Software Engineer |
-| später erschienen | - |
+| später erschienen |
 | Andreas Wegner | Software Architekt |
 | Leon Stümpeley | DevOps Engineer |
 | Clemens Maas | Software Engineer |
-| krankheitsbedingt ausgefallen | - |
+| krankheitsbedingt ausgefallen |
 | Jonas vom Braucke | Software Engineer |
 
 ### Themen
@@ -460,3 +460,23 @@ Autor: Mark Mödeker
  * Fragen?
  * Alle Elemente von Sprint 3 die nur auf Todo standen wurden in Sprint 4 übernommen.
  * Alle Issues von Jonas werden übernommen, da er Krankheitsbedingt ein paar Tage ausfiel und diese nicht fertig bearbeiten konnte. Da er schon an den Issues gearbeitet hat bekommt er zusätzlich noch weitere.
+
+## 17.05.2022 
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Mattis Fieseler | Software Engineer |
+| Clemens Maas | Software Engineer |
+| Malte Kanders | Software Engineer |
+| krankheitsbedingt ausgefallen |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| nicht vor Ort |
+| Jason Piper | Software Engineer |
+
+### Themen
+* 

@@ -116,6 +116,9 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
 * Sprint 2 wurde verlängert, da bei weitem nicht genug nicht innerhalb der einen Woche abgearbeitet waren und wir den Sprint deshalb verlängerten
 * Sprint 4 wurde verlängert, da durch viele Krankheitsfälle und andere Module nicht genug Issues abgearbeitet wurden
 * Ab dem MVP wird jeder Sprint 14 Tage andauern (Teamentscheidung vom 17.05.2022)
+  * wir mussten auch in der "1. Phase" vor dem MVP öfter Sprints verlängern
+  * wir gehen davon aus, dass das Team mit der neuen Sprintlänge besser klarkommen wird
+  * am Anfang hatten wir uns die Möglichkeit offen gehalten die Sprintdauer im Nachgang noch zu erhöhen
 
 ### Gantt Diagramm vom 03.05.2022
 Zeigt den Zeitraum vom Start des Projektes bis zum MVP <br>

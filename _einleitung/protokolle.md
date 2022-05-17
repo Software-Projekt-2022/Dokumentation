@@ -511,4 +511,20 @@ Autor: Mark Mödeker
 * kleinere Besprechung dieses Problem zu resolven
 * kleinere nebenbesprechung über Benachrichtigungen durch Pull Requests von Mattis und Andreas
 * Gruppenbildung um verschiedene Problemstellen zu lösen
-* MVP Ziele definieren
+* Wann kommen die Dockerfiles und das Deployment? Jeder der Services benötigt jetzt die Authentifizierung und bis zum MVP **müssen** alle Services Deployed sein.
+* warum läuft die Action nicht durch? Das liegt an Docker compose, der Container wird aktuell noch falsch gebaut
+* Wie viele Container hat jetzt jeder Service? Die meisten haben einen Container, nur das Unternehmensregister hat zwei
+* Wo sind die Websites von DigitalOcean? 
+  * Das Problem war unbekannt
+  * Das liegt an dem Docker Compose von RabbitMQ
+  * wenn RabbitMQ Problem resolved ist sollten alle Websites wieder verfügbar sein
+* Leon soll bitte heute Abend mit Jason in Kontakt treten damit die Authentifizierung möglichst schnell läuft
+* Wenn das Deployment nicht funktioniert bis zum Wochenende wird online eine Krisensitzung gehalten
+* Dockerfiles müssen jetzt einzeln auf jedem Repo durchgeschaut werden und dann werden die Issues auf done geschoben
+  * Zuständiger: Andreas
+  * soll bei Problemen Leon direkt schreiben
+* Wie gehen wir mit den Relikten aus Sprint 4 um?
+  * Sprint 4 wird verlängert, da die meisten Issues nicht fertig sind und es auch viele krankheitsbedingte Ausfälle die Woche gab
+  * Sprint 4 wird ergänzt um die Issues die für den MVP wichtig sind
+* nach dem MVP werden die Sprints nicht mehr standardmäßig 7 Tage, sonder 14 Tage dauern
+* MVP Ziele definieren in einem anderen Dokument, Link hier: https://software-projekt-2022.github.io/Dokumentation/#/_einleitung/mvp

@@ -461,7 +461,7 @@ Autor: Mark Mödeker
  * Alle Elemente von Sprint 3 die nur auf Todo standen wurden in Sprint 4 übernommen.
  * Alle Issues von Jonas werden übernommen, da er Krankheitsbedingt ein paar Tage ausfiel und diese nicht fertig bearbeiten konnte. Da er schon an den Issues gearbeitet hat bekommt er zusätzlich noch weitere.
 
-## 17.05.2022 14:30
+## 17.05.2022 14:30 - 16:00
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |

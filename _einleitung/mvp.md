@@ -1,6 +1,6 @@
 # Ziele bis zum MVP
 
-**Autor: Mark Mödeker
+**Autor: Mark Mödeker**
 
 ## Was ist ein MVP
 *Ein Minimum Viable Product, wörtlich ein „minimal brauchbares oder existenzfähiges Produkt“, ist die erste minimal funktionsfähige Iteration eines Produkts, die dazu dient, möglichst schnell aus Nutzerfeedback zu lernen und so Fehlentwicklungen an den Anforderungen der Nutzer vorbei zu verhindern.*

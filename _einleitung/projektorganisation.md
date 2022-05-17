@@ -108,11 +108,9 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
 | 2 | 19.04.2022 | 03.05.2022 | 14 Tage |
 | 3 | 03.05.2022 | 10.05.2022 | 7 Tage |
 | 4 | 10.05.2022 | 24.05.2022 | 14 Tage |
-| 5 | 24.05.2022 | 31.05.2022 | 7 Tage |
-| 6 | 31.05.2022 | 07.06.2022 | 7 Tage |
-| 7 | 07.06.2022 | 14.06.2022 | 7 Tage |
-| 8 | 14.06.2022 | 21.06.2022 | 7 Tage |
-| 9 | 21.06.2022 | 28.06.2022 | 7 Tage |
+| 5 | 24.05.2022 | 07.06.2022 | 14 Tage |
+| 6 | 07.06.2022 | 21.06.2022 | 14 Tage |
+| 7 | 21.06.2022 | 28.06.2022 | 7 Tage |
 
 * Sprint 1 wurde verlängert, da dies die ersten Tage des Projektes waren und man sich erstmal einfinden musste.
 * Sprint 2 wurde verlängert, da bei weitem nicht genug nicht innerhalb der einen Woche abgearbeitet waren und wir den Sprint deshalb verlängerten

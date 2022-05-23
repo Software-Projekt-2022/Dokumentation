@@ -550,6 +550,7 @@ Autor: Mark Mödeker
   * Pull Requests bearbeitet
 * Leon:
   * Deployment aller Microservices vorbereitet
+  * RabbitMQ wieder Deployed
 * Jonas:
   * SQL Statements angepasst für das Deployment, secondary Keys machten Probleme
   * die ersten beiden Seiten fast fertig, push auf git ausstehend

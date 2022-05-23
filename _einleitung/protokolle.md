@@ -529,7 +529,7 @@ Autor: Mark Mödeker
 * nach dem MVP werden die Sprints nicht mehr standardmäßig 7 Tage, sonder 14 Tage dauern
 * MVP Ziele definieren in einem anderen Dokument, Link hier: https://software-projekt-2022.github.io/Dokumentation/#/_einleitung/mvp
 
-## 23.05.2022 15:00 -  (Online-Meeting)
+## 23.05.2022 15:00 - 16:30 (Online-Meeting)
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -540,7 +540,6 @@ Autor: Mark Mödeker
 | Mattis Fieseler | Software Engineer |
 | Clemens Maas | Software Engineer |
 | Malte Kanders | Software Engineer |
-| krankheitsbedingt ausgefallen |
 | Jonas vom Braucke | Software Engineer |
 | Toni Schnittger | Software Engineer |
 | Jason Piper | Software Engineer |
@@ -583,3 +582,8 @@ Autor: Mark Mödeker
 * Einschätzung des DevOps Engineer zum Deployment Status: Unbekannt, man kann die Probleme nicht vorher abschätzen
 * Nochmal über alle MVP Ziele drüber schauen und nach Wichtigkeit sortieren, den Mitgliedern mitgeben was noch zu machen ist
 * Alle Software Engineers sollen noch Pull Requests stellen um ihre Fortschritte von Dev in Main zu pushen.
+* Problem Solving im gesamten Team
+* Nochmal Kanban Verläufe ansprechen:
+  * Dran denken den PR zu stellen
+  * Dran denken Issues weiter zu schieben
+  * Transparenz sehr wichtig, gerne öfter im Discord schreiben und andere informieren

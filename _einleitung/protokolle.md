@@ -528,3 +528,58 @@ Autor: Mark Mödeker
   * Sprint 4 wird ergänzt um die Issues die für den MVP wichtig sind
 * nach dem MVP werden die Sprints nicht mehr standardmäßig 7 Tage, sonder 14 Tage dauern
 * MVP Ziele definieren in einem anderen Dokument, Link hier: https://software-projekt-2022.github.io/Dokumentation/#/_einleitung/mvp
+
+## 23.05.2022 15:00 -  (Online-Meeting)
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Mattis Fieseler | Software Engineer |
+| Clemens Maas | Software Engineer |
+| Malte Kanders | Software Engineer |
+| krankheitsbedingt ausgefallen |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| Jason Piper | Software Engineer |
+
+### Themen
+* Was haben die Software Engineers die Woche gemacht, was wird noch gemacht für den MVP?
+* Andreas:
+  * Pull Requests bearbeitet
+* Leon:
+  * Deployment aller Microservices vorbereitet
+* Jonas:
+  * SQL Statements angepasst für das Deployment, secondary Keys machten Probleme
+  * die ersten beiden Seiten fast fertig, push auf git ausstehend
+  * Sobald DB Connect im Deployment funktioniert sollte Deployment vom Verkehr Microservice durchlaufen
+  * RabbitMQ Schnittstelle implementiert
+* Toni:
+  * Falsche Wochentage gefixed
+  * Event senden vorbereitet
+  * RabbitMQ Schnittstelle vorbereitet
+  * Hardcoded Beispieldaten aus HTML entfernen
+* Clemens:
+  * Mithilfe beim Deployment von seinem Microservice
+  * Probleme beim Deployment durch/bei Springboot .jar erstellung
+  * Frontend erweitert
+* Mattis:
+  * Backend für Deployment gefixed
+  * Backend ergänzungen
+  * Frontend für Deployment gefixed, sollte starten können
+  * Frontend Layout verbessert
+* Jason:
+  * hat beschlossen SWP nicht weiter zu machen
+  * Tabellen werden nicht erstellt, sollten Tabellen erstellt werden sollte Deployment funktionieren
+    * Lösungsansatz: E-Mail Service entfernen
+    * Sonst Fehlermeldungen in Spring anschauen
+* Malte:
+  * Frontend verschiedene Routen zwischen denen gewechselt werden kann
+  * Frontend und Backend arbeiten zusammen
+  * Interne Schnittstellen alle definiert
+  * Erste Frontend Seiten verfügbar
+* Einschätzung des DevOps Engineer zum Deployment Status: Unbekannt, man kann die Probleme nicht vorher abschätzen
+* Nochmal über alle MVP Ziele drüber schauen und nach Wichtigkeit sortieren, den Mitgliedern mitgeben was noch zu machen ist
+* Alle Software Engineers sollen noch Pull Requests stellen um ihre Fortschritte von Dev in Main zu pushen.

@@ -87,9 +87,12 @@
 | Jonas vom Braucke | Software Engineer | Microservice [Verkehr](verkehr/index) |
 | Toni Schnittger | Software Engineer | Microservice [Umwelt](umwelt/index) |
 | Malte Kanders | Software Engineer | Microservice [Gesundheitswesen](gesundheitswesen/index) |
-| Jason Piper | Software Engineer | Microservice [Authentifizierung](authentifizierung/index) |
+| ~~Jason Piper~~ | ~~Software Engineer~~ | ~~Microservice [Authentifizierung](authentifizierung/index)~~ |
 | Clemens Maas | Software Engineer | Microservice [Unternehmensregister](unternehmensregister/index) |
 | Mattis Fieseler | Software Engineer | Microservice [Kultur](kultur/index) |
+| Andreas Wegner | Software Engineer | Microservice [Authentifizierung](authentifizierung/index) |
+
+* **Da Jason Piper das Projekt am 23.05.2022 verlassen hat haben wir am 24.05.2022 beschlossen die Authentifizierung von Adreas Wegner durchführen zu lassen. Er wird dabei vom Scrum Master und Product Owner tatkräftig unterstützt.**
 
 ## Grober Meilensteinplan
 

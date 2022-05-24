@@ -589,7 +589,7 @@ Autor: Mark Mödeker
   * Dran denken Issues weiter zu schieben
   * Transparenz sehr wichtig, gerne öfter im Discord schreiben und andere informieren
 
-## 24.05.2022: MVP Vorstellung 14:30 - 16:05
+## 24.05.2022: MVP Vorstellung 14:30 - 16:15
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |

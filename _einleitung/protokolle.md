@@ -589,7 +589,7 @@ Autor: Mark Mödeker
   * Dran denken Issues weiter zu schieben
   * Transparenz sehr wichtig, gerne öfter im Discord schreiben und andere informieren
 
-## 24.05.2022: MVP Vorstellung 14:30 - 16:00
+## 24.05.2022: MVP Vorstellung 14:30 - 16:05
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -601,7 +601,7 @@ Autor: Mark Mödeker
 | Clemens Maas | Software Engineer |
 | Jonas vom Braucke | Software Engineer |
 | Toni Schnittger | Software Engineer |
-| krankheitsbedingt ausgefallen |
+| krankheitsbedingt nicht vor Ort |
 | Malte Kanders | Software Engineer |
 
 ### Themen
@@ -653,3 +653,7 @@ Autor: Mark Mödeker
 * Wie kann man die User in den Mircroservice Datenbanken erweitern? Kleinere Diskussion
 * Nehmen wir JWT Token für die Authentifizierung? Vorteile und Nachteile Diskussion
 * Weitere Vorschläge: Passport.js
+* Wie sende ich Zeitbasierte Events? Vorschläge:
+  * Timer und Callback auf das senden des Events
+  * Eventuell beim Login von einem User
+  * Nur beim Page Aufruf

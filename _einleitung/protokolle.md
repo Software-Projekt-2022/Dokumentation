@@ -649,3 +649,7 @@ Autor: Mark Mödeker
 * es gibt trotzdem noch viele Baustellen bis zur Abgabe
 * Technische Heterogenität ist sehr gut, herausfordernd für die CI/CD Pipeline
 * am 07.06.2022 Terminfindung für die Abgabe
+* Wie funktioniert Authentifizierung, wer übernimmt es? Kleinere Diskussion
+* Wie kann man die User in den Mircroservice Datenbanken erweitern? Kleinere Diskussion
+* Nehmen wir JWT Token für die Authentifizierung? Vorteile und Nachteile Diskussion
+* Weitere Vorschläge: Passport.js

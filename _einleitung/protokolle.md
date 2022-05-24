@@ -588,3 +588,64 @@ Autor: Mark Mödeker
   * Dran denken den PR zu stellen
   * Dran denken Issues weiter zu schieben
   * Transparenz sehr wichtig, gerne öfter im Discord schreiben und andere informieren
+
+## 24.05.2022: MVP Vorstellung 14:30 - 16:00
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Mattis Fieseler | Software Engineer |
+| Clemens Maas | Software Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| krankheitsbedingt ausgefallen |
+| Malte Kanders | Software Engineer |
+
+### Themen
+* Herr Brunsmann auf den neuesten Stand gebracht:
+  * Malte fällt Krankeheitsbedingt aus
+  * Jason hat mit Softwareprojekt aufgehört
+* MVP wird vorgestellt in folgender Reihenfolge:
+  * Tim und die Landingpage
+    * Zuerst die Landingpage an sich
+    * dann Codeausschnitte
+  * Malte und das Gesundheitssystem
+    * Zuerst die Seite
+    * dann Codeausschnitte auf nachfrage durch Herrn Brunsmann
+    * Zeigt den Deployment Prozess
+  * Mattis und die Kulturseite
+    * Zuerst die Seite
+    * dann Codeausschnitte vom Glassfish Backend
+    * Codeausschnitte der Eventanbindung
+  * Clemens und das Unternehmensregister
+    * Zuerst die API Routen über Swagger Dokumentation
+    * dann die Seite
+    * source Code vom Frontend
+    * Erklärung zu Next.JS
+  * Toni und die Umweltseite
+    * Zuerst die Website
+    * dann Source Code vom Frontend
+    * Source Code für Events im Backend
+  * Jonas und die Verkehrseite
+    * Zuerst das Frontend
+    * dann Source Code vom Frontend
+    * Source Code vom Backend
+  * Andreas und RabbitMQ
+    * Zeigt die Frontend Seite von RabbitMQ
+    * Zeigt an Beispielen den Umfang von RabbitMQ
+    * Dann anhand vom Source Code wie RabbitMQ aufgebaut ist
+    * Beschreibt einmal wie er Code Reviews durchführt
+  * Leon zeigt das Deployment
+    * Docker Compose file
+    * Identifikation der Fehler, zeigt Notizen dazu (Excel)
+* Jeder soll Tests schreiben
+* Projekt wirkt sehr unintegriert, da noch die Kommunikation zwischen den Services fehlt
+* Wie gehen wir weiter vor, wer übernimmt Authentifizierung? Andreas übernimmt den Service, Scrum Master und Prduct Owner unterstützen dabei
+* Authentifizierung ist ein wichtiges Standbein für das ganze Projekt und muss bis zum Ende funktionieren.
+* zum MVP waren die wichtigsten Grundfunktionen vorhanden
+* es gibt trotzdem noch viele Baustellen bis zur Abgabe
+* Technische Heterogenität ist sehr gut, herausfordernd für die CI/CD Pipeline
+* am 07.06.2022 Terminfindung für die Abgabe

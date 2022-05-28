@@ -128,3 +128,13 @@ Zeigt den Zeitraum vom Start des Projektes bis zum MVP <br>
 
 <img width="902" alt="Screenshot 2022-05-03 191852" src="https://user-images.githubusercontent.com/81245080/166505510-94d80a6d-63ef-4fc1-8574-9a5aa1fd1c22.png">
 
+## MVP: Zwischenfazit
+### Was lief gut?
+Es war sehr gut, dass bis zu der Präsentation des MVP alle Services deployed waren und eine Grafische Oberfläche hatten die wir zeigen konnten. Es ist auch positiv anzumerken, dass jeder Software Engineer viele seiner User Stories implementieren konnte. Zudem haben auch alle Entwickler neue Kenntnisse über Ihre Techniken gewinnen können, was auch ein wichtiges Ziel unseres Projektes war.
+
+### Was lief schlecht?
+Die Kommunikation im Team war teilweise schwierig, da der Zentrale Kommunikationsserver nicht immer benutzt wurde. Häufig haben die einzelnen Personen sich Privat geschrieben, wweswegen die aktuellen Arbeitsschritte nicht transparent im Team bekannt waren. Wir in den Wochen bis zur Abgabe diesen Punkt deutlich zu verbessern.
+Außerdem ist es ungünstig, dass wir aufgrund der vielen Krankheitsfälle und der anderen Module die Sprints verlängern mussten oder einzelne Aufgaben in den nächsten Sprint schieben mussten. Da wir aber eine Agile Arbeitsweise haben war dies ohne weitere Bedenken möglich.
+
+### Herausforderungen
+Die neuen Techniken waren Anfangs sehr unbekannt für einige Entwickler, weswegen die Anfangszeit recht schwierig war. Wir als Projektmanager mussten dann eine gesunde Balance an Aufgaben finden, dass der Sprint gut zu schaffen war neben den anderen Modulen. Für die Zukunft gibt es aber noch die größte Herausforderung: Die Fertigstellung unseres Projektes. Dies ist eine sehr große Herausforderung, da wir noch viele Stories offen haben und die Seiten auch Designtechnisch noch für die beste User Experience stark überarbeitet werden müssen. Beide Aufgaben sind riesig und um alle zu schaffen muss ein gutes Management vorhanden sein. Wir sind aber zuversichtlich, dass alles gut laufen wird.

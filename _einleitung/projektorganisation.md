@@ -127,6 +127,12 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
 Zeigt den Zeitraum vom Start des Projektes bis zum MVP <br>
 
 <img width="902" alt="Screenshot 2022-05-03 191852" src="https://user-images.githubusercontent.com/81245080/166505510-94d80a6d-63ef-4fc1-8574-9a5aa1fd1c22.png">
+* Teilweise ungültig, da die Sprints angepasst werden mussten.
+
+### Gantt Diagramm vom 29.05.2022
+Zeigt den Zeitraum vom MVP bis zur Softwareprojektabgabe <br>
+
+<img width="902" alt="Screenshot 2022-05-29" src="https://user-images.githubusercontent.com/81245080/170865924-70152d20-a310-4f99-9737-ebc6be9f29c8.png">
 
 ## MVP: Zwischenfazit
 ### Was lief gut?

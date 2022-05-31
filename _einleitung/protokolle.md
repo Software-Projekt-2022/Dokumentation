@@ -658,7 +658,7 @@ Autor: Mark Mödeker
   * Eventuell beim Login von einem User
   * Nur beim Page Aufruf
 
-## 31.05.2022 Zwischenstandsbesprechung 14:30 - 16:15
+## 31.05.2022 Zwischenstandsbesprechung 14:30 🕝 - 15:30 🕞
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -702,3 +702,9 @@ Autor: Mark Mödeker
   * Wie lange ist das JWT gültig?
   * Wo ist das aktuelle Repo angelegt, wie kommt es in die Organisation?
   * ist das Dockerfile so vernünftig?
+  * Wofür ist der Public Key beim JWT?
+* Neue Events:
+  * Jedes mal wenn sich ein User registriert schickt die Authentifizierung ein Event mit allen Daten außer dem Passwort an die anderen Services. So können die anderen MS die User auch bei sich angelegen. 
+  * Wenn ein User seinen Account löscht wird das auch gesendet.
+* E-Mail Authentifizierung? 
+  * Diskussion zur Email Authentifizierung

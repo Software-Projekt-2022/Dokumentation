@@ -1,6 +1,6 @@
 # Authentifizierung
 
-**Autor:** Jason Piper <br>
+**Autor:** Jason Piper, Andreas Wegner <br>
 **URL:** http://auth.cyber-city.systems
 
 ## Überblick

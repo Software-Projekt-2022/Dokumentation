@@ -657,3 +657,48 @@ Autor: Mark Mödeker
   * Timer und Callback auf das senden des Events
   * Eventuell beim Login von einem User
   * Nur beim Page Aufruf
+
+## 31.05.2022 Zwischenstandsbesprechung 14:30 - 16:15
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Malte Kanders | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| krankheitsbedingt ausgefallen |
+| Clemens Maas | Software Engineer |
+
+### Themen
+* Nachbesprechung MVP
+* wie weit sind die Software Engineers jetzt bei der Hälfte des Sprints?
+  * Mattis
+    * Backendarbeiten
+    * Datenbankstruktur geändert, Place auf mehrere Tabellen und mit Joins verknüpft
+    * Beispieldaten geschrieben
+    * Frontend API Pfade hinterlegt
+  * Jonas
+    * ViewJS auseinandergesetzt
+    * CSS überarbeitet
+    * Einbindung in RabbitMQ fast vollständig
+    * Rest Schnittstelle angefangen
+  * Leon
+    * Unternehmensregister Frontend läuft
+    * Alle Services die nicht laufen angeschaut
+  * Andreas
+    * Authentifizierungs Service vollständig neu aufgebaut
+    * Authentifizierung selber deployed damit die Software Engineers es nutzen können https://lulon.ddns.net
+    * Soll noch die Dokumentation für die Authentifizierung anpassen
+* Tim soll seinen Link für das Unternehmensregister ändern auf die neue Adresse und Clemens kann aufhören seine Seite zu hosten
+* Andreas präsentiert seinen Authentifizierungs-Service
+  * Präsentation Swagger Dokumentation
+  * API Routen in Postman zeigen
+* Q&A zu der Authentifizierung
+  * Wie wird die Verschlüsselung umgesetzt?
+  * Wie lange ist das JWT gültig?
+  * Wo ist das aktuelle Repo angelegt, wie kommt es in die Organisation?
+  * ist das Dockerfile so vernünftig?

@@ -182,12 +182,12 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
 - Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
 
 * Frontend
-  - Java
-  - Spring 
-  - Bootstrap
+  - HTML
+  - CSS
+  - JavaScript
 * Backend
-   - Java 
-   - Springboot
+   - Node.js
+   - Express.js
    - REST API
 * Datenbank
-   - postgresSQL
+   - MariaDB

@@ -658,7 +658,7 @@ Autor: Mark Mödeker
   * Eventuell beim Login von einem User
   * Nur beim Page Aufruf
 
-## 31.05.2022 Zwischenstandsbesprechung 14:30 🕝 - 15:30 🕞
+## 31.05.2022 Zwischenstandsbesprechung 14:30 - 15:30
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -682,7 +682,7 @@ Autor: Mark Mödeker
     * Beispieldaten geschrieben
     * Frontend API Pfade hinterlegt
   * Jonas
-    * ViewJS auseinandergesetzt
+    * VueJS auseinandergesetzt
     * CSS überarbeitet
     * Einbindung in RabbitMQ fast vollständig
     * Rest Schnittstelle angefangen

@@ -122,6 +122,7 @@ Zuästzlich zum Kanban-Board hier Meilensteine beschreiben.
   * wir mussten auch in der "1. Phase" vor dem MVP öfter Sprints verlängern
   * wir gehen davon aus, dass das Team mit der neuen Sprintlänge besser klarkommen wird
   * am Anfang hatten wir uns die Möglichkeit offen gehalten die Sprintdauer im Nachgang noch zu erhöhen
+* Sprint 5 und 4 teilen sich ein Kanban Board, da nach Sprint 4 noch zu viele Issues offen waren. Durch Sprint 5 kamen dennoch wenige Issues hinzu.
 
 ### Gantt Diagramm vom 03.05.2022
 Zeigt den Zeitraum vom Start des Projektes bis zum MVP <br>

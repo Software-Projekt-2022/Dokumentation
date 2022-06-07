@@ -709,7 +709,7 @@ Autor: Mark Mödeker
 * E-Mail Authentifizierung? 
   * Diskussion zur Email Authentifizierung
 
-## 07.06.2022 Zwischenstandsbesprechung 14:30 - (Präsenzbesprechung)
+## 07.06.2022 Zwischenstandsbesprechung 14:30 - 15:00 (Präsenzbesprechung)
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |
@@ -746,3 +746,48 @@ Autor: Mark Mödeker
   * Drehbuch für die Abgabe entwickeln
     * Ein Bürger zieht in die Stadt und meldet sich bei der CyberCity an
     * Einer klickt das durch oder die Software Engineers stellen selber ihre Arbeit vor
+
+
+## 07.06.2022 Zwischenstandsbesprechung 15:00 - 15:20 (Online Meeting)
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Malte Kanders | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| Clemens Maas | Software Engineer |
+
+### Themen
+* Was haben die Software Engineers die Woche gemacht?
+  * Mattis:
+    * JS fetcht die Daten und die Website ist nicht mehr statisch
+    * Datenbank fixed, vorheriges Deployment war fehlerhaft
+    * Weitere Beispieldaten geschrieben
+    * Login über den Authentifizierungs Microservice schon vorbereitet
+  * Andreas:
+    * Dev Branch angelegt im Auth repo
+    * Swagger vom letzten Dienstag überarbeitet / repariert
+    * neues Feature: alle Account IDs über einen Request holen
+      * Falls ein Synchronisierungsfehler aufgetreten ist vorher können alle IDs geholt werden und die fehlenden Accounts hinzugefügt werden
+  * Malte
+    * Man kann auf der Gesundheitswesen Seite eigene Kategorien erstellen und löschen
+    * Fragen zum Login
+    * Wenn man nicht eingeloggt ist wird man zur Landing Page geleitet
+    * Mehr Testen mit dem Framework -> weg vom Tutorial kommen
+  * Clemens
+    * NextJS Authentifizierung eingebaut -> Seite gibt Fehler zurück
+    * mit NextJS Routen securen
+    * Anmeldung über Github getestet, funktioniert auch nicht
+  * Leon
+    * Authentifizierung vollständig Deployed, mit Datenbank
+    * Fehler beim Auth Deployment behoben
+    * Gesundheitswesen Backend deployed
+    * Sehr viele Tests mit TLS-Zertifikaten
+    * Bad Gateway beim Authentifizierungs Service, wird noch behoben
+* Weitere Fragen?
+* Bitte die Pull Requests für die Woche stellen.

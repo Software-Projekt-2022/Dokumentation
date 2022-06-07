@@ -708,3 +708,41 @@ Autor: Mark Mödeker
   * Wenn ein User seinen Account löscht wird das auch gesendet.
 * E-Mail Authentifizierung? 
   * Diskussion zur Email Authentifizierung
+
+## 07.06.2022 Zwischenstandsbesprechung 14:30 - (Präsenzbesprechung)
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+
+### Themen
+* Was haben die anwesenden Software Engineers diesen Sprint geschafft?
+  * Toni
+    * Website Design ist responsive
+    * kleinere Fehler in der aktuellen Version deswegen noch kein Pull Request
+  * Mark
+    * Wie ist der aktuelle Projekt Status
+    * Wann soll der Abgabetermin sein?
+    * Wie weit ist die Authentifizierung aus?
+  * Jonas
+    * Rest Schnittstelle vervollständigt
+    * RabbitMQ fast vollständig
+    * CSS ausgebaut für Responsive Design
+    * Authentifizierung vorbereitet (Token Nutzung)
+    * DB Verbindung funktioniert noch nicht
+  * Landing Page
+    * Authentifizierung anwenden fehlt noch
+    * Kanban Board vorbereitet für die letzten Sprints
+* Software Engineers stellen bitte Pull Requests für die Arbeit die in der Woche erledigt wurde
+* Abgabe am 28.06.2022 14:30
+  * Alle Microservices Deployed
+  * Kommunikation zwischen den Services
+  * Automatisierte Testfälle
+  * Lessons Learned von allen beteiligten
+    * max. 5 Folien
+  * Drehbuch für die Abgabe entwickeln
+    * Ein Bürger zieht in die Stadt und meldet sich bei der CyberCity an
+    * Einer klickt das durch oder die Software Engineers stellen selber ihre Arbeit vor

@@ -139,20 +139,17 @@ Vorläufige Skizze:
 
 * Server
   * Web-Schicht
-    * KTor
+    * Express
   * Logik-Schicht
-    * Kotlin/JVM
+    * JS
   * Persistenz-Schicht
-    * PostgreSQL
+    * MongoDB
 
 * Client
   * View-Schicht
-    * KVison(React)
+    * React
   * Logik-Schicht
-    * Kotlin/JS
-  * Kommunikation-Schicht
-    * KTor/KVision
-
+    * JS
 
 ##### FullStack WebAPP in der Gesamtübersicht:
 
@@ -193,9 +190,8 @@ Erst muss über beide mehr Erfahrung gesammelt werden, KVision bisher präferier
 
 ### Verwendete Technologien
 
-* Frontend
-  * KVison/React
-* Backend
-  * KTor
-* Datenbank
-  * PostgreSQL
+* MERN Stack
+  * MongoDB 
+  * Express
+  * React
+  * Node

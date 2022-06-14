@@ -4,6 +4,7 @@
 * [**CI/CD**](ci_cd/index)
 * [**Events**](https://software-projekt-2022.github.io/Dokumentation/asyncapi/)
 * [**MVP Ziele**](_einleitung/mvp)
+* [**Abgabe**](_einleitung/goals)
 
 <br>
 

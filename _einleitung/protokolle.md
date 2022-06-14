@@ -854,7 +854,7 @@ Autor: Mark Mödeker
     * Authentifizierung über unseren Service
     * eigenes Token für den Microservice
   * Malte:
-    * p
+    * Frontend kann das Backend nicht ansprechen
   * Andreas:
     * Authentifizierung Frontend gibt Bad Gateway zurück
   * Leon:

@@ -791,3 +791,80 @@ Autor: Mark Mödeker
     * Bad Gateway beim Authentifizierungs Service, wird noch behoben
 * Weitere Fragen?
 * Bitte die Pull Requests für die Woche stellen.
+
+## 13.06.2022 Zwischenstandsbesprechung 14:30 - 15:30
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Malte Kanders | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| Clemens Maas | Software Engineer |
+
+### Themen
+* Was haben die Software Engineers die Woche gemacht?
+  * Toni:
+    * Responsive Design weiter ausgebaut
+    * User Story 6, Wasserstand Diagramm
+    * Buxfixes, Hyperlink zur Landing Page
+  * Jonas:
+    * Vue Design weiter angepasst
+    * Design dementsprechend erweitert
+    * Rest und RabbitMQ Schnittstellen weiter ausgebaut
+    * Auth Token einbindung verbessert
+    * Fix für das Backend muss noch getestet werden
+  * Mattis:
+    * CORS Error Bugfixing
+    * Nginx Reverse Proxy recherche
+  * Clemens:
+    * Anmeldung funktioniert über andere Anbieter
+    * Seiten nicht gesichert und nur über Anmeldung erreichbar
+  * Malte:
+    * mit den Events beschäftigt
+    * personalisierte Seiten für die einzelnen Dienste ausgebaut (z.B. Arzt)
+  * Andreas:
+    * Pull Requests und Code Reviews durchgeführt
+    * Auth Service neue Änderungen deployed
+    * Event für Registrierung und Löschen von Accounts angefangen
+  * Leon:
+    * Deployment Probleme versucht zu beheben (Auth weiterhin Bad Gateway)
+    * Verkehr deployment Problem versucht zu fixen
+  * Tim & Mark:
+    * Kanban Board für Sprint 6 und 7 vorbereitet, Sprint 5 verschönert und vorherige Sprints überprüft
+  * Mark:
+    * Weitere Hilfestellungen zum Thema Login und Logout im Discord geschrieben
+* Was ist zur Abgabe am wichtigsten? (in der Reihenfolge)
+  * Alle Microservices Deployed
+  * Kommunikation zwischen den Services
+  * Automatisierte Testfälle
+  * Lessons Learned von allen beteiligten
+  * Drehbuch für die Abgabe entwickeln
+* Gemeinsamer Versuch Fehler in der Gruppe zu behoben die in einzelnen Microservices auftauchen
+* Aktuelle **Probleme**:
+  * Mattis:
+    * CORS Fehler bei Requests von Frontend zu Backend
+  * Jonas:
+    * Backend wird nicht richtig deployed, Verbindung scheitert
+  * Clemens:
+    * Authentifizierung über unseren Service
+    * eigenes Token für den Microservice
+  * Malte:
+    * p
+  * Andreas:
+    * Authentifizierung Frontend gibt Bad Gateway zurück
+  * Leon:
+    * Deployment von zwei Services (Auth und Verkehr) geben noch Fehler
+  * Tim:
+    * Logo Responsive
+    * Unternehmensregister Link fehlerhaft
+* Scrum:
+  * Kanban Board vergangene Issues aufarbeiten
+  * Kanban Board auch weiterhin aktiv nutzen
+  * Pull Request erst nächste Woche am ende des Sprints stellen
+* Fragen?
+* In zwei Wochen ist Abgabe!

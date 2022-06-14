@@ -792,7 +792,7 @@ Autor: Mark Mödeker
 * Weitere Fragen?
 * Bitte die Pull Requests für die Woche stellen.
 
-## 13.06.2022 Zwischenstandsbesprechung 14:30 - 15:30
+## 14.06.2022 Zwischenstandsbesprechung 14:30 - 15:30
 ### Teilnehmer
 | Teilnehmer | Rolle |
 | - | - |

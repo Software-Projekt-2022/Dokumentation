@@ -868,3 +868,77 @@ Autor: Mark Mödeker
   * Pull Request erst nächste Woche am ende des Sprints stellen
 * Fragen?
 * In zwei Wochen ist Abgabe!
+
+## 21.06.2022 Zwischenstandsbesprechung 14:30 - 15:30 (online Besprechung)
+### Teilnehmer
+| Teilnehmer | Rolle |
+| - | - |
+| Mark Mödeker | Scrum Master |
+| Tim Bollmeyer | Product Owner |
+| Andreas Wegner | Software Architekt |
+| Leon Stümpeley | DevOps Engineer |
+| Malte Kanders | Software Engineer |
+| Mattis Fieseler | Software Engineer |
+| Jonas vom Braucke | Software Engineer |
+| Toni Schnittger | Software Engineer |
+| Clemens Maas | Software Engineer |
+
+### Themen
+* Was haben die Software Engineers die Woche alles geschafft?
+  * Toni Schnittger:
+    * Design Änderungen
+    * bessere Warnungen für mehrere Wetter
+    * Test Event, funktioniert lokal, nicht auf dem Server
+    * Code aufgeräumt, Kommentare geschrieben, Dateien sortiert
+    * Wetter von letzter Woche im Service dargestellt
+    * Service holt die neuen API Daten alle 60 Minuten
+    * Authentifizierung fehlt noch
+    * Schickt jeweils um 8 Uhr und 20 Uhr die Daten als Event und aktualisiert die Warnungen
+    * Anwendung auf Front- und Backend aufgeteilt
+  * Jonas:
+    * Probleme mit der Datenbankanbindung
+      * Async Kommunikation funktioniert nicht
+      * mehrere Fixes probiert
+    * User Stories müssen noch weiter implementiert werden
+    * Designänderungen an dem Service
+    * RabbitMQ mehr Events
+    * Code Cleanup, Kommentare hinzugefügt
+  * Mattis:
+    * weiterhin CORS Fehler
+      * mehere Fixes probiert, noch keiner hat geholfen
+    * Lokale Testumgebung aufgebaut (mit Malte)
+    * Wechsel von normalem Datenbankzugriff zu JPA
+    * Eventsystem geplant, z.B. "heute findet das Sommerfest statt" -> Tagesevents
+  * Clemens:
+    * Abfrage nach den Jobs funktioniert
+    * Test mit der Deployten Datenbank auch lokal (freigegeben)
+    * Nur Zugriff wenn man eingeloggt ist
+    * Login aktuell über Discord und Github
+    * NextJS wirft einen Authentifizerungsfehler mit unserem Token
+    * man kann alle Jobs, Unternehmen und Nutzerprofile fetchen
+    * Man kann sich Profile anzeigen lassen
+    * Bewerbungen funktionieren, offene Bewerbungen abfragen
+    * noch geplant: Timeline von vergangenen Arbeitgebern, edit Button zu Profil editieren, Bewerbungsstatus, RabbitMQ Event zu neuen Nutzern hinzufügen
+    * Fehler: NextJS wirft CORS fehler seit wir auf HTTPS umgestiegen sind, NextJS lässt kein Post zu und wenn man dann die eigene API nutzt funktioniert die Authentifizierung nicht mehr, API wird nach ca. 8 Minuten nach Start von der Datenbank blockiert
+  * Malte:
+    * bei anderen viel geholfen
+    * die nächsten Schritte vorbereitet
+    * Problem: lokale API Kommunikation funktioniert, deployed funktioniert es nicht
+  * Andreas:
+    * Pull Requests & Code Reviews
+    * Authentifizierungsservice sendet jetzt alle relevanten Daten der Nutzer als Event wenn sich jemand anmeldet oder löscht
+  * Leon:
+    * Der Service läuft jetzt unter HTTPS, Zertifikate eingerichtet
+    * Wenn man auf HTTP zugreift wird man automatisch redirected auf HTTPS
+    * Frontend Services können nicht auf die Backend Services zugreifen da diese auf dem Userclient direkt laufen und die DNS nicht auflösen können
+    * Fix: API exposed unter dem ursprünglichen Pfad mit "/api" am ende
+    * Unternehmensdatenbank für Clemens exposed, Schwierigkeiten durch TCP Verbindungen
+  * Tim:
+    * alles für die Login und Registrieren vorbereitet, sobald der Service läuft sollte das laufen
+* Scrum Ansprache durch den Scrum Master
+  * Bitte alle einen Pull Request stellen falls noch nicht geschehen
+  * Bitte die Issues immer in die richtige Spalte ziehen damit die Arbeit möglichst Transparent ist
+  * Was die nächsten Arbeitsschritte nach Kanban Board sind
+* Fragen?
+* In einer Woche ist Abgabe!
+* Nach dem Meeting starten wir gemeinsam eine Arbeitsgruppe um mithilfe der neuen API Routen hoffentlich die meisten Probleme zu beheben

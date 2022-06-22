@@ -7,14 +7,13 @@
 
 ## Überblick
 
-Im Microservice Umwelt sollen die Temperatur, die Luftreinheit, das Wetter, der Pollenflug sowie der Wasserstand des stadtnahen Flusses übersichtlich für verschiedene Stadtteile dargestellt werden. Außerdem sollen passend zu den Verhältnissen Aktivitäten wie z.B. Radfahren oder Veranstaltungen aus dem Bereich Kultur vorgeschlagen werden.
-Wichtig sollte dazu noch eine Warnung zu bevorstehendem Extremwetter wie Stürme oder Hochwasser sein. Der Microservice soll die Nutzer mit allem verbinden was
-Umwelttechnisch in der Stadt passiert. Falls dieser Microservice entgegen der Erwartung sehr früh fertig gestellt werden sollte, würden weiterhin noch eine Funktion für Umwelt-tipps (z.B. für Bewässerung von Pflanzen entsprechend des Grundwasserspiegels) implementiert werden.
+Im Microservice Umwelt sollen die Temperatur, die Luftreinheit, das Wetter, der Pollenflug sowie der Wasserstand des stadtnahen Flusses übersichtlich für verschiedene Stadtteile dargestellt werden. Außerdem sollen Veranstaltungen aus dem Bereich Kultur vorgeschlagen werden.
+Wichtig sollte dazu noch eine Warnung zu bevorstehenden Wetterverhältnissen wie z.B. Stürme, Hochwasser oder Hitze sein. Der Microservice soll die Nutzer mit allem verbinden was Umwelttechnisch in der Stadt passiert. Falls dieser Microservice entgegen der Erwartung sehr früh fertig gestellt werden sollte, würden weiterhin noch eine Funktion für Umwelt-tipps (z.B. für Bewässerung von Pflanzen entsprechend des Grundwasserspiegels) implementiert werden.
 
 ## Funktionale Anforderungen
 
 
-Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
+Akteure: Alle Bürger oder Touristen mit Interesse an der Umwelt, APIs
 
 
 **Use-Case**
@@ -57,13 +56,16 @@ Akteure: Alle Bürger oder Touristen mit Interesse am Wetter, APIs
 
 ![mockup04](media/mockup04.png)
 
-## Datenmodell 
-
-Speichern Besonderer Wetterereignisse.
 
 ## Abläufe
 
-Der Ablauf beschränkt sich auf die Aktualisierung der API-Daten(beschrieben im Abschnitt API) und das Aufrufen/Schließen der Tabellen bei Knopfdruck.
+* Backend:
+  - Daten werden allesamt jede Stunde(xx:00 Uhr) neu gefetched
+  - Um 8 Uhr Morgens und Abends werden zusätzlich die Daten neu ausgewertet, was neue Events sendet und die Warnungen aktualisiert
+  - Die aktuellen Daten sind über /getAllData für das Frontend abrufbar
+
+* Frontend:
+  - Die Daten werden jede Stunde(xx:01 Uhr) oder wenn die Seite neu aufgerufen wird über /getAllData geholt und die Seite wird refreshed
   
 ## Schnittstellen
 
@@ -73,7 +75,6 @@ Der Ablauf beschränkt sich auf die Aktualisierung der API-Daten(beschrieben im 
 
 Wetter, UV-Level, etc.: Openweathermap(https://openweathermap.org/api) 
 Mit Openweathermap wird der Großteil der Informationen für die Wetter Seite dargestellt. Sie liefert die Temperatur, das Wetter, die Windgeschwindigkeit, die Gefühlte Temperatur, die Luftverschmutzung und mehr für Mehrere Tage im Voraus. 
-Die Gratisversion von Openweathermap beschränkt die aufrufe auf 60/Minute. Wir werden die Aktualisierung entsprechend anpassen müssen, geplant ist im Normalfall alle 15 Minuten (Bei gefährlichem Wetter ggf. öfter). 
 
 #### Wasserstand
 
@@ -87,6 +88,9 @@ Pollen: Pollen Forecast API (https://achoo.dev/)
 Pollen Forecast API liefern viele Daten über den Flug der verschiedenen Arten für jeden Bereich von Deutschland. 
 Da die Daten der Pollen API nur täglich aktualisiert werden, wird diese Anzeige auch einmal täglich, oder wenn technisch nötig aktualisiert.  
 
+#### Schnittstelle zum Frontend
+
+Die Evaluierten und überprüften Daten werden über "/api/getAllData" an das Frontend gesendet. 
 
 ### Commands
 
@@ -101,85 +105,57 @@ Da die Daten der Pollen API nur täglich aktualisiert werden, wird diese Anzeige
 | buildWeatherTable() | - | boolean result |
 
 
-#### Event-Subscriptions
+#### Events
 
-| **Service** | **Funktion** |
-| :------ | :----- | 
-| Kultur | getDailyEvents |
+| **Service** | **Funktion** | **Wofür |
+| :------ | :----- | :----- |
+| Kultur | getDailyEvents | Die Täglichen Veranstaltungen darstellen |
+| Umwelt | air_quality_warning_event | Nenneswerte Umweltdaten wie z.B. schlechte Luftqualität senden |
 
 
 ## Technische Umsetzung
-
-Aufgrund von mangelnder Erfahrung in Webentwicklung ist dieser Abschnitt hier etwas grob gehalten. Ich es in den ersten 2,5 Wochen des Semesters noch nicht geschafft mich weit genug in die Materie hinein zu arbeiten um die beste Lösung zu finden. Anstatt mich jetzt auf eine möglicherweise zweitklassige Lösung festzulegen. Dieser Abschnitt wird entsprechend ergänzt/geändert. 
 
 ### Softwarearchitektur
 
 - Darstellung von Softwarebausteinen (Module, Schichten, Komponenten)
 
- 
-
 * Server
   * Web-Schicht
-    - REACT
+    - express.js
   * Logik-Schicht
-    - Javascript
-    - node.js 
-  * Persistenz-Schicht
-    - MySQL
+    - Javascript 
 
 * Client
   * View-Schicht
     - HMTL
     - CSS
-    - Bootstrap 5?
   * Logik-Schicht
     - Javascript
-  * Kommunikation-Schicht
-    - Javascript
-
-Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
 ![Softwarearchitektur](media/Serverarchitektur.png)
 
-(Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall pro API)
+(Der Aktualisierungsintervall ist hier der im Abschnitt Abläufe beschriebene Intervall von einer Stunde)
 
 ### Entwurf
 
-**Javascript API-Einbindung und Darstellung**
+**UML**
 
-![UML](media/UML.PNG)
-
-**Serverseite**
-
-Von der Serverseite aus gestaltet sich das Anfertigen eines UMLs noch schwierig, da ich mich um die beste Lösung zu finden noch weiter in die Materie hineinarbeiten muss. 
-
-### Fehlerbehandlung 
-
-* Mögliche Fehler / Exceptions auflisten
-* Fehlercodes / IDs sind hilfreich
-* Nicht nur Fehler technischer Art ("Datenbankserver nicht erreichbar") definieren, sondern auch fachliche Fehler wie "Kunde nicht gefunden", "Nachricht wurde bereits gelöscht" o.ä. sind relevant. 
-* Server einer API sind nicht erreichbar
-
-200 --> OK
-
-204 --> No Content
-
-422 --> Unprocessable Entity (Bsp.: Eine fehlerhafte/falsch formatierte JSON)
+![UML](media/UmweltUML.PNG)
 
 
-### Validierung
+### Fehlerbehandlung/Validierung 
 
-Da der Microservice nur darstellt beschränken sich mögliche Fehler auf die API und deren Darstellung. Getestet wird hier also für fehlerhafte API daten und fehlerhafte Verarbeitung/Darstellung
+Mögliche fehler begrenzen sich hier auf nicht erreichen der API, oder fehlerhaften Events der anderen Microservices. Sollte eine der APIs nicht erreichbar sein, werden die Daten nicht an die Evaluation und das Frontend weitergeleitet. Das Frontend benutzt weiter die letzten korrekten Daten, diese reichen noch für mindestens 24H in die Zukunft. Das Fetching wird eine Stunde später erneut versucht. 
 
 ### Verwendete Technologien
 
 - Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
 
 * Frontend
-  - REACT
+  - HTML
+  - CSS
 * Backend
-  - REST API
   - Javascript
-  - NODE.JS
-  - 
+  - Express.JS
+  - Node.js
 * Datenbank

@@ -74,12 +74,13 @@ Abschließend noch einmal meine Top ***Lessons Learned*** in Stichpunkten:
 ## Mattis Fieseler - Software Engineer
 Am Anfang habe ich Payara als Glasfish Server verwendet, da wir in Webbasierte Application damit arbeiten
 Ich habe auch einzelne Funktionen für die Queries zum Zugriff auf die Datenbank geschrieben wodurch sehr viel Code entstanden ist.
-- * Probleme mit CORS *
+**Probleme mit CORS**
 Für Payara gibt es die Möglichkeit einen Header für jeden Request zu setzen, sodass Cross Origin Requests akzeptiert werden, allerdings hatte das bei mir nicht funktionieren wollen.
 Nach mehreren Tagen habe ich mich dann dazu entschieden von Payara zu einem anderen Backend Server zu wechseln und mich für Spring entschieden, 
-da ich mir hier von Clemens Hilfe holen konnte um mein Projekt initial umzubauen.
--> Wechsel zu Spring
-Ich konne schnell wechseln, da mit Plugins die bestehenden Datenbankmodelle erzeugt werden konnten und mit JPA wurde für die Abfragen von der Datenbank deutlich weniger Code benötigt.
+da ich mir hier von Clemens Hilfe holen konnte um mein Projekt initial umzubauen.<br>
+-> Wechsel zu Spring<br>
+
+Ich konnte schnell wechseln, da mit Plugins die bestehenden Datenbankmodelle erzeugt werden konnten und mit JPA wurde für die Abfragen von der Datenbank deutlich weniger Code benötigt.
 Für Spring wurde das Backend in Service, Repository, Model und Controller aufgeteilt.
 Außerdem kann durch die Anbindung zu Swagger die API Dokumentation übernommen werden.
 

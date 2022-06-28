@@ -72,7 +72,7 @@ Abschließend noch einmal meine Top ***Lessons Learned*** in Stichpunkten:
 ## Toni Schnittger - Software Engineer
 
 ## Mattis Fieseler - Software Engineer
-Am Anfang habe ich Payara als Glasfish Server verwendet, da wir in Webbasierte Application damit arbeiten
+Am Anfang habe ich Payara als GlassFish Server verwendet, da wir in Webbasierte Application damit arbeiten
 Ich habe auch einzelne Funktionen für die Queries zum Zugriff auf die Datenbank geschrieben wodurch sehr viel Code entstanden ist.
 **Probleme mit CORS**
 Für Payara gibt es die Möglichkeit einen Header für jeden Request zu setzen, sodass Cross Origin Requests akzeptiert werden, allerdings hatte das bei mir nicht funktionieren wollen.

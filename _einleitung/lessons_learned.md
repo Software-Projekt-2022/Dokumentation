@@ -190,6 +190,19 @@ Außerdem kann durch die Anbindung zu Swagger die API Dokumentation übernommen 
 Abseits von den technischen Schwierigkeiten habe ich gelernt, dass es sinnvoller wäre erst einen Bereich (z.B. Bibliothek) fertig zu stellen und dann die weiteren Module zu implementieren.
 
 ## Clemens Maas - Software Engineer
+Die Herausforderung erstmalig eine Full-Stack Anwendung zu schreiben war eine lehrreiche Erfahrung.
+Aus den vorherigen Modulen war das Wissen wie man ein Backend baut bereits vorhanden und hat einen Großteil der Arbeit abgenommen.
+Das Frontend allerdings war ein komplett neuer Lernprozess der viele Etappen hatte.
+Mit NextJS als Framework gab es sehr viele Kleinigkeiten die bedacht werden mussten, vorallem da ich mit JavaScript meinen Hassfeind gefunden habe.
+Hier hat es sich positiv gezeigt dass ich beim Backend bei dem geblieben bin was ich kannte und verstanden habe.
+CORS Fehler und Verbindungsschwierigkeiten konnten schnell und sauber gelöst werden.
+Hätte ich auch das Backend in NextJS implementieren müssen, wäre ich vermutlich bis heute noch nicht fertig.
+
+Da ich beim Backend auf Spring gesetzt habe, konnte ich auch auf die vielen Möglichkeiten setzen die durch ein so großes und lange Entwickeltes Framework geschaffen sind.
+Die Verbindung mit unserem Message-Service RabbitMQ konnte genauso wie die API Dokumentation durch ein Spring internes Plugin gelöst werden.
+
+**Lessons learned**
++ Es lohnt sich Frameworks durchzulernen und keinen Stack von 10 Systemem aufzubauen.
 
 ## Malte Kanders - Software Engineer
 

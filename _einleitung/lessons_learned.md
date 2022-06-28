@@ -4,6 +4,38 @@ Auf dieser Seite hat jeder aus dem Team einmal seine persönlichen Lessons Learn
 
 ## Mark Mödeker - Scrum Master
 
+Für mich war es anfangs schwierig meine Rolle im Projekt für mich zu definieren. Da ich als Scrum Master eine leitende Position im Team hatte
+fand ich es schwierig, wie ich mit den restlichen Mitgliedern kommunizieren sollte, da ich nicht wie jemand auftreten wollte der nur Aufgaben 
+verteilt, aber nichts macht. Vor allem weil wir als Studenten alle gleichgestellt sind und nur für das Projekt die Rollen annehmen sollten.
+Ich habe dieses Problem dann so bewältigt, dass ich auf unserem Kommunikationsserver mehrere Tutorials verfasst habe für unter anderem 
+den Git Workflow, Pull Requests oder den Login Prozess und, dass ich versucht habe das Team zu koordinieren, indem ich geschaut habe in 
+welchen Microservices ähnliche Techniken verwendet werden, damit sich die jeweiligen Teammitglieder dann ein wenig gegenseitig helfen können.
+
+Es war das erste Mal, dass ich eine leitende Position in einem Softwareprojekt angenommen hatte und deswegen hat es erst eine kleine
+Eíngewöhnungsphase gebraucht bis ich meine Rolle richtig einordnen konnte, aber ich glaube ich habe das im Endeffekt gut bewältigt.
+
+Als Scrum Master musste ich auch regelmäßig in unserer GitHub Organisation schauen, ob alle Mitglieder die Scrum Arbeitsweise einhalten.
+Da das Kanban Board auf der obersten Ebene für alle Microservices einsehbar war, war es einfach zu schauen ob die Issues regelmäßig in die richtige
+Spalte geschoben werden. Schwieriger war es zu schauen ob die restlichen Schritte vom Git Workflow eingehalten wurden, da z.B. nicht auf dem
+Main Branch gearbeitet werden sollte, weil dieser immer deployed wird, und deswegen nur größere Änderungen gebündelt über Pull Requests auf
+den Main gepushed werden sollten. Dies wurde öfter unübersichtlich, da ich auf jedes Repository einzeln gehen musste um die oben genannten Aspekte
+zu überprüfen.
+
+Eine weitere Sache, die ich mir für zukünftige Projekte merke, ist auf jeden Fall am Anfang des Projektes den Kommunikationsweg zu definieren. Wir
+hatten zwar von Anfang an einen Server, aber die meisten Nachrichten wurden eher im privaten verschickt was nicht gut für die Transparenz war.
+So wusste nicht jeder, woran die anderen Mitglieder gerade sitzen und wie weit sie mit ihrer Aufgabe sind, deswegen auch die oben angesprochenen
+Koordinierungsversuche. Für meine nächsten Projekte würde ich also versuchen alle zu überzeugen immer auf dem Server zu schreiben um die
+Transparenz zu fördern.
+ 
+Zusammengefasst kann man sagen, dass es als Scrum Master schwierig ist einen gesunden Mix zu finden mit den Mitgliedern auf zwischenmenschlicher
+Ebene gut zurechtzukommen und trotzdem als Autoritätsperson die Aufgaben zu verteilen.
+
+**wichtigste Lessons Learned**
+- Kommunikation mehr im Team, nicht zwischen einzelnen Personen
+- Nachrichten auf dem Server sollten gelesen werden
+- Früher die Mitglieder an die Aufgaben erinnern
+- auch zu Pull Requests hinzufügen lassen damit man eine gesammelte Übersicht auf GitHub bekommt
+
 ## Tim Bollmeyer - Product Owner
 
 Zielsetzung unseres ***CyberCity***-Softwareprojekts war es 

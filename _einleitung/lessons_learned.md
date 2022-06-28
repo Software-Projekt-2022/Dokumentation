@@ -74,7 +74,8 @@ Abschließend noch einmal meine Top ***Lessons Learned*** in Stichpunkten:
 ## Mattis Fieseler - Software Engineer
 Am Anfang habe ich Payara als GlassFish Server verwendet, da wir in Webbasierte Application damit arbeiten
 Ich habe auch einzelne Funktionen für die Queries zum Zugriff auf die Datenbank geschrieben wodurch sehr viel Code entstanden ist.
-**Probleme mit CORS**
+
+**Probleme mit CORS**<br>
 Für Payara gibt es die Möglichkeit einen Header für jeden Request zu setzen, sodass Cross Origin Requests akzeptiert werden, allerdings hatte das bei mir nicht funktionieren wollen.
 Nach mehreren Tagen habe ich mich dann dazu entschieden von Payara zu einem anderen Backend Server zu wechseln und mich für Spring entschieden, 
 da ich mir hier von Clemens Hilfe holen konnte um mein Projekt initial umzubauen.<br>

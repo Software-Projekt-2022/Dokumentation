@@ -53,14 +53,12 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 *Relations sind scuffed, nur grob*
 ![](media/database.png)
 
-## Abläufe
-//TODO
-
 ## Schnittstellen
 
 
 ### Commands
 **REST API**
+http://185.194.217.213:8080/swagger-ui/index.html
 
 | **Name** | **Parameter** | **Resultat** | **Cors** |
 | :------ | :----- | :------ | :------ |
@@ -117,8 +115,6 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 	* 200 [Ok]
 	* 400 [Bad Request]
 
-### Validierung
-//TODO
 
 ### Verwendete Technologien
 
@@ -129,11 +125,13 @@ So wird neben dem professionellen Bereich auch ein sozialer Aspekt geboten.
 	- Datagrip
 	- IntelliJ
 	- Bootstrap Studio
+	- Visual Studio Code
 * Frontend
 	- HTML
 	- CSS
 	- Bootstrap 5
 	- JavaScript (JQuery, Ajax)
+	- NextJS
 * Backend
 	- Java / Kotlin
 	- Spring

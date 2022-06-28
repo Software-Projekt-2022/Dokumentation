@@ -90,12 +90,10 @@ Abseits von den technischen Schwierigkeiten habe ich gelernt, dass es sinnvoller
 ## Clemens Maas - Software Engineer
 
 ## Malte Kanders - Software Engineer
-Als einfacher Software Engineer unter vielen.
-
 
 Als Software Engineer, als ein Full-Stack-Entwickler, am besten auch 
-ohne jegliche Vorerfahrungen in irgendeinen dem erforderlichen Gebieten.
-Fühlt man sich ziemlich im Dunkeln. 
+ohne jegliche Vorerfahrungen in irgendeinen dem erforderlichen Gebieten,
+fühlt man sich ziemlich im Dunkeln. 
 Gerade dann ist wohl meine wichtigste Lesson ein Modell der Entwicklung 
 zu nehmen das bekannt ist und eine große Anzahl einer Community aufweist und
 nicht ein Nischenprodukt, das eher aus den bekannteren aufgebaut ist.
@@ -103,8 +101,8 @@ Mein erster Ansatz mit dem Kotlin Projekt trug keine Früchte, eventuell
 auch nur weil ich noch keine Ahnung mit der Webentwicklung hatte, oder 
 auch, weil die Kotlin mäßige Webentwicklung noch nicht ausgereift genug ist.
 
-Mit dem auf MERN Stack basierende System war viel einfacher umzusetzen.
-Man konnte sich an genau Tutorials entlang hangeln und fand Hilfe bei 
+Mit dem auf MERN Stack basierende System war es viel einfacher umzusetzen.
+Man konnte sich genau Tutorials entlang hangeln und fand Hilfe bei 
 größeren Software Portalen.
 
 Eine weitere Sache unter den vielen Entwicklern.

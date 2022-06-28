@@ -138,6 +138,29 @@ Hier konnte ich noch einmal etwas für mich wiederholen, wie man ein Login-Syste
 
 ## Jonas vom Braucke - Software Engineer
 
+Zunächst habe ich mir viel vorgenommen. Die Konzeption war sehr umfänglich und hat mir viele potenzielle Probleme in der Reihenfolge der Umsetzung erspart. 
+Mit dem fertigen Datenmodellen war die Übersicht zwar gut, aber dementsprechend auch eine große Menge an zu füllenden Inhalten offenbart.
+Auf Grund der limitierten Arbeitszeit, den aufgetretenen Problemen und über zweiwöchigem Ausfall dank Krankheit, musste ich später große Teile des Inhalts kürzen. 
+Ich sollte eine bessere Abschätzungen am Anfang vornehmen, um nicht vor zu vielen Inhalten die Übersicht zu verlieren und die Reihenfolge der Abarbeitung besser zu planen. 
+
+Des weiteren ist Fullstack-Development für mich schwierig. Mit vielen Programmen und Datenformaten hatte ich kaum Erfahrung. Dann gleichzeitig Front- und Backend im Griff zu haben, stellte besondere Herausforderungen,
+aber bot auch die Möglichkeiten selbstständig zu arbeiten und somit mehr Freiheiten und Wissen zu erhalten.
+
+Meine Module und Frameworks richtig zu gebrauchen ist mir teilweise schwer gefallen, ich hätte häufiger die vollen Inhalte meiner Module ausschöpfen sollen, 
+anstatt Funktionen nur über einige Basismodule zu erstellen. Oft fehlte ihnen die Tiefe und Flexibilität, die andere Libraries besitzen.
+ 
+Kompatibilität hat in meinem System eigentlich eine eher untergeordnete Rolle gespielt, da mein Backend-Framework mir viel Arbeit abgenommen hat,
+jedoch die Versionskontrolle und insbesondere die Unterschiede zwischen meiner Development-Umgebung und der Deployment-Umgebung haben mir lange Probleme bereitet und den 
+Entwicklungsprozesse gestört. Insbesondere meine Datenbankanbindung, welche mich ewig geplagt hat, die ich mehrfach umschreiben musste, zwischenzeitlich alle Anfragen
+gen und Ansteuerungen zu ändern, 
+dieses dann doch wieder zu verwerfen und auf meine anfängliche Implementation doch wieder zugreifen zu können, hat mir mehr als nur einmal Kopfschmerzen bereitet.  
+
+So habe ich definitiv gesehen, dass eigentlich simple Inhalte Probleme verursachen können, die komplexe Lösungen fordern und den gesamten Prozess zum Stopp bringen.
+
+Die Teamarbeit war gut, wenn nicht sogar excellent. Die Kommunikation war nicht nur bei der Anbindungen meines Services wichtig, sondern ein Grundpfeiler der Arbeit.
+Fragen und eigenes Wissen mit ein zu bringen, hat das eigene Lernen gefördert und zur Fortbildung anderer geführt. 
+Auch wenn teilweise die Themen anderer Gruppenmitglieder nicht für meine arbeiten relevant waren. 
+
 ## Toni Schnittger - Software Engineer
 Am Anfang des Projekts hatte ich keine bis sehr geringe Kenntnisse in HTML, CSS, Javascript und mit der Arbeit mit Express.js/node. Inzwischen würde ich unter Begutachtung meines Microservices sagen, dass meine Fähigkeiten in all diesen Gebieten mindestens gut geworden sind. Ich entschied mich bewusst, kein vorgefertigtes Responsive Design mit Bootstrap zu benutzen, weil ich es komplett selber machen wollte. Das Design so hinzukriegen, wie ich es wollte, hat sich als Herausforderung herausgestellt, die ich dennoch bewältigen konnte. Die wahre Herausforderung waren jedoch die Events und die generelle Arbeit mit JS am Server. Es hat viele Stunden gedauert, manche Funktionen fehlerfrei zum Laufen zu bekommen. Ich hatte zwar bereits damit gerechnet, doch praktisch war es dann noch mehr Zeit, die es benötigte. Aufgrund dessen habe ich dann nicht alle von mir geplanten Funktionen eingebaut bekommen.
 

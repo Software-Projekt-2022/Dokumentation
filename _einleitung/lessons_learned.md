@@ -70,6 +70,16 @@ Abschließend noch einmal meine Top ***Lessons Learned*** in Stichpunkten:
 ## Jonas vom Braucke - Software Engineer
 
 ## Toni Schnittger - Software Engineer
+Am Anfang des Projekts hatte ich keine bis sehr geringe Kenntnisse in HTML, CSS, Javascript und mit der Arbeit mit Express.js/node. Inzwischen würde ich unter Begutachtung meines Microservices sagen, dass meine Fähigkeiten in all diesen Gebieten mindestens gut geworden sind. Ich entschied mich bewusst, kein vorgefertigtes Responsive Design mit Bootstrap zu benutzen, weil ich es komplett selber machen wollte. Das Design so hinzukriegen, wie ich es wollte, hat sich als Herausforderung herausgestellt, die ich dennoch bewältigen konnte. Die wahre Herausforderung waren jedoch die Events und die generelle Arbeit mit JS am Server. Es hat viele Stunden gedauert, manche Funktionen fehlerfrei zum Laufen zu bekommen. Ich hatte zwar bereits damit gerechnet, doch praktisch war es dann noch mehr Zeit, die es benötigte. Aufgrund dessen habe ich dann nicht alle von mir geplanten Funktionen eingebaut bekommen.
+
+Abseits der Software haben sich im Projekt meine Fähigkeiten in professioneller Arbeit im Team und Planung verbessern. Erkennbar ist dies vor allem dadurch, dass ich trotz ca. 1,5 Wochen Krankheit ein gut präsentierbares Ergebnis habe. Besonders half dabei, bei Problemen, bei denen ich allein nicht weiterkam, mich an Teamkollegen wie z. B. den Software-Architekten Andreas zu wenden.
+Außerdem habe ich gelernt, dass eine gute Projektleitung einer der wichtigsten Aspekte eines Projekts ist. Unsere Produktivität steigerte sich dank der guten Arbeit der Projektleitenden mit der Zeit. Sie analysierten die Probleme jedes Sprints und versuchten diese im nächsten Sprint auszubessern.
+
+- Fähigkeiten in JS/Express/CSS/HTML
+- Professionalität ist wichtig für den Erfolg
+- Abhängigkeiten voneinander erfordern gemeinsame Zeitplanung
+- Software Projektmanagement war sehr hilfreich für dieses Modul
+- Unterteilt in Microservices heißt absolut nicht, nicht gemeinsam arbeiten zu müssen
 
 ## Mattis Fieseler - Software Engineer
 Am Anfang habe ich Payara als GlassFish Server verwendet, da wir in Webbasierte Application damit arbeiten

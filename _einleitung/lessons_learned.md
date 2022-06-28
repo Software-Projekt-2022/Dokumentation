@@ -79,6 +79,63 @@ Sollte ich in Zukunft noch einmal als DevOps-Engineer arbeiten, habe ich nun vie
 
 ## Andreas Wegner - Software Architekt, Software Engineer
 
+### RabbitMQ
+
+Zu Beginn lag der Schwerpunkt für mich darin, herauszufinden, wie man mit RabbitMQ
+arbeitet und wie wir dies am besten in unser Projekt einbinden. Mein Ziel dabei, war es
+die Einbindung so zu gestalten, dass jeder von uns es leicht hat, damit zu arbeiten.
+
+Nachdem ich mich selbst mit RabbitMQ vertraut gemacht habe, war es an der Zeit,
+mein Wissen an meine Teammitglieder weiterzugeben. Das war gar nicht so leicht,
+da viele Menschen einen unterschiedlichen Lerntyp haben und es vermutlich deswegen manchmal
+zu Missverständnissen gekommen ist.
+
+Ich fühle mich teilweise schlecht darüber, dass ich nicht gut genug kommuniziert habe,
+als ich eine bestimmte Idee mit dem Team teilen, wie wir am besten mit RabbitMQ arbeiten.
+Die Idee war ein interner Server, der RabbitMQ weg abstrahiert und dadurch Fehlerquellen reduzieren sollte.
+Gerade hier kam es meiner Meinung nach zu Missverständnissen.
+Letztendlich weiß ich nicht, ob diese Idee wirklich besser wäre, aber ich hätte sie gerne mit dem Team ausprobiert.
+Daraus lerne ich zum Beispiel, dass ich meine Erklärungen und Vorschläge besser vorbereiten sollte,
+bevor ich sie dem Team vorstelle und gegebenenfalls mit Diagrammen und ähnlichem unterstütze.
+
+### Code-Reviews
+
+Bei den Code-Reviews war es meine Aufgabe, mir bei jedem Pull-Request die Änderungen in den Commits anzusehen
+und dann den Code zu bewerten. Bewertet wird nach den von uns im Voraus bestimmten Kriterien.
+Ich muss dann entscheiden, ob der Code in unser Projekt übernommen wird, oder ob vorher noch Änderungen
+übernommen werden müssen.
+Dabei hatte ich sofort bei den ersten Code-Reviews, die Sorge, jemals Code zu bemängeln.
+Denn ich weiß, dass die Software-Engineers von uns hart arbeiten, um den Code zu schreiben
+und mochte es nicht, dann noch den Code zu bemängeln.
+Ich weiß, dass wir unter einem gewissen Zeitdruck arbeiten und die Software-Engineers auch Studenten sind,
+die auch noch andere Arbeit haben, und nicht begeistert sind, wenn unerwarteterweise noch mehr Arbeit auf sie wartet.
+
+Im Nachhinein denke ich, dass es gut wäre, von Anfang an zu kommunizieren, dass eingeplant werden muss,
+dass nach einem Pull-Request Code noch angepasst werden muss, falls er im Code-Review bemängelt wurde, was wahrscheinlich ist.
+
+Zusätzlich muss ich sagen, dass ich zu Beginn des Projekts deutlich mehr Zeit hatte, um Code-Reviews
+zu machen, als gegen Ende des Projekts. Am Ende des Projekts war der Abstand zu den Pull-Requests teilweise so klein,
+dass es sehr unrealistisch war, vernünftige Code-Reviews zu machen, vor allem wenn dann noch Code bemängelt wird,
+welcher dann noch angepasst werden muss. Der Software-Engineer, der den Pull-Request gestellt hat,
+arbeitet wahrscheinlich auch direkt weiter und kann nicht unbedingt zurückspringen, um die Mängel zu beheben.
+
+Ich glaube, dieses Problem zu beheben ist ziemlich schwer, da es normal ist, dass gegen Ende eines Projekts
+mehr gearbeitet wird, da der Druck erhöht wird.
+Man könnte zwar einen sehr strengen Zeitplan erzwingen, aber das ist eher kontraproduktiv, da dieser dann
+trotzdem nicht immer eingehalten wird und das für mehr Komplikationen sorgen könnte.
+
+### Authentifizierungs-Microservice
+
+Da ein Teammitgliede das Team verlassen hat, musste seine Aufgabe, den Authentifizierungs-Microservice zu programmieren,
+übernommen werden. Da ich zu dem Zeitpunkt besonders motiviert war und gerade etwas mehr Zeit hatte,
+habe ich freiwillig, den Authentifizierungs-Microservice neu programmiert.
+Hier konnte ich noch einmal etwas für mich wiederholen, wie man ein Login-System schreibt.
+
+### Zusammenfassung
+
+* Bei RabbitMQ gab es einige Missverständnisse. Ich hätte Erklärungen besser vorbereiten sollen.
+* Code-Reviews sollten besser geplant werden, damit es auch zeit-technisch keine Probleme gibt.
+
 ## Jonas vom Braucke - Software Engineer
 
 ## Toni Schnittger - Software Engineer

@@ -34,12 +34,13 @@ Event; Veranstaltung mit öffentlichem Interesse (z.B. Schützenfest, Sommerfest
 
 | **Name**| **In meiner Rolle als**...|   ...**möchte ich**...   | ..., **so dass**... | **Erfüllt, wenn**... | **Priorität**   |
 |:-----|:----------:|:-------------------|:-------------|:---------|:----------------|
+|Torben|Bürger| alle wichtigen Orte auf einer Karte sehen| er weiß weiß wo sich was befindet|Karte mit Orten|Muss|
 |Melanie|Bürgerin| alle anstehenden Events auf einen Blick sehen können|immer auf dem neusten Stand bin und bei Interesse an Events teilnehmen kann| Liste von Events | Muss |
-|Luca| Bücherwurm| schon von Zuhause sehen, ob die Stadtbücherei das neue Buch von Stephen King bereits hat|ich es mir ausleihen kann | suchbare Liste von verfügbaren Büchern |Muss|
-|Mathias|Vorstand Schützenverein|den Termin für das Jährliche Schützenfest für alle Interessierten veröffentlichen|jeder der kommen möchte weiß, wann er stattfindet|Events hinzugefügt werden können|Muss|
-|Felix|Hergezogener|alle Örtlichen Vereine sehen|ich einem Verein beitreten kann|Liste aller Vereine nach Interessengebiet sortiert|Muss|
-|Vivien|Mitglied im Verein|mich mit den anderen Vereinsmitgliedern austauschen und auch außerhalb der Treffen mich austauschen|ich engeren Kontakt mit den andern Mitgliedern schließen kann|Gruppenchat Funktion|Kann|
-|Marc|Leiter der Stadtbibliothek|neue Bücher online veröffentlichen|Interessenten schon vorher wissen, ob ein Buch verfügbar ist|Bücher zur Bücherliste hinzugefügt werden können|Sollte|
+|Luca| Bücherwurm| schon von Zuhause sehen, welche neuen Bücher verfügbar sind|ich es mir ausleihen kann | Liste von neuen Büchern |Muss|
+|Mathias|Vorstand Schützenverein|den Termin für das Jährliche Schützenfest für alle Interessierten veröffentlichen|jeder der kommen möchte weiß, wann er stattfindet|Events hinzugefügt werden können|Kann|
+|Felix|Hergezogener|alle Örtlichen Vereine sehen|ich einem Verein beitreten kann|Liste aller Vereine nach Interessengebiet sortiert|Kann|
+|Vivien|Mitglied im Verein|mich mit den anderen Vereinsmitgliedern austauschen und auch außerhalb der Treffen mich austauschen|ich engeren Kontakt mit den andern Mitgliedern schließen kann|Gruppenchat Funktion|Wird nicht|
+|Marc|Leiter der Stadtbibliothek|neue Bücher online veröffentlichen|Interessenten schon vorher wissen, ob ein Buch verfügbar ist|Bücher zur Bücherliste hinzugefügt werden können|Kann|
 |Marc|Leiter der Stadtbibliothek|den Status von Büchern ändern (Ausgeliehen, Verfügbar, Bestellt)|Interessenten schon vorher wissen, ob ein Buch vor Ort ist|Status für Bücher ändern|Kann|
 
 
@@ -102,7 +103,7 @@ Datenbankmodell
 
 ## Schnittstellen
 
-- Schnittstellenbeschreibung (API), z.B. mit OpenAPI 
+- Schnittstellenbeschreibung (API) mit Swagger
 - Auflistung der nach außen sichtbaren Schnittstelle des Microservices. Über welche Schnittstelle kann z.B. der Client den Server erreichen?
 - In Event-gesteuerten Systemen ebenfalls die Definition der Ereignisse und deren Attribute
 - Aufteilen in Commands, Events, Queries
@@ -191,9 +192,9 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 * Server
   * Web-Schicht
   * Logik-Schicht
-    - Python
+    - Java Spring
   * Persistenz-Schicht
-    - MySql Datenbank Anbindung
+    - PostgreSQL Datenbank mit JPA Anbindung
 
 * Client
   * View-Schicht
@@ -208,28 +209,6 @@ Hier stellen Sie die Verteilung der Softwarebausteine auf die Rechnerknoten dar.
 Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach "unten". Die Softwarearchitektur aus Kapitel "Softwarearchitektur" ist demnach detaillierter als die Systemübersicht aus dem Kapitel "Systemübersicht". Die Schichten können entweder als Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber noch weiter detailliert und in Softwarebausteine aufgeteilt. 
 
 
-
-### Entwurf
-
-- Detaillierte UML-Diagramme für relevante Softwarebausteine
-
-### Fehlerbehandlung 
-
-* Mögliche Fehler / Exceptions auflisten
-* Fehlercodes / IDs sind hilfreich
-* Nicht nur Fehler technischer Art ("Datenbankserver nicht erreichbar") definieren, sondern auch fachliche Fehler wie "Kunde nicht gefunden", "Nachricht wurde bereits gelöscht" o.ä. sind relevant. 
-
-### Validierung
-
-* Relevante (Integrations)-Testfälle, die aus den Use Cases abgeleitet werden können
-* Testfälle für 
-  - Datenmodell
-  - API
-  - User Interface
-* Fokussieren Sie mehr auf Integrationstestfälle als auf Unittests
-* Es bietet sich an, die IDs der Use Cases / User Stories mit den Testfällen zu verbinden,
-  so dass erkennbar ist, ob Sie alle Use Cases getestet haben.
-
 ### Verwendete Technologien
 
 - Verwendete Technologien (Programmiersprachen, Frameworks, etc.)
@@ -239,10 +218,13 @@ Die Abhängigkeit ist bei diesen Schichten immer unidirektional von "oben" nach 
   - Bootstrap
   - CSS
   - JavaScript
+  - LeaveLet
   - Ajax
   - JQuery
 * Backend
-  - Python
+  - Java
+  - Spring
+  - Swagger
   - REST API
 * Datenbank
-  - MySQL
+  - PostgreSQL
